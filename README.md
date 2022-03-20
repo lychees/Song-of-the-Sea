@@ -2,7 +2,7 @@
 Yet another rpg game.
 
 - [Demo](https://yno.yumenikki.info/?game=demo)
-- [Github](?)
+- [Github](https://github.com/lychees/Song-of-the-Sea)
 - [背景设定](https://hackmd.io/vZ8oGrSMTACMHRaiow4F2w)
 
 # To do list
@@ -28,7 +28,11 @@ Yet another rpg game.
 - [ ] 应该有一个鸟类来递钥匙🔑
 - [ ] 睡着之后黑屏的这段时间，是另外切一个屏幕介绍世界观的好时机。。。
 
+#### 幕 6
+- [ ] 船上的独白
+
 ### 章 2
+- [ ] 扩展菜单
 
 ## 素材
 - https://forums.rpgmakerweb.com/index.php?threads/grannys-lists-vx-ace-animal-sprites.30456/
