@@ -1,0 +1,136 @@
+/bin/
+/Makefile
+/easyrpg-player
+/Player.app
+*.a
+*.elf
+*.o
+*~
+*.orig
+*.bak
+
+# autotools
+/autom4te.cache/
+/easyrpg-player-*/
+/.libs/
+.deps/
+Makefile.in
+aclocal.m4
+config.h
+config.h.in
+config.status
+configure
+libtool
+/builds/autoconf/aux/
+/builds/autoconf/m4/*.m4
+!/builds/autoconf/m4/ax_*.m4
+!/builds/autoconf/m4/with_pkg.m4
+stamp-h1
+.dirstamp
+*.la
+*.lo
+/output
+/utils
+/directorytree
+
+# cmake
+CMakeFiles/
+CMakeScripts/
+CMakeCache.txt
+CMakeDoxyfile.in
+CMakeDoxygenDefaults.cmake
+CPackConfig.cmake
+CPackSourceConfig.cmake
+CTestTestfile.cmake
+cmake_install.cmake
+install_manifest.txt
+
+# msvc / Windows
+*.vcxproj*
+*.sdf
+*.ncb
+*.psess
+*.suo
+*.user
+*.vsp*
+*.lib
+## *.exe
+*.exp
+*.ilk
+*.pdb
+
+# ninja
+.ninja_*
+*.ninja
+
+# IntelliJ
+.idea/
+
+# VS Code
+.vscode/
+compile_commands.json
+
+# doxygen
+/resources/Doxyfile
+/doc/
+
+# manual
+/resources/easyrpg-player.6
+
+# test/run artifacts
+easyrpg_log.txt
+/*.log
+/*.trs
+Testing/
+
+# distribution archives
+easyrpg-player-*.tar.*
+*.zip
+
+# osx
+__MACOSX
+.DS_Store
+
+# Xcode
+/*.xcodeproj
+/*.xcworkspace
+## /Debug/
+/Release/
+/MinSizeRel/
+/RelWithDebInfo/
+/*.build/
+
+# legacy
+/lib/liblcf/
+.buildconfig
+
+# Android
+*.iml
+local.properties
+
+# libretro
+easyrpg_libretro.*
+
+# switch
+*.nacp
+*.nro
+
+# 3ds
+*.3dsx
+*.smdh
+*.cia
+
+# wii
+*.dol
+
+# psvita
+eboot.bin
+*.vpk
+*.velf
+*.obj
+*.recipe
+*.lastbuildstate
+*.tlog
+*.tlog
+*.res
+*.sln
