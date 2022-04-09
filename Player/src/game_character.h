@@ -26,7 +26,7 @@
 #include <lcf/rpg/eventpage.h>
 #include <lcf/rpg/savemapeventbase.h>
 #include "utils.h"
-#include "game_multiplayer_senders.h"
+#include "multiplayer/game_multiplayer_senders.h"
 
 /**
  * Game_Character class.
@@ -968,8 +968,10 @@ inline int Game_Character::GetFacing() const {
 }
 
 inline void Game_Character::SetFacing(int new_direction) {
+#ifdef EMSCRIPTEN
 	if(new_direction - data()->sprite_direction && GetType() == Player)
 		Game_Multiplayer::FacingSync(new_direction);
+#endif
 	data()->sprite_direction = new_direction;
 }
 
@@ -998,7 +1000,9 @@ inline int Game_Character::GetMoveSpeed() const {
 }
 
 inline void Game_Character::SetMoveSpeed(int speed) {
+#ifdef EMSCRIPTEN
 	if (GetType() == Player && data()->move_speed != speed) Game_Multiplayer::MainPlayerChangedMoveSpeed(speed);
+#endif
 	data()->move_speed = speed;
 }
 
@@ -1047,7 +1051,9 @@ inline const std::string& Game_Character::GetSpriteName() const {
 }
 
 inline void Game_Character::SetSpriteGraphic(std::string sprite_name, int index) {
+#ifdef EMSCRIPTEN
 	if (GetType() == Player) Game_Multiplayer::MainPlayerChangedSpriteGraphic(sprite_name, index);
+#endif
 	data()->sprite_name = std::move(sprite_name);
 	data()->sprite_id = index;
 }
@@ -1151,8 +1157,10 @@ inline void Game_Character::IncAnimCount() {
 
 inline void Game_Character::IncAnimFrame() {
 	data()->anim_frame = (data()->anim_frame + 1) % 4;
+#ifdef EMSCRIPTEN
 	if(GetType() == Player && IsAnimated())
 		Game_Multiplayer::AnimFrameSync(data()->anim_frame);
+#endif
 	SetAnimCount(0);
 }
 

@@ -24,6 +24,7 @@
 #include <ctime>
 #include <cstdio>
 #include <cstdlib>
+#include <sstream>
 #include "game_interpreter.h"
 #include "audio.h"
 #include "dynrpg.h"
@@ -62,7 +63,9 @@
 #include "baseui.h"
 #include "algo.h"
 #include "rand.h"
-#include "game_multiplayer_senders.h"
+#include "cards/cards.h"
+#include "cards/scene_cards.h"
+#include "multiplayer/game_multiplayer_senders.h"
 #include "uminouta/roguelike.h"
 
 extern "C" void SendChatMessage(const char* msg);
@@ -372,6 +375,13 @@ void Game_Interpreter::Update(bool reset_loop_count) {
 
 		// Previous command triggered an async operation.
 		if (IsAsyncPending()) {
+			if (_async_op.GetType() == AsyncOp::Type::eYieldRepeat) {
+				// This will cause an incorrect execution when the yielding
+				// command changed the index.
+				// Only use YieldRepeat for commands that do not do this!
+				auto& frame = GetFrame();
+				--frame.current_command;
+			}
 			break;
 		}
 
@@ -599,6 +609,8 @@ lcf::rpg::MoveCommand Game_Interpreter::DecodeMove(lcf::DBArray<int32_t>::const_
 bool Game_Interpreter::ExecuteCommand() {
 	auto& frame = GetFrame();
 	const auto& com = frame.commands[frame.current_command];
+
+	Output::Debug("command code: {}", com.code);
 
 	switch (static_cast<Cmd>(com.code)) {
 		case Cmd::ShowMessage:
@@ -885,20 +897,51 @@ bool Game_Interpreter::CommandShowMessage(lcf::rpg::EventCommand const& com) { /
 	}
 
 	std::string cmd = ToString(com.string);
+	if (cmd == ".mainLoop") {
+		Cards::mainLoop();
+		return true;
+	}
+	if (cmd == ".dualInit") {
+		Cards::init();
+		return true;
+	}
+	if (cmd == ".changeAvatar") {
+		Cards::changeAvatar();
+		return true;
+	}
+	if (cmd == ".showSpiritsStatus") {
+		Cards::show();
+		return true;
+	}
 
-	if (cmd.size() > 11 && cmd.substr(0, 11) == ".boardcast ") {
-		SendChatMessage(cmd.substr(11).c_str());
-		return true;
-	}
-	if (cmd.size() > 5 && cmd.substr(0, 5) == ".cmd ") {
-		SendChatMessage(cmd.substr(5).c_str());
-		Roguelike::isCmd(cmd.substr(5).c_str());
-		return true;
-	}
-	if (cmd.size() > 2 && cmd[0] == '.' && cmd[1] != '.') {
-		Roguelike::isCmd(cmd);
-		return true;
-	}
+	std::string msg;
+    msg = ".summon";
+    if (std::equal(msg.begin(), msg.end(), cmd.begin())) {
+		std::istringstream iss(cmd); std::string _; int p_id, x, y; iss >> _ >> p_id >> x >> y;
+      	Game_Map::newMapEvent("MonsterTemplate", p_id, x, y);
+      	return true;
+    }
+
+    msg = ".showDeck";
+    if (std::equal(msg.begin(), msg.end(), cmd.begin())) {
+      	Scene::instance->SetRequestedScene(std::make_shared<Scene_Cards>(0));
+      	return true;
+    }
+    msg = ".showHand";
+	if (std::equal(msg.begin(), msg.end(), cmd.begin())) {
+    	Scene::instance->SetRequestedScene(std::make_shared<Scene_Cards>(1));
+      	return true;
+    }
+	msg = ".showBattlefield";
+    if (std::equal(msg.begin(), msg.end(), cmd.begin())) {
+      	Scene::instance->SetRequestedScene(std::make_shared<Scene_Cards>(2));
+      	return true;
+    }
+    msg = ".showGrave";
+    if (std::equal(msg.begin(), msg.end(), cmd.begin())) {
+      	Scene::instance->SetRequestedScene(std::make_shared<Scene_Cards>(3));
+      	return true;
+    }
 
 	auto pm = PendingMessage();
 	pm.SetIsEventMessage(true);
@@ -1052,7 +1095,7 @@ bool Game_Interpreter::CommandControlSwitches(lcf::rpg::EventCommand const& com)
 			} else {
 				Main_Data::game_switches->Flip(start);
 			}
-			Game_Multiplayer::SwitchSync(start, Main_Data::game_switches->Get(start));
+			Game_Multiplayer::SwitchSync(start, Main_Data::game_switches->Get(start));			
 		} else {
 			if (val < 2) {
 				Main_Data::game_switches->SetRange(start, end, val == 0);
@@ -1061,7 +1104,7 @@ bool Game_Interpreter::CommandControlSwitches(lcf::rpg::EventCommand const& com)
 			}
 			for(int i = start; i < end; i++) {
 				Game_Multiplayer::SwitchSync(start + i, Main_Data::game_switches->Get(start + i));
-			}
+			}			
 		}
 
 		Game_Map::SetNeedRefresh(true);
@@ -1351,6 +1394,10 @@ bool Game_Interpreter::CommandControlVariables(lcf::rpg::EventCommand const& com
 		int start = com.parameters[0] == 2 ? Main_Data::game_variables->Get(com.parameters[1]) : com.parameters[1];
 		int end = com.parameters[0] == 1 ? com.parameters[2] : start;
 
+		if (com.parameters[3] > 5 && !Player::IsPatchManiac()) {
+			return true;
+		}
+
 		if (start == end) {
 			// Single variable case - if this is random value, we already called the RNG earlier.
 			switch (com.parameters[3]) {
@@ -1371,6 +1418,21 @@ bool Game_Interpreter::CommandControlVariables(lcf::rpg::EventCommand const& com
 					break;
 				case 5:
 					Main_Data::game_variables->Mod(start, value);
+					break;
+				case 6:
+					Main_Data::game_variables->BitOr(start, value);
+					break;
+				case 7:
+					Main_Data::game_variables->BitAnd(start, value);
+					break;
+				case 8:
+					Main_Data::game_variables->BitXor(start, value);
+					break;
+				case 9:
+					Main_Data::game_variables->BitShiftLeft(start, value);
+					break;
+				case 10:
+					Main_Data::game_variables->BitShiftRight(start, value);
 					break;
 			}
 			Game_Multiplayer::VariableSync(start, Main_Data::game_variables->Get(start));
@@ -1396,6 +1458,21 @@ bool Game_Interpreter::CommandControlVariables(lcf::rpg::EventCommand const& com
 				case 5:
 					Main_Data::game_variables->ModRangeVariable(start, end, var_id);
 					break;
+				case 6:
+					Main_Data::game_variables->BitOrRangeVariable(start, end, var_id);
+					break;
+				case 7:
+					Main_Data::game_variables->BitAndRangeVariable(start, end, var_id);
+					break;
+				case 8:
+					Main_Data::game_variables->BitXorRangeVariable(start, end, var_id);
+					break;
+				case 9:
+					Main_Data::game_variables->BitShiftLeftRangeVariable(start, end, var_id);
+					break;
+				case 10:
+					Main_Data::game_variables->BitShiftRightRangeVariable(start, end, var_id);
+					break;
 			}
 		} else if (com.parameters[4] == 2) {
 			// Multiple variables - Indirect variable lookup
@@ -1418,6 +1495,21 @@ bool Game_Interpreter::CommandControlVariables(lcf::rpg::EventCommand const& com
 					break;
 				case 5:
 					Main_Data::game_variables->ModRangeVariableIndirect(start, end, var_id);
+					break;
+				case 6:
+					Main_Data::game_variables->BitOrRangeVariableIndirect(start, end, var_id);
+					break;
+				case 7:
+					Main_Data::game_variables->BitAndRangeVariableIndirect(start, end, var_id);
+					break;
+				case 8:
+					Main_Data::game_variables->BitXorRangeVariableIndirect(start, end, var_id);
+					break;
+				case 9:
+					Main_Data::game_variables->BitShiftLeftRangeVariableIndirect(start, end, var_id);
+					break;
+				case 10:
+					Main_Data::game_variables->BitShiftRightRangeVariableIndirect(start, end, var_id);
 					break;
 			}
 		} else if (com.parameters[4] == 3) {
@@ -1443,6 +1535,21 @@ bool Game_Interpreter::CommandControlVariables(lcf::rpg::EventCommand const& com
 				case 5:
 					Main_Data::game_variables->ModRangeRandom(start, end, rmin, rmax);
 					break;
+				case 6:
+					Main_Data::game_variables->BitOrRangeRandom(start, end, rmin, rmax);
+					break;
+				case 7:
+					Main_Data::game_variables->BitAndRangeRandom(start, end, rmin, rmax);
+					break;
+				case 8:
+					Main_Data::game_variables->BitXorRangeRandom(start, end, rmin, rmax);
+					break;
+				case 9:
+					Main_Data::game_variables->BitShiftLeftRangeRandom(start, end, rmin, rmax);
+					break;
+				case 10:
+					Main_Data::game_variables->BitShiftRightRangeRandom(start, end, rmin, rmax);
+					break;
 			}
 		} else {
 			// Multiple variables - constant
@@ -1465,8 +1572,24 @@ bool Game_Interpreter::CommandControlVariables(lcf::rpg::EventCommand const& com
 				case 5:
 					Main_Data::game_variables->ModRange(start, end, value);
 					break;
+				case 6:
+					Main_Data::game_variables->BitOrRange(start, end, value);
+					break;
+				case 7:
+					Main_Data::game_variables->BitAndRange(start, end, value);
+					break;
+				case 8:
+					Main_Data::game_variables->BitXorRange(start, end, value);
+					break;
+				case 9:
+					Main_Data::game_variables->BitShiftLeftRange(start, end, value);
+					break;
+				case 10:
+					Main_Data::game_variables->BitShiftRightRange(start, end, value);
+					break;
 			}
 		}
+
 		Game_Map::SetNeedRefresh(true);
 	}
 
@@ -2011,9 +2134,6 @@ bool Game_Interpreter::CommandFadeOutBGM(lcf::rpg::EventCommand const& com) { //
 bool Game_Interpreter::CommandPlaySound(lcf::rpg::EventCommand const& com) { // code 11550
 	lcf::rpg::Sound sound;
 	sound.name = ToString(com.string);
-
-	Output::Debug("Play SE: {}", sound.name);
-
 	sound.volume = com.parameters[0];
 	sound.tempo = com.parameters[1];
 	sound.balance = com.parameters[2];
@@ -2110,6 +2230,7 @@ bool Game_Interpreter::CommandChangeSpriteAssociation(lcf::rpg::EventCommand con
 	auto file = ToString(com.string);
 	int idx = com.parameters[1];
 	bool transparent = com.parameters[2] != 0;
+
 	actor->SetSprite(file, idx, transparent);
 	Main_Data::game_player->ResetGraphic();
 	return true;
@@ -2502,7 +2623,6 @@ bool Game_Interpreter::CommandTintScreen(lcf::rpg::EventCommand const& com) { //
 	if (wait)
 		SetupWait(tenths);
 
-
 	return true;
 }
 
@@ -2534,6 +2654,7 @@ bool Game_Interpreter::CommandFlashScreen(lcf::rpg::EventCommand const& com) { /
 			break;
 		}
 	}
+
 	return true;
 }
 
@@ -2672,6 +2793,9 @@ namespace PicPointerPatch {
 }
 
 bool Game_Interpreter::CommandShowPicture(lcf::rpg::EventCommand const& com) { // code 11110
+
+	Output::Debug("show picture");
+
 	// Older versions of RPG_RT block pictures when message active.
 	if (!Player::IsEnglish() && Game_Message::IsMessageActive()) {
 		return false;
@@ -2751,14 +2875,15 @@ bool Game_Interpreter::CommandShowPicture(lcf::rpg::EventCommand const& com) { /
 			}
 			params.flip_x = (flags & 16) == 16;
 			params.flip_y = (flags & 32) == 32;
-
-			if ((com.parameters[1] >> 8) != 0) {
-				Output::Warning("Maniac ShowPicture: X/Y origin not supported");
-			}
+			params.origin = com.parameters[1] >> 8;
 
 			if (params.effect_mode == lcf::rpg::SavePicture::Effect_maniac_fixed_angle) {
-				Output::Warning("Maniac ShowPicture: Fixed angle not supported");
-				params.effect_mode = lcf::rpg::SavePicture::Effect_none;
+				params.effect_power = ValueOrVariable(com.parameters[16] & 0xF, params.effect_power);
+				int divisor = ValueOrVariable((com.parameters[16] & 0xF0) >> 4, com.parameters[15]);
+				if (divisor == 0) {
+					divisor = 1;
+				}
+				params.effect_power /= divisor;
 			}
 		}
 	}
@@ -2777,7 +2902,15 @@ bool Game_Interpreter::CommandShowPicture(lcf::rpg::EventCommand const& com) { /
 	// RPG_RT will crash if you ask for a picture id greater than the limit that
 	// version of the engine allows. We allow an arbitrary number of pictures in Player.
 
-	Main_Data::game_pictures->Show(pic_id, params);
+	if (Main_Data::game_pictures->Show(pic_id, params)) {
+		if (params.origin > 0) {
+			auto& pic = Main_Data::game_pictures->GetPicture(pic_id);
+			if (pic.IsRequestPending()) {
+				pic.MakeRequestImportant();
+				_async_op = AsyncOp::MakeYield();
+			}
+		}
+	}
 
 	return true;
 }
@@ -2834,14 +2967,15 @@ bool Game_Interpreter::CommandMovePicture(lcf::rpg::EventCommand const& com) { /
 			}
 			params.flip_x = (flags & 16) == 16;
 			params.flip_y = (flags & 32) == 32;
-
-			if ((com.parameters[1] >> 8) != 0) {
-				Output::Warning("Maniac MovePicture: X/Y origin not supported");
-			}
+			params.origin = com.parameters[1] >> 8;
 
 			if (params.effect_mode == lcf::rpg::SavePicture::Effect_maniac_fixed_angle) {
-				Output::Warning("Maniac MovePicture: Fixed angle not supported");
-				params.effect_mode = lcf::rpg::SavePicture::Effect_none;
+				params.effect_power = ValueOrVariable(com.parameters[16] & 0xF, params.effect_power);
+				int divisor = ValueOrVariable((com.parameters[16] & 0xF0) >> 4, com.parameters[15]);
+				if (divisor == 0) {
+					divisor = 1;
+				}
+				params.effect_power /= divisor;
 			}
 		}
 	} else {
@@ -2855,13 +2989,21 @@ bool Game_Interpreter::CommandMovePicture(lcf::rpg::EventCommand const& com) { /
 	params.magnify = std::max(0, std::min(params.magnify, 2000));
 	params.top_trans = std::max(0, std::min(params.top_trans, 100));
 	params.bottom_trans = std::max(0, std::min(params.bottom_trans, 100));
-	params.duration = std::max(0, std::min(params.duration, 10000));
+	params.duration = std::max(Player::IsPatchManiac() ? -10000 : 0, std::min(params.duration, 10000));
 
 	if (pic_id <= 0) {
 		Output::Error("MovePicture: Requested invalid picture id ({})", pic_id);
 	}
 
 	Main_Data::game_pictures->Move(pic_id, params);
+
+	if (params.origin > 0) {
+		auto& pic = Main_Data::game_pictures->GetPicture(pic_id);
+		if (pic.IsRequestPending()) {
+			pic.MakeRequestImportant();
+			_async_op = AsyncOp::MakeYield();
+		}
+	}
 
 	if (wait)
 		SetupWait(params.duration);
@@ -3232,6 +3374,10 @@ bool Game_Interpreter::CommandChangePBG(lcf::rpg::EventCommand const& com) { // 
 
 	Game_Map::Parallax::ChangeBG(params);
 
+	if (!params.name.empty()) {
+		_async_op = AsyncOp::MakeYield();
+	}
+
 	return true;
 }
 
@@ -3322,37 +3468,8 @@ bool Game_Interpreter::CommandConditionalBranch(lcf::rpg::EventCommand const& co
 	case 1:
 		// Variable
 		value1 = Main_Data::game_variables->Get(com.parameters[1]);
-		if (com.parameters[2] == 0) {
-			value2 = com.parameters[3];
-		} else {
-			value2 = Main_Data::game_variables->Get(com.parameters[3]);
-		}
-		switch (com.parameters[4]) {
-		case 0:
-			// Equal to
-			result = (value1 == value2);
-			break;
-		case 1:
-			// Greater than or equal
-			result = (value1 >= value2);
-			break;
-		case 2:
-			// Less than or equal
-			result = (value1 <= value2);
-			break;
-		case 3:
-			// Greater than
-			result = (value1 > value2);
-			break;
-		case 4:
-			// Less than
-			result = (value1 < value2);
-			break;
-		case 5:
-			// Different
-			result = (value1 != value2);
-			break;
-		}
+		value2 = ValueOrVariable(com.parameters[2], com.parameters[3]);
+		result = CheckOperator(value1, value2, com.parameters[4]);
 		break;
 	case 2:
 		value1 = Main_Data::game_party->GetTimerSeconds(Main_Data::game_party->Timer1);
@@ -3545,12 +3662,64 @@ bool Game_Interpreter::CommandJumpToLabel(lcf::rpg::EventCommand const& com) { /
 }
 
 bool Game_Interpreter::CommandLoop(lcf::rpg::EventCommand const& com) { // code 12210
-	if (!Player::IsPatchManiac() || com.parameters.empty() || com.parameters[0] == 0) {
-		// Infinite Loop
+	if (!Player::IsPatchManiac() || com.parameters.size() < 5 || com.parameters[0] == 0) {
+		// Infinite loop
 		return true;
 	}
 
-	Output::Warning("Maniac CommandLoop: Conditional loops unsupported");
+	int type = com.parameters[0];
+
+	auto& frame = GetFrame();
+	auto& index = frame.current_command;
+	frame.maniac_loop_info.resize((com.indent + 1) * 2);
+	frame.maniac_loop_info_size = static_cast<int32_t>(frame.maniac_loop_info.size() / 2);
+
+	int32_t& begin_loop_val = frame.maniac_loop_info[frame.maniac_loop_info.size() - 2];
+	int32_t& end_loop_val = frame.maniac_loop_info[frame.maniac_loop_info.size() - 1];
+	begin_loop_val = 0;
+	end_loop_val = 0;
+
+	int begin_arg = ValueOrVariable(com.parameters[1] & 0xF, com.parameters[2]);
+	int end_arg = ValueOrVariable((com.parameters[1] >> 4) & 0xF, com.parameters[3]);
+	int op = com.parameters[1] >> 8;
+
+	switch (type) {
+		case 1: // X times
+			end_loop_val = begin_arg - 1;
+			break;
+		case 2: // Count up
+		case 3: // Count down
+			begin_loop_val = begin_arg;
+			end_loop_val = end_arg;
+			break;
+		case 4: // While
+		case 5: // Do While
+			break;
+		default:
+			SkipToNextConditional({Cmd::EndLoop}, com.indent);
+			++index;
+			return true;
+	}
+
+	int check_beg = begin_loop_val;
+	int check_end = end_loop_val;
+	if (type == 4) { // While
+		check_beg = ValueOrVariable(com.parameters[1] & 0xF, com.parameters[2]);
+		check_end = ValueOrVariable((com.parameters[1] >> 4) & 0xF, com.parameters[3]);
+	}
+
+	// Do While (5) always runs the loop at least once
+	if (type != 5 && !ManiacCheckContinueLoop(check_beg, check_end, type, op)) {
+		SkipToNextConditional({Cmd::EndLoop}, com.indent);
+		++index;
+	}
+
+	int loop_count_var = com.parameters[4];
+	if (loop_count_var > 0) {
+		Main_Data::game_variables->Set(loop_count_var, begin_loop_val);
+		Game_Map::SetNeedRefresh(true);
+	}
+
 	return true;
 }
 
@@ -3561,10 +3730,16 @@ bool Game_Interpreter::CommandBreakLoop(lcf::rpg::EventCommand const& /* com */)
 
 	// BreakLoop will jump to the end of the event if there is no loop.
 
-	//FIXME: This emulates an RPG_RT bug where break loop ignores scopes and
-	//unconditionally jumps to the next EndLoop command.
-	auto pcode = static_cast<Cmd>(list[index].code);
+	bool has_bug = !Player::IsPatchManiac();
+	if (!has_bug) {
+		SkipToNextConditional({ Cmd::EndLoop }, list[index].indent - 1);
+		++index;
+		return true;
+	}
 
+	// This emulates an RPG_RT bug where break loop ignores scopes and
+	// unconditionally jumps to the next EndLoop command.
+	auto pcode = static_cast<Cmd>(list[index].code);
 	for (++index; index < (int)list.size(); ++index) {
 		if (pcode == Cmd::EndLoop) {
 			break;
@@ -3582,6 +3757,58 @@ bool Game_Interpreter::CommandEndLoop(lcf::rpg::EventCommand const& com) { // co
 
 	int indent = com.indent;
 
+	if (Player::IsPatchManiac() && com.parameters.size() >= 5 && com.parameters[0] != 0) {
+		int type = com.parameters[0];
+		int offset = com.indent * 2;
+
+		if (frame.maniac_loop_info.size() < (offset + 1) * 2) {
+			frame.maniac_loop_info.resize((offset + 1) * 2);
+			frame.maniac_loop_info_size = frame.maniac_loop_info.size() / 2;
+		}
+
+		int32_t& cur_loop_val = frame.maniac_loop_info[offset];
+		int32_t& end_loop_val = frame.maniac_loop_info[offset + 1];
+
+		switch (type) {
+			case 1: // X times
+			case 2: // Count up
+			case 4: // While
+			case 5: // Do While
+				++cur_loop_val;
+				break;
+			case 3: // Count down
+				--cur_loop_val;
+				break;
+			default:
+				++index;
+				return true;
+		}
+
+		int check_cur = cur_loop_val;
+		int check_end = end_loop_val;
+		if (type >= 4) {
+			// While (4) and Do While (5) fetch variables each loop
+			// For the others it is constant
+			check_cur = ValueOrVariable(com.parameters[1] & 0xF, com.parameters[2]);
+			check_end = ValueOrVariable((com.parameters[1] >> 4) & 0xF, com.parameters[3]);
+		}
+		int op = com.parameters[1] >> 8;
+		if (!ManiacCheckContinueLoop(check_cur, check_end, type, op)) {
+			// End loop
+			frame.maniac_loop_info.resize(offset);
+			frame.maniac_loop_info_size = offset / 2;
+			++index;
+			return true;
+		}
+
+		int loop_count_var = com.parameters[4];
+		if (loop_count_var > 0) {
+			Main_Data::game_variables->Set(loop_count_var, cur_loop_val);
+			Game_Map::SetNeedRefresh(true);
+		}
+	}
+
+	// Restart the loop
 	for (int idx = index; idx >= 0; idx--) {
 		if (list[idx].indent > indent)
 			continue;
@@ -3633,30 +3860,9 @@ bool Game_Interpreter::CommandCallEvent(lcf::rpg::EventCommand const& com) { // 
 	int evt_id;
 	int event_page;
 
-
-
 	switch (com.parameters[0]) {
 	case 0: { // Common Event
 		evt_id = com.parameters[1];
-
-		if (evt_id == 348) { // fire
-			int x = Main_Data::game_player->GetX();
-			int y = Main_Data::game_player->GetY();
-			int d = Main_Data::game_player->GetDirection();
-			std::string msg = ".fire " + std::to_string(x) + " " + std::to_string(y) + " " + std::to_string(d);
-			SendChatMessage(msg.c_str());
-		}
-
-		if (evt_id == 301 ||
-			evt_id == 403 ||
-			301 <= evt_id && evt_id <= 340 ||
-			410 <= evt_id && evt_id <= 420 ||
-		 	363 <= evt_id && evt_id <= 367 ||
-			395 <= evt_id && evt_id <= 396) {
-		} else {
-			Output::Debug("Call Common Event Id: {}", evt_id);
-		}
-
 		Game_CommonEvent* common_event = lcf::ReaderUtil::GetElement(Game_Map::GetCommonEvents(), evt_id);
 		if (!common_event) {
 			Output::Warning("CallEvent: Can't call invalid common event {}", evt_id);
@@ -3670,16 +3876,10 @@ bool Game_Interpreter::CommandCallEvent(lcf::rpg::EventCommand const& com) { // 
 	case 1: // Map Event
 		evt_id = com.parameters[1];
 		event_page = com.parameters[2];
-
-		Output::Debug("Call Map Event: {}, {}", evt_id, event_page);
-
 		break;
 	case 2: // Indirect
 		evt_id = Main_Data::game_variables->Get(com.parameters[1]);
 		event_page = Main_Data::game_variables->Get(com.parameters[2]);
-
-		Output::Debug("Call Map Event: {}, {}", evt_id, event_page);
-
 		break;
 	default:
 		return false;
@@ -3793,7 +3993,8 @@ bool Game_Interpreter::CommandManiacGetSaveInfo(lcf::rpg::EventCommand const& co
 
 	auto savefs = FileFinder::Save();
 	std::string save_name = Scene_Save::GetSaveFilename(savefs, save_number);
-	auto save = lcf::LSD_Reader::Load(save_name, Player::encoding);
+	auto save_stream = FileFinder::Save().OpenInputStream(save_name);
+	auto save = lcf::LSD_Reader::Load(save_stream, Player::encoding);
 
 	if (!save) {
 		Output::Debug("ManiacGetSaveInfo: Save not found {}", save_number);
@@ -3884,7 +4085,8 @@ bool Game_Interpreter::CommandManiacLoad(lcf::rpg::EventCommand const& com) {
 	// When skipped and missing RPG_RT will crash
 	auto savefs = FileFinder::Save();
 	std::string save_name = Scene_Save::GetSaveFilename(savefs, slot);
-	auto save = lcf::LSD_Reader::Load(save_name, Player::encoding);
+	auto save_stream = FileFinder::Save().OpenInputStream(save_name);
+	std::unique_ptr<lcf::rpg::Save> save = lcf::LSD_Reader::Load(save_stream, Player::encoding);
 
 	if (!save) {
 		Output::Debug("ManiacLoad: Save not found {}", slot);
@@ -3946,21 +4148,166 @@ bool Game_Interpreter::CommandManiacShowStringPicture(lcf::rpg::EventCommand con
 	return true;
 }
 
-bool Game_Interpreter::CommandManiacGetPictureInfo(lcf::rpg::EventCommand const&) {
+bool Game_Interpreter::CommandManiacGetPictureInfo(lcf::rpg::EventCommand const& com) {
 	if (!Player::IsPatchManiac()) {
 		return true;
 	}
 
-	Output::Warning("Maniac Patch: Command GetPictureInfo not supported");
+	int pic_id = ValueOrVariable(com.parameters[0], com.parameters[3]);
+	auto& pic = Main_Data::game_pictures->GetPicture(pic_id);
+
+	if (pic.IsRequestPending()) {
+		// Cannot do anything useful here without the dimensions
+		pic.MakeRequestImportant();
+		_async_op = AsyncOp::MakeYieldRepeat();
+		return true;
+	}
+
+	const auto& data = pic.data;
+
+	int x = 0;
+	int y = 0;
+	int width = pic.sprite ? pic.sprite->GetWidth() : 0;
+	int height = pic.sprite ? pic.sprite->GetHeight() : 0;
+
+	switch (com.parameters[1]) {
+		case 0:
+			x = Utils::RoundTo<int>(data.current_x);
+			y = Utils::RoundTo<int>(data.current_y);
+			break;
+		case 1:
+			x = Utils::RoundTo<int>(data.current_x);
+			y = Utils::RoundTo<int>(data.current_y);
+			width = Utils::RoundTo<int>(width * data.current_magnify / 100.0);
+			height = Utils::RoundTo<int>(height * data.current_magnify / 100.0);
+			break;
+		case 2:
+			x = Utils::RoundTo<int>(data.finish_x);
+			y = Utils::RoundTo<int>(data.finish_y);
+			width = Utils::RoundTo<int>(width * data.finish_magnify / 100.0);
+			height = Utils::RoundTo<int>(height * data.finish_magnify / 100.0);
+			break;
+	}
+
+	switch (com.parameters[2]) {
+		case 1:
+			// X/Y is top-left corner
+			x -= (width / 2);
+			y -= (height / 2);
+			break;
+		case 2: {
+			// Left, Top, Right, Bottom
+			x -= (width / 2);
+			y -= (height / 2);
+			width += x;
+			height += y;
+			break;
+		}
+	}
+
+	Main_Data::game_variables->Set(com.parameters[4], x);
+	Main_Data::game_variables->Set(com.parameters[5], y);
+	Main_Data::game_variables->Set(com.parameters[6], width);
+	Main_Data::game_variables->Set(com.parameters[7], height);
+
+	Game_Map::SetNeedRefresh(true);
+
 	return true;
 }
 
-bool Game_Interpreter::CommandManiacControlVarArray(lcf::rpg::EventCommand const&) {
+bool Game_Interpreter::CommandManiacControlVarArray(lcf::rpg::EventCommand const& com) {
 	if (!Player::IsPatchManiac()) {
 		return true;
 	}
 
-	Output::Warning("Maniac Patch: Command ControlVarArray not supported");
+	int op = com.parameters[0];
+	int mode = com.parameters[1];
+	int mode_a = mode & 0xF;
+	int mode_size = (mode >> 4) & 0xF;
+	int mode_b = (mode >> 8) & 0xF;
+
+	int target_a = ValueOrVariable(mode_a, com.parameters[2]);
+	int length = ValueOrVariable(mode_size, com.parameters[3]);
+	int target_b = ValueOrVariable(mode_b, com.parameters[4]);
+	int last_target_a = target_a + length - 1;
+
+	if (target_a < 1 || length <= 0) {
+		return true;
+	}
+
+	switch (op) {
+		case 0: {
+			// Copy, assigns left to right, the others apply right to left
+			int last_target_b = target_b + length - 1;
+			Main_Data::game_variables->SetArray(target_b, last_target_b, target_a);
+			break;
+		}
+		case 1:
+			// Swap
+			Main_Data::game_variables->SwapArray(target_a, last_target_a, target_b);
+			break;
+		case 2:
+			// Sort asc
+			Main_Data::game_variables->SortRange(target_a, last_target_a, true);
+			break;
+		case 3:
+			// Sort desc
+			Main_Data::game_variables->SortRange(target_a, last_target_a, false);
+			break;
+		case 4:
+			// Shuffle
+			Main_Data::game_variables->ShuffleRange(target_a, last_target_a);
+			break;
+		case 5:
+			// Enumerate (target_b is a single value here, not an array)
+			Main_Data::game_variables->EnumerateRange(target_a, last_target_a, target_b);
+			break;
+		case 6:
+			// Add
+			Main_Data::game_variables->AddArray(target_a, last_target_a, target_b);
+			break;
+		case 7:
+			// Sub
+			Main_Data::game_variables->SubArray(target_a, last_target_a, target_b);
+			break;
+		case 8:
+			// Mul
+			Main_Data::game_variables->MultArray(target_a, last_target_a, target_b);
+			break;
+		case 9:
+			// Div
+			Main_Data::game_variables->DivArray(target_a, last_target_a, target_b);
+			break;
+		case 10:
+			// Mod
+			Main_Data::game_variables->ModArray(target_a, last_target_a, target_b);
+			break;
+		case 11:
+			// OR
+			Main_Data::game_variables->BitOrArray(target_a, last_target_a, target_b);
+			break;
+		case 12:
+			// AND
+			Main_Data::game_variables->BitAndArray(target_a, last_target_a, target_b);
+			break;
+		case 13:
+			// XOR
+			Main_Data::game_variables->BitXorArray(target_a, last_target_a, target_b);
+			break;
+		case 14:
+			// Shift left
+			Main_Data::game_variables->BitShiftLeftArray(target_a, last_target_a, target_b);
+			break;
+		case 15:
+			// Shift right
+			Main_Data::game_variables->BitShiftRightArray(target_a, last_target_a, target_b);
+			break;
+		default:
+			Output::Warning("ManiacControlVarArray: Unknown operation {}", op);
+	}
+
+	Game_Map::SetNeedRefresh(true);
+
 	return true;
 }
 
@@ -4026,4 +4373,40 @@ Game_Interpreter& Game_Interpreter::GetForegroundInterpreter() {
 
 bool Game_Interpreter::IsWaitingForWaitCommand() const {
 	return (_state.wait_time > 0) || _state.wait_key_enter;
+}
+
+bool Game_Interpreter::CheckOperator(int val, int val2, int op) const {
+	switch (op) {
+		case 0:
+			return val == val2;
+		case 1:
+			return val >= val2;
+		case 2:
+			return val <= val2;
+		case 3:
+			return val > val2;
+		case 4:
+			return val < val2;
+		case 5:
+			return val != val2;
+		default:
+			return false;
+	}
+}
+
+bool Game_Interpreter::ManiacCheckContinueLoop(int val, int val2, int type, int op) const {
+	switch (type) {
+		case 0: // Infinite loop
+			return true;
+		case 1: // X times
+		case 2: // Count up
+			return val <= val2;
+		case 3: // Count down
+			return val >= val2;
+		case 4: // While
+		case 5: // Do While
+			return CheckOperator(val, val2, op);
+		default:
+			return false;
+	}
 }

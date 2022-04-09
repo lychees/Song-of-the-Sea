@@ -33,8 +33,8 @@
 #include "rand.h"
 #include <cmath>
 #include <cassert>
-#include "game_multiplayer_other_player.h"
-#include "game_multiplayer_my_data.h"
+#include "multiplayer/game_multiplayer_other_player.h"
+#include "multiplayer/game_multiplayer_my_data.h"
 
 Game_Character::Game_Character(Type type, lcf::rpg::SaveMapEventBase* d) :
 	_type(type), _data(d)
@@ -515,7 +515,7 @@ bool Game_Character::Move(int dir) {
 	if (_type == Player) {
 		Game_Multiplayer::MainPlayerMoved(dir);
 	}
-	
+
 	return true;
 }
 
@@ -541,9 +541,9 @@ void Game_Character::Turn90DegreeLeftOrRight() {
 
 int Game_Character::GetDirectionToHero() {
 	int px, py;
-
+#ifdef EMSCRIPTEN
 	Game_Multiplayer::GetClosestPlayerCoords(GetX(), GetY(), px, py);
-
+#endif
 	int sx = GetX() - px;//DistanceXfromPlayer();
 	int sy = GetY() - py;//DistanceYfromPlayer();
 
@@ -556,9 +556,9 @@ int Game_Character::GetDirectionToHero() {
 
 int Game_Character::GetDirectionAwayHero() {
 	int px, py;
-
+#ifdef EMSCRIPTEN
 	Game_Multiplayer::GetClosestPlayerCoords(GetX(), GetY(), px, py);
-
+#endif
 	int sx = GetX() - px;//DistanceXfromPlayer();
 	int sy = GetY() - py;//DistanceYfromPlayer();
 

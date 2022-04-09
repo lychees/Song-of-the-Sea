@@ -1,0 +1,123 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GAME_NAME 1.0\n"
+"Language-Team: YOUR NAME <mail@your.address>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-CreatedBy: LcfTrans"
+
+#. ID 3, Page 1, Line 1, Pos (0,0)
+msgid ".gen 4200 5068"
+msgstr ""
+
+#. ID 3, Page 1, Line 3, Pos (0,0)
+msgid ".teleport_to_rd player"
+msgstr ""
+
+#. ID 3, Page 1, Line 6, Pos (0,0)
+msgid ".teleport_to_lu player"
+msgstr ""
+
+#. ID 3, Page 1, Line 9, Pos (0,0)
+msgid ".teleport_to_rd Down"
+msgstr ""
+
+#. ID 3, Page 1, Line 10, Pos (0,0)
+msgid ".teleport_to_lu Up"
+msgstr ""
+
+#. ID 3, Page 1, Line 11, Pos (0,0)
+msgid ".teleport_to_lu Boss"
+msgstr ""
+
+#. ID 9, Page 1, Line 1, Pos (0,1)
+msgid "公主殿下..."
+msgstr ""
+
+#. ID 9, Page 1, Line 2, Pos (0,1)
+msgid "我在此处恭候多时了..."
+msgstr ""
+
+#. ID 9, Page 1, Line 4, Pos (0,1)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"艾尔文卿... "
+msgstr ""
+
+#. ID 9, Page 1, Line 7, Pos (0,1)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"这里并不关阁下的事！"
+msgstr ""
+
+#. ID 9, Page 1, Line 10, Pos (0,1)
+msgid ""
+"这也是陛下的命令，\n"
+"让我来此送公主殿下回房歇息..."
+msgstr ""
+
+#. ID 9, Page 1, Line 13, Pos (0,1)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"放肆！先生此刻，明明有更重要的事情要去做，\n"
+"放着来犯的贼人不管，至安琪拉的生灵于不顾..."
+msgstr ""
+
+#. ID 9, Page 1, Line 17, Pos (0,1)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"却来这里堵我了，母上大人也是...\n"
+"真是岂有此理。"
+msgstr ""
+
+#. ID 9, Page 1, Line 21, Pos (0,1)
+msgid ""
+"多说无益...\n"
+""
+msgstr ""
+
+#. ID 9, Page 1, Line 23, Pos (0,1)
+msgid ""
+"多有得罪了...\n"
+""
+msgstr ""
+
+#. ID 9, Page 1, Line 26, Pos (0,1)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"参ります！"
+msgstr ""
+
+#. ID 9, Page 1, Line 30, Pos (0,1)
+msgid "segment error"
+msgstr ""
+
+#. ID 9, Page 1, Line 33, Pos (0,1)
+msgid ""
+"失礼了...\n"
+""
+msgstr ""
+
+#. ID 9, Page 1, Line 39, Pos (0,1)
+msgid ""
+"可恶...\n"
+""
+msgstr ""
+
+#. ID 9, Page 1, Line 41, Pos (0,1)
+msgid "如果之前有好好练习剑术的话 ..."
+msgstr ""
+
+#. ID 9, Page 1, Line 44, Pos (0,1)
+msgid ""
+"落败的艾莉尔顿觉又羞又愧，再想到又要受那幽闭之苦，\n"
+"一时尽痛哭起来，加之在暗中行路，又极疲惫，\n"
+"少顷之间便昏睡过去，再醒来时已不知是何时了..."
+msgstr ""
+
+#. ID 9, Page 1, Line 47, Pos (0,1)
+msgid ".turnoff_FOV"
+msgstr ""
+

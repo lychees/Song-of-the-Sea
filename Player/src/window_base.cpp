@@ -25,6 +25,9 @@
 #include "bitmap.h"
 #include "font.h"
 #include "player.h"
+#include "cards/cards.h"
+
+#include "output.h"
 
 Window_Base::Window_Base(int x, int y, int width, int height, Drawable::Flags flags)
 	: Window(flags)
@@ -277,7 +280,14 @@ void Window_Base::DrawEquipmentType(const Game_Actor& actor, int cx, int cy, int
 void Window_Base::DrawItemName(const lcf::rpg::Item& item, int cx, int cy, bool enabled) const {
 	int color = enabled ? Font::ColorDefault : Font::ColorDisabled;
 
-	contents->TextDraw(cx, cy, color, item.name);
+	std::string s = std::string(item.name);
+	if (s.substr(0, 5) == ".card") {
+		auto json = Cards::instance().json;
+		contents->TextDraw(cx, cy, color, json[s.substr(6)]["name"]);
+		// contents->TextDraw(cx, cy, color, item.name);
+	} else {
+		contents->TextDraw(cx, cy, color, item.name);
+	}
 }
 
 void Window_Base::DrawSkillName(const lcf::rpg::Skill& skill, int cx, int cy, bool enabled) const {

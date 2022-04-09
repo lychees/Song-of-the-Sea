@@ -1,0 +1,227 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GAME_NAME 1.0\n"
+"Language-Team: YOUR NAME <mail@your.address>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-CreatedBy: LcfTrans"
+
+#. ID 1, Page 1, Line 2, Pos (1,0)
+msgid ""
+"\\c[1]\\n[1]:\\c[0]\n"
+"。。。"
+msgstr ""
+
+#. ID 1, Page 1, Line 5, Pos (1,0)
+#. ID 1, Page 2, Line 3, Pos (1,0)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"唉。。。"
+msgstr ""
+
+#. ID 1, Page 1, Line 12, Pos (1,0)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"海水的声音，依旧是那么动听。。。"
+msgstr ""
+
+#. ID 1, Page 1, Line 15, Pos (1,0)
+#. ID 1, Page 1, Line 20, Pos (1,0)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"。。。"
+msgstr ""
+
+#. ID 1, Page 1, Line 17, Pos (1,0)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"母亲大人，这一切真的值得吗。。。"
+msgstr ""
+
+#. ID 1, Page 1, Line 25, Pos (1,0)
+msgid ""
+"是夜，心事重重的艾莉尔难以入睡，只身走到甲板，\n"
+"安琪拉的景色已然不可寻觅，\n"
+"目之所及，只有无际的大海和穹顶暗淡的星空。"
+msgstr ""
+
+#. ID 1, Page 1, Line 28, Pos (1,0)
+msgid ""
+"回想起昨日所发生之事，\n"
+"艾莉尔只觉得有说不出的委屈与悲苦，\n"
+"此刻难免触景生情，落下泪来。"
+msgstr ""
+
+#. ID 1, Page 1, Line 32, Pos (1,0)
+msgid ""
+"昨日。\n"
+""
+msgstr ""
+
+#. ID 1, Page 2, Line 5, Pos (1,0)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"也许我当时不闯祸。。。也就。。。"
+msgstr ""
+
+#. ID 1, Page 2, Line 14, Pos (1,0)
+msgid ""
+"\\c[1]リリス:\\c[0]\n"
+"殿下，您原来在这里。"
+msgstr ""
+
+#. ID 1, Page 2, Line 17, Pos (1,0)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"啊嗯。。。\n"
+"是呢。。（叹气"
+msgstr ""
+
+#. ID 1, Page 2, Line 21, Pos (1,0)
+msgid ""
+"\\c[1]リリス:\\c[0]\n"
+"殿下，您在叹气，请问您是否心情不佳？\n"
+"小女能为您做些什么？"
+msgstr ""
+
+#. ID 1, Page 2, Line 25, Pos (1,0)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"没事。。\n"
+"只是在想，大海真漂亮。"
+msgstr ""
+
+#. ID 1, Page 2, Line 29, Pos (1,0)
+msgid ""
+"\\c[1]リリス:\\c[0]\n"
+"嗯，是的呢。"
+msgstr ""
+
+#. ID 1, Page 2, Line 32, Pos (1,0)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"这么蓝，这么纯净，这么广阔。\n"
+"海风，海浪，还有有时的波涛。"
+msgstr ""
+
+#. ID 1, Page 2, Line 35, Pos (1,0)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"大海真自由啊，就连刮起大风大浪的任性，\n"
+"也没人会批评。"
+msgstr ""
+
+#. ID 1, Page 2, Line 39, Pos (1,0)
+#. ID 1, Page 2, Line 46, Pos (1,0)
+#. ID 1, Page 2, Line 68, Pos (1,0)
+msgid ""
+"\\c[1]リリス:\\c[0]\n"
+"嗯。。。"
+msgstr ""
+
+#. ID 1, Page 2, Line 42, Pos (1,0)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"说真的，如果是我们，完全可以游泳游过去\n"
+"何必要坐船呢。。。"
+msgstr ""
+
+#. ID 1, Page 2, Line 48, Pos (1,0)
+msgid ""
+"\\c[1]リリス:\\c[0]\n"
+"人类不能游如此远，所以才会发明船，\n"
+"但因此，也就能携带更多行李货物了。"
+msgstr ""
+
+#. ID 1, Page 2, Line 51, Pos (1,0)
+msgid ""
+"\\c[1]リリス:\\c[0]\n"
+"直接游过去，行李都会湿掉呢。"
+msgstr ""
+
+#. ID 1, Page 2, Line 53, Pos (1,0)
+msgid ""
+"\\c[1]リリス:\\c[0]\n"
+"据说人类的航海曾经甚是危险，\n"
+"没有海的庇佑，仅仅是迷失方向就足以致死。"
+msgstr ""
+
+#. ID 1, Page 2, Line 56, Pos (1,0)
+msgid ""
+"\\c[1]リリス:\\c[0]\n"
+"可他们为了航海而迎难而上，不断改进技术\n"
+"如今的水轮船，航速却已超过了任何鱼呢。"
+msgstr ""
+
+#. ID 1, Page 2, Line 60, Pos (1,0)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"你说。。。我们此行，\n"
+"不也像是迷失方向的危险远航么。。"
+msgstr ""
+
+#. ID 1, Page 2, Line 63, Pos (1,0)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"去往人类的地盘。。。\n"
+"什么危险都是未知的。。"
+msgstr ""
+
+#. ID 1, Page 2, Line 70, Pos (1,0)
+msgid ""
+"\\c[1]リリス:\\c[0]\n"
+"那么，愿您的航行能够一路顺风呢。"
+msgstr ""
+
+#. ID 1, Page 2, Line 72, Pos (1,0)
+msgid ""
+"\\c[1]リリス:\\c[0]\n"
+"人类古代航行只靠风帆，\n"
+"这是祝福人能平安顺利抵达的意思。"
+msgstr ""
+
+#. ID 1, Page 2, Line 76, Pos (1,0)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"嗯，谢谢你。。。"
+msgstr ""
+
+#. ID 1, Page 2, Line 79, Pos (1,0)
+msgid ""
+"\\c[1]リリス:\\c[0]\n"
+"不必如此，殿下，服务于您是我的荣幸。"
+msgstr ""
+
+#. ID 1, Page 2, Line 81, Pos (1,0)
+msgid ""
+"\\c[1]リリス:\\c[0]\n"
+"小女莉莉丝，此行作为殿下的贴身女仆，\n"
+"有任何吩咐和要求，都会尽力为您满足的。"
+msgstr ""
+
+#. ID 1, Page 2, Line 84, Pos (1,0)
+msgid ""
+"\\c[1]リリス:\\c[0]\n"
+"时日不早，颠簸疲累，殿下不如先去休息吧"
+msgstr ""
+
+#. ID 1, Page 2, Line 87, Pos (1,0)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"好的。。。\n"
+"先回船舱吧。。。"
+msgstr ""
+
+#. ID 1, Page 2, Line 92, Pos (1,0)
+msgid ""
+"正是：\n"
+"十年不到海边州，一片乡心逐去舟。\n"
+"日近五云天似水，使君何以客登楼。"
+msgstr ""
+
+#. ID 1, Page 2, Line 95, Pos (1,0)
+msgid "第一章 完"
+msgstr ""
+

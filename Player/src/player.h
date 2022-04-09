@@ -351,6 +351,9 @@ namespace Player {
 	/** File extension rewriter, for non-standard extensions. */
 	extern FileExtGuesser::RPG2KFileExtRemap fileext_map;
 
+	/** Language to use on game start (set via command line) */
+	extern std::string startup_language;
+
 	/** Translation manager, including list of languages and current translation. */
 	extern Translation translation;
 
@@ -371,7 +374,7 @@ namespace Player {
 	extern std::string emscripten_game_name;
 #endif
 
-#ifdef _3DS
+#ifdef __3DS__
 	/** Is executed from a .3dsx (otherwise .cia) */
 	extern bool is_3dsx;
 #endif

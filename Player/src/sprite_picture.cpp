@@ -110,7 +110,13 @@ void Sprite_Picture::Draw(Bitmap& dst) {
 	SetOx(sr.width / 2);
 	SetOy(sr.height / 2);
 
-	SetAngle(data.effect_mode != lcf::rpg::SavePicture::Effect_wave ? data.current_rotation * (2 * M_PI) / 256 : 0.0);
+	if (data.effect_mode == lcf::rpg::SavePicture::Effect_maniac_fixed_angle) {
+		SetAngle(data.current_rotation * (2 * M_PI) / 360);
+	} else if (data.effect_mode != lcf::rpg::SavePicture::Effect_wave) {
+		SetAngle(data.current_rotation * (2 * M_PI) / 256);
+	} else {
+		SetAngle(0.0);
+	}
 	SetWaverPhase(data.effect_mode == lcf::rpg::SavePicture::Effect_wave ? data.current_waver * (2 * M_PI) / 256 : 0.0);
 	SetWaverDepth(data.effect_mode == lcf::rpg::SavePicture::Effect_wave ? data.current_effect_power * 2 : 0);
 
@@ -139,8 +145,8 @@ void Sprite_Picture::Draw(Bitmap& dst) {
 	SetTone(tone);
 
 	if (data.flags.affected_by_flash) {
-	}
 		SetFlashEffect(Main_Data::game_screen->GetFlashColor());
+	}
 
 	SetFlipX((data.easyrpg_flip & lcf::rpg::SavePicture::EasyRpgFlip_x) == lcf::rpg::SavePicture::EasyRpgFlip_x);
 	SetFlipY((data.easyrpg_flip & lcf::rpg::SavePicture::EasyRpgFlip_y) == lcf::rpg::SavePicture::EasyRpgFlip_y);

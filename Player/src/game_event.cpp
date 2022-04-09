@@ -16,6 +16,8 @@
  */
 
 // Headers
+#include <cmath>
+#include <cassert>
 #include "game_event.h"
 #include "game_actor.h"
 #include "game_actors.h"
@@ -26,15 +28,15 @@
 #include "game_switches.h"
 #include "game_variables.h"
 #include "game_system.h"
+#include "game_screen.h"
 #include "game_interpreter_map.h"
-#include "game_multiplayer_rng.h"
 #include "main_data.h"
 #include "player.h"
 #include "utils.h"
 #include "rand.h"
 #include "output.h"
-#include <cmath>
-#include <cassert>
+#include "multiplayer/game_multiplayer_rng.h"
+#include "cards/cards.h"
 
 Game_Event::Game_Event(int map_id, const lcf::rpg::Event* event) :
 	Game_EventBase(Event),
@@ -46,10 +48,6 @@ Game_Event::Game_Event(int map_id, const lcf::rpg::Event* event) :
 	SetY(event->y);
 
 	RefreshPage();
-}
-
-void Game_Event::SetId(int id) {
-	data()->ID = id;
 }
 
 void Game_Event::SanitizeData() {
@@ -412,9 +410,8 @@ void Game_Event::CheckCollisonOnMoveFailure() {
 }
 
 bool Game_Event::Move(int dir) {
-	bool isMoving = Game_Character::Move(dir);
-
-	if (!isMoving) {
+	Game_Character::Move(dir);
+	if (IsStopping()) {
 		CheckCollisonOnMoveFailure();
 		return false;
 	}
@@ -452,6 +449,12 @@ void Game_Event::UpdateNextMovementAction() {
 		MoveTypeRandom();
 		break;
 	case lcf::rpg::EventPage::MoveType_vertical:
+
+		if (~Cards::getBattleFieldId(GetId())) {
+			MyMoveTypeForward();
+			break;
+		}
+
 		MoveTypeCycleUpDown();
 		break;
 	case lcf::rpg::EventPage::MoveType_horizontal:
@@ -507,6 +510,208 @@ void Game_Event::MoveTypeRandom() {
 	}
 
 	SetMaxStopCountForRandom();
+}
+
+void Game_Event::MyMoveTypeForward() {
+	if (GetStopCount() < GetMaxStopCount()) return;
+
+
+	auto& _ = Cards::instance();
+	if (_.pause) return;
+	SetStopCount(0);
+
+	_.current_map_event_id = GetId();
+	// Output::Debug("stopcount maxstopcount: {} {}",GetStopCount(), GetMaxStopCount());
+
+	int move_dir = 0;
+
+	int id = Cards::getBattleFieldId(GetId());
+	auto& a = _.battlefield[id];
+
+	if (a.hasQuirk("cavalry") || a.hasQuirk("flying")) {
+		SetMaxStopCount(64);
+	}
+
+	if (a.mp < a.MP) a.mp += 1;
+	Output::Debug("current turn: {} {} {}", a.name, a.AP, a.hp);
+
+	// 是否是魔女并且满蓝
+	if (a.key == "witch" && a.mp == a.MP) {
+		int d = 3214567, target = -1;
+		for (int i=0;i<_.battlefield.size();++i) if (i != id) {
+			Game_Event *the_event = Game_Map::GetEvent(_.battlefield[i].id);
+			int x = the_event->GetX(), y = the_event->GetY();
+			if (a.master != _.battlefield[i].master) {
+				int dd = std::abs(x - GetX()) + std::abs(y - GetY());
+				if (dd < d) {
+					d = dd;
+					target = i;
+				}
+			}
+		}
+		if (target != -1) {
+			a.mp = 0;
+			_.battlefield[target].damaged(1 + rand() % 6, 77, target);
+			return;
+		}
+	}
+
+	// 是否是魅魔并且满蓝
+	if (a.key == "succubus" && a.mp == a.MP) {
+		int d = 3214567, target = -1;
+		for (int i=0;i<_.battlefield.size();++i) if (i != id) {
+			Game_Event *the_event = Game_Map::GetEvent(_.battlefield[i].id);
+			int x = the_event->GetX(), y = the_event->GetY();
+			if (a.master != _.battlefield[i].master) {
+				int dd = std::abs(x - GetX()) + std::abs(y - GetY());
+				if (dd < d) {
+					d = dd;
+					target = i;
+				}
+			}
+		}
+		if (target != -1) {
+			a.mp = 0;
+			_.battlefield[target].master = a.master;
+			Main_Data::game_screen->ShowBattleAnimation(60, _.battlefield[target].id, 0);
+			return;
+		}
+	}
+
+	// 是否是祭司并且满蓝
+	if (a.key == "priest" && a.mp == a.MP) {
+		for (auto& b: _.battlefield) {
+			if (a.master == b.master && a.id != b.id) {
+				b.hp += 2; b.HP += 2;
+				b.AP += 1;
+			}
+		}
+		a.mp = 0;
+		Main_Data::game_screen->ShowBattleAnimation(64, a.id, 0);
+		return;
+	}
+
+	// 是否是死灵法师并且满蓝
+	if (a.key == "nec" && a.mp == a.MP) {
+		Game_Map::summon(Cards::monster(std::string("skull")), a.master, GetX(), GetY());
+		a.mp = 0;
+		return;
+	}
+
+	// 是否是红龙并且满蓝
+	if (a.key == "red_dragon" && a.mp == a.MP) {
+		for(int i=0;i<_.battlefield.size();++i) if(i != id) {
+			_.battlefield[i].damaged(3, 78, i);
+		}
+		a.mp = 0;
+		return;
+	}
+
+	// 是否是黑龙并且满蓝
+	if (a.key == "black_dragon" && a.mp == a.MP) {
+		int d = 3214567, target = -1;
+		for (int i=0;i<_.battlefield.size();++i) if (i != id) {
+			Game_Event *the_event = Game_Map::GetEvent(_.battlefield[i].id);
+			int x = the_event->GetX(), y = the_event->GetY();
+			if (a.master != _.battlefield[i].master && _.battlefield[i].cost <= 4) {
+				int dd = std::abs(x - GetX()) + std::abs(y - GetY());
+				if (dd < d) {
+					d = dd;
+					target = i;
+				}
+			}
+		}
+		if (target != -1) {
+			a.mp = 0;
+			a.hp += _.battlefield[target].hp; a.HP += _.battlefield[target].hp;
+			a.AP += _.battlefield[target].AP;
+			_.battlefield[target].dead(target);
+			return;
+		}
+	}
+ 
+	// 是否是死神并且满蓝
+	if (a.key == "grim_reaper" && a.mp == a.MP) {
+		int d = 3214567, target = -1;
+		for (int i=0;i<_.battlefield.size();++i) if (i != id) {
+			Game_Event *the_event = Game_Map::GetEvent(_.battlefield[i].id);
+			int x = the_event->GetX(), y = the_event->GetY();
+			if (a.master != _.battlefield[i].master) {
+				int dd = std::abs(x - GetX()) + std::abs(y - GetY());
+				if (dd < d) {
+					d = dd;
+					target = i;
+				}
+			}
+		}
+		if (target != -1) {
+			a.mp = 0;
+			Game_Event *x = Game_Map::GetEvent(a.id);
+			Game_Event *y = Game_Map::GetEvent(_.battlefield[target].id);
+			x->SetX(y->GetX()); x->SetY(y->GetY());
+			Main_Data::game_screen->ShowBattleAnimation(5, _.battlefield[target].id, 0);
+			_.battlefield[target].dead(target);
+			return;
+		}
+	}
+
+	// 是否是史莱姆并且满蓝并且血够
+	if (a.key == "slime" || a.key == "gaint_slime") {
+		move_dir = rand() % 4;
+		if (a.mp == a.MP && a.hp > 1) {
+			// a.AP = a.AP > 1 ? a.AP-1 : 0;
+			a.hp = a.hp-1;
+
+			if (a.hp == 1) {
+				a.offset = 1;
+			} else if (a.hp < 4) {
+				a.offset = 0;
+			} else {
+				a.offset = 2;
+			}
+			a.ev()->SetSpriteGraphic(_.json[a.key]["charset"], a.offset); //?
+			Cards::monster child = a;
+			Game_Map::summon(child, a.master, GetX(), GetY());
+			a.mp = 0;
+			return;
+		}
+	}
+
+	// 是否有阵营不同的单位处在同一格子中
+	bool blocked = false;
+
+	for (int i=0;i<_.battlefield.size();++i) if (i != id) {
+		Game_Event *the_event = Game_Map::GetEvent(_.battlefield[i].id);
+		int x = the_event->GetX(), y = the_event->GetY();
+		if (GetX() == x && GetY() == y && a.master != _.battlefield[i].master) {
+			blocked = true;
+			break;
+		}
+	}
+
+
+	int target = a.enemyNearby();
+	if (target != -1) {
+		a.atk(target);
+	} else {
+
+		if (a.hasQuirk("ranged")) {
+			target = a.enemyInfront();
+			if (target != -1) a.atk(target);
+			else if (a.checkmate()) {
+			 	a.check();
+			}
+			return;
+		}
+
+		if (a.master == 2) {
+			move_dir = 2;
+		}
+		if (!blocked) Move(move_dir);
+		if (IsStopping() && a.checkmate()) {
+			a.check();
+		}
+	}
 }
 
 void Game_Event::MoveTypeCycle(int default_dir) {

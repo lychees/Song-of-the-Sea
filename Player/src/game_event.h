@@ -65,7 +65,6 @@ public:
 	 * @return event ID.
 	 */
 	int GetId() const;
-	void SetId(int id);
 
 	/**
 	 * Gets event name.
@@ -172,6 +171,9 @@ private:
 	 * Moves on a random route.
 	 */
 	void MoveTypeRandom();
+
+
+	void MyMoveTypeForward();
 
 	/**
 	 * Cycles between moving in default_dir and its opposite.

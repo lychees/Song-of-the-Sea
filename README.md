@@ -1,9 +1,23 @@
-# Song-of-the-Sea
+# 简介
 Yet another rpg game.
 
 - [Demo](https://yno.yumenikki.info/?game=demo)
 - [Github](https://github.com/lychees/Song-of-the-Sea)
 - [背景设定](https://hackmd.io/vZ8oGrSMTACMHRaiow4F2w)
+- [卡表](https://docs.google.com/spreadsheets/d/1Rn8yd1afu2ArHv9ayAUR_0suPwzvrUx617NXJwWf9J4/edit?ouid=102027559639806204339&usp=sheets_home&ths=true)
+
+# 如何编译
+## Windows
+具体参考这里 [https://github.com/EasyRPG/Player/issues/2758](https://github.com/EasyRPG/Player/issues/2758)，Windows 下的 cpp 包管理工具主要使用 vcpkg，其中 liblcf 会自动编译，因此只需要准备 [buildscripts](https://github.com/EasyRPG/buildscripts) 即可。
+
+```cmake . -DPLAYER_BUILD_LIBLCF=ON -DCMAKE_BUILD_TYPE=Debug -DVCPKG_TARGET_TRIPLET=x64-windows-static -DCMAKE_TOOLCHAIN_FILE=C:\Users\25181\Documents\GitHub\buildscripts\windows\vcpkg\scripts\buildsystems\vcpkg.cmake```
+
+```cmake --build .```
+## Web
+参考这里 [https://easyrpg.org/player/guide/webplayer/](https://easyrpg.org/player/guide/webplayer/)。
+
+### 部署
+```scp ubuntu@54.168.220.93:~/workdir/Song-of-the-Sea/Player/build/index.js ubuntu@54.168.220.93:~/workdir/Song-of-the-Sea/Player/build/index.wasm root@45.55.22.97:/srv/http/yumenikki/yno/private/public/```
 
 # To do list
 ## 系统

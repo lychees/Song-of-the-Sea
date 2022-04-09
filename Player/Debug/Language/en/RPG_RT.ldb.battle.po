@@ -1,0 +1,106 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GAME_NAME 1.0\n"
+"Language-Team: YOUR NAME <mail@your.address>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-CreatedBy: LcfTrans"
+
+#. ID 120, Page 1, Line 1
+msgid ""
+"作为相应的代价，艾莉尔的力量（Str）和体质（Con）属性则较低\n"
+"，这使得艾莉尔在攻击力和血量上限上表现欠佳。"
+msgstr ""
+
+#. ID 120, Page 1, Line 3
+msgid ""
+"随着游戏的进行，艾莉尔的剑术经验也会得到成长，介时再学习适合自己\n"
+"的剑技，提升输出吧！"
+msgstr ""
+
+#. ID 120, Page 2, Line 1
+msgid "下面开始对游戏的设定进行简要说明"
+msgstr ""
+
+#. ID 120, Page 2, Line 2
+msgid ""
+"作为世代守护着这片海域的精灵一族的长公主，本作的女主角艾莉尔，拥\n"
+"有着异于寻常人的敏捷（Dex）属性。"
+msgstr ""
+
+#. ID 120, Page 2, Line 4
+msgid "艾莉尔往往能在对手一次攻击的间隙，进行多段操作。"
+msgstr ""
+
+#. ID 120, Page 2, Line 5
+msgid "除了可以更快速的连招之外，敌人的普通攻击亦难以命中她。"
+msgstr ""
+
+#. ID 120, Page 2, Line 6
+msgid "来试着对来犯的帝国士兵进行连续攻击吧！"
+msgstr ""
+
+#. ID 120, Page 3, Line 1
+msgid "除了剑技之外，艾莉尔还有另外两种方式进行战斗。"
+msgstr ""
+
+#. ID 120, Page 3, Line 2
+msgid ""
+"使用魔法操纵强大的元素之力，或者歌唱来自远古韵文的旋律来对同伴们\n"
+"进行增益。"
+msgstr ""
+
+#. ID 121, Page 1, Line 1
+msgid "功课虽然要紧，"
+msgstr ""
+
+#. ID 121, Page 1, Line 2
+msgid "切不可忘记习剑..."
+msgstr ""
+
+#. ID 121, Page 1, Line 6
+msgid "获得 长剑"
+msgstr ""
+
+#. ID 121, Page 1, Line 8
+msgid ""
+"（艾尔文是母上的贴身侍卫，小时候也曾教过我习剑，\n"
+"既然是同族，水系法术恐难以奏效 ..."
+msgstr ""
+
+#. ID 121, Page 1, Line 11
+msgid "... 既然如此，那我就用手中的剑，来决胜负...）"
+msgstr ""
+
+#. ID 121, Page 1, Line 13
+msgid ""
+"艾莉尔接过刺剑，看向眼前的强敌，\n"
+"越发紧握手中的剑。"
+msgstr ""
+
+#. ID 121, Page 1, Line 15
+msgid "艾莉尔 装备了 长剑"
+msgstr ""
+
+#. ID 121, Page 2, Line 3
+msgid "（可恶，我的剑路完全被看破了。）"
+msgstr ""
+
+#. ID 121, Page 2, Line 5
+msgid ""
+"看来这段时间，公主殿下的剑术，\n"
+"并没有进步呢..."
+msgstr ""
+
+#. ID 121, Page 2, Line 8
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"还轮不到汝等嘲笑我！"
+msgstr ""
+
+#. ID 121, Page 2, Line 11
+msgid "当心，我要出招了。"
+msgstr ""
+

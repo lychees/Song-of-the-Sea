@@ -30,13 +30,12 @@
 #  include "platform/windows/utils.h"
 #  include <windows.h>
 #  include <shellapi.h>
-#elif defined(GEKKO)
-#  include <fat.h>
 #elif defined(EMSCRIPTEN)
 #  include <emscripten.h>
-#elif defined(PSP2)
+#  include "multiplayer/chat_multiplayer.h"
+#elif defined(__vita__)
 #  include <psp2/kernel/processmgr.h>
-#elif defined(_3DS)
+#elif defined(__3DS__)
 #  include <3ds.h>
 #elif defined(__SWITCH__)
 #  include <switch.h>
@@ -88,13 +87,18 @@
 #include <lcf/scope_guard.h>
 #include "baseui.h"
 #include "game_clock.h"
-#include "chat_multiplayer.h"
+#include "cards/cards.h"
 #include "uminouta/roguelike.h"
+#if defined(HAVE_FLUIDSYNTH) || defined(HAVE_FLUIDLITE)
+#include "decoder_fluidsynth.h"
+#endif
 
 #ifndef EMSCRIPTEN
 // This is not used on Emscripten.
 #include "exe_reader.h"
 #endif
+
+using namespace std::chrono_literals;
 
 namespace Player {
 	bool exit_flag;
@@ -121,6 +125,7 @@ namespace Player {
 	int patch;
 	std::shared_ptr<Meta> meta;
 	FileExtGuesser::RPG2KFileExtRemap fileext_map;
+	std::string startup_language;
 	Translation translation;
 	int frames;
 	std::string replay_input_path;
@@ -132,7 +137,7 @@ namespace Player {
 #ifdef EMSCRIPTEN
 	std::string emscripten_game_name;
 #endif
-#ifdef _3DS
+#ifdef __3DS__
 	bool is_3dsx;
 #endif
 }
@@ -147,9 +152,7 @@ namespace {
 }
 
 void Player::Init(int argc, char *argv[]) {
-
-	Roguelike::init();
-
+	Roguelike::init();	
 	frames = 0;
 
 	// Must be called before the first call to Output
@@ -182,12 +185,7 @@ void Player::Init(int argc, char *argv[]) {
 	header << std::setfill('=') << std::setw(header_width) << "=";
 	Output::Debug("{}", header.str());
 
-#ifdef GEKKO
-	// Init libfat (Mount SD/USB)
-	if (!fatInitDefault()) {
-		Output::Error("Couldn't mount any storage medium!");
-	}
-#elif defined(_3DS)
+#ifdef __3DS__
 	romfsInit();
 #endif
 
@@ -216,7 +214,7 @@ void Player::Init(int argc, char *argv[]) {
 
 	DisplayUi.reset();
 
-	if(! DisplayUi) {
+	if(!DisplayUi) {
 		#if defined(INGAME_CHAT)
 			DisplayUi = BaseUi::CreateUi(TOTAL_TARGET_WIDTH, SCREEN_TARGET_HEIGHT, cfg.video);
 		#else
@@ -246,12 +244,17 @@ void Player::Run() {
 	// libretro invokes the MainLoop through a retro_run-callback
 #ifndef USE_LIBRETRO
 	while (Transition::instance().IsActive() || (Scene::instance && Scene::instance->type != Scene::Null)) {
-#  if defined(_3DS)
+#  if defined(__3DS__)
 		if (!aptMainLoop())
 			Exit();
 #  elif defined(__SWITCH__)
-		if(!appletMainLoop())
-			Exit();
+		// handle events
+		appletMainLoop();
+		// skipping our main loop, when out of focus
+		if(appletGetFocusState() != AppletFocusState_InFocus) {
+			Game_Clock::SleepFor(10ms);
+			continue;
+		}
 #  endif
 		MainLoop();
 	}
@@ -328,6 +331,15 @@ void Player::UpdateInput() {
 	if (Input::IsSystemTriggered(Input::TOGGLE_FPS)) {
 		DisplayUi->ToggleShowFps();
 	}
+	if (Input::IsSystemTriggered(Input::TOGGLE_CARDSINFO)) {
+		DisplayUi->ToggleShowCardsinfo();
+	}
+	if (Input::IsSystemTriggered(Input::PREV_CARD)) {
+		Cards::prevCard();
+	}
+	if (Input::IsSystemTriggered(Input::SUCC_CARD)) {
+		Cards::succCard();
+	}
 	if (Input::IsSystemTriggered(Input::TAKE_SCREENSHOT)) {
 		Output::TakeScreenshot();
 	}
@@ -376,10 +388,9 @@ void Player::Update(bool update_scene) {
 
 	Audio().Update();
 	Input::Update();
-
-	#if defined(INGAME_CHAT)
-		Chat_Multiplayer::update();
-	#endif
+#if defined(INGAME_CHAT)
+	Chat_Multiplayer::update();
+#endif
 
 	// Game events can query full screen status and change their behavior, so this needs to
 	// be a game key and not a system key.
@@ -435,7 +446,6 @@ void Player::Exit() {
 	Text::Draw(*surface, 84, DisplayUi->GetHeight() / 2 - 30, *Font::Default(), Color(221, 123, 64, 255), message);
 	DisplayUi->UpdateDisplay();
 #endif
-
 	Player::ResetGameObjects();
 	Font::Dispose();
 	DynRpg::Reset();
@@ -444,15 +454,15 @@ void Player::Exit() {
 	FileFinder::Quit();
 	DisplayUi.reset();
 
-#ifdef PSP2
+#ifdef __vita__
 	sceKernelExitProcess(0);
-#elif defined(_3DS)
+#elif defined(__3DS__)
 	romfsExit();
 #endif
 }
 
 Game_Config Player::ParseCommandLine(int argc, char *argv[]) {
-#ifdef _3DS
+#ifdef __3DS__
 	is_3dsx = argc > 0;
 #endif
 
@@ -689,6 +699,23 @@ Game_Config Player::ParseCommandLine(int argc, char *argv[]) {
 			Output::SetTermColor(false);
 			continue;
 		}
+		if (cp.ParseNext(arg, 1, "--language")) {
+			if (arg.NumValues() > 0) {
+				startup_language = arg.Value(0);
+				if (startup_language == "default") {
+					startup_language.clear();
+				}
+			}
+			continue;
+		}
+#if defined(HAVE_FLUIDSYNTH) || defined(HAVE_FLUIDLITE)
+		if (cp.ParseNext(arg, 1, "--soundfont")) {
+			if (arg.NumValues() > 0) {
+				FluidSynthDecoder::SetSoundfont(arg.Value(0));
+			}
+			continue;
+		}
+#endif
 		if (cp.ParseNext(arg, 0, "--version", 'v')) {
 			PrintVersion();
 			exit(0);
@@ -744,7 +771,7 @@ void Player::CreateGameObjects() {
 	} else {
 		Output::Debug("Game Directory:");
 		FileFinder::DumpFilesystem(FileFinder::Game());
-		Output::Debug("SaveDirectory:", save_path);
+		Output::Debug("Save Directory:", save_path);
 		FileFinder::DumpFilesystem(FileFinder::Save());
 	}
 
@@ -878,11 +905,19 @@ void Player::ResetGameObjects() {
 
 	auto min_var = lcf::Data::system.easyrpg_variable_min_value;
 	if (min_var == 0) {
-		min_var = Player::IsRPG2k3() ? Game_Variables::min_2k3 : Game_Variables::min_2k;
+		if (Player::IsPatchManiac()) {
+			min_var = std::numeric_limits<Game_Variables::Var_t>::min();
+		} else {
+			min_var = Player::IsRPG2k3() ? Game_Variables::min_2k3 : Game_Variables::min_2k;
+		}
 	}
 	auto max_var = lcf::Data::system.easyrpg_variable_max_value;
 	if (max_var == 0) {
-		max_var = Player::IsRPG2k3() ? Game_Variables::max_2k3 : Game_Variables::max_2k;
+		if (Player::IsPatchManiac()) {
+			max_var = std::numeric_limits<Game_Variables::Var_t>::max();
+		} else {
+			max_var = Player::IsRPG2k3() ? Game_Variables::max_2k3 : Game_Variables::max_2k;
+		}
 	}
 	Main_Data::game_variables = std::make_unique<Game_Variables>(min_var, max_var);
 
@@ -1177,6 +1212,7 @@ void Player::SetupNewGame() {
 }
 
 void Player::SetupPlayerSpawn() {
+	Cards::initJson();
 	int map_id = Player::start_map_id == -1 ?
 		lcf::Data::treemap.start.party_map_id : Player::start_map_id;
 
@@ -1390,6 +1426,8 @@ Options:
       --start-party A B... Overwrite the starting party members with the actors
                            with IDs A, B, C...
                            Incompatible with --load-game-id.
+      --language LANG      Loads the game translation in language/LANG folder.
+      --soundfont FILE     Soundfont in sf2 format to use when playing MIDI files.
       --test-play          Enable TestPlay mode.
       --window             Start in window mode.
   -v, --version            Display program version and exit.
@@ -1424,7 +1462,6 @@ bool Player::IsBig5() {
 
 bool Player::IsCP936() {
 	return (encoding == "windows-936-2000" ||
-			encoding == "windows-936" ||
 			encoding == "936");
 }
 

@@ -1,0 +1,46 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GAME_NAME 1.0\n"
+"Language-Team: YOUR NAME <mail@your.address>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-CreatedBy: LcfTrans"
+
+#. ID 2, Page 1, Line 1, Pos (0,0)
+msgid ".gen 4200 5068"
+msgstr ""
+
+#. ID 2, Page 1, Line 3, Pos (0,0)
+msgid ".teleport_to_rd player"
+msgstr ""
+
+#. ID 2, Page 1, Line 6, Pos (0,0)
+msgid ".teleport_to_lu player"
+msgstr ""
+
+#. ID 2, Page 1, Line 10, Pos (0,0)
+msgid ".teleport_to_rd Down"
+msgstr ""
+
+#. ID 2, Page 1, Line 11, Pos (0,0)
+msgid ".teleport_to_lu Up"
+msgstr ""
+
+#. ID 4, Page 1, Line 2, Pos (1,0)
+msgid ".turnoff_FOV"
+msgstr ""
+
+#. ID 6, Page 1, Line 5, Pos (0,2)
+msgid "Potion x 1"
+msgstr ""
+
+#. ID 7, Page 1, Line 5, Pos (0,3)
+msgid "Magic Water x 1"
+msgstr ""
+
+#. ID 9, Page 1, Line 6, Pos (0,1)
+msgid "\\v[1] G"
+msgstr ""
+

@@ -35,8 +35,9 @@
 #include <lcf/rpg/savepartylocation.h>
 #include <lcf/rpg/savevehiclelocation.h>
 #include <lcf/rpg/savecommonevent.h>
-#include "uminouta/roguelike.h"
 #include "async_op.h"
+#include "cards/cards.h"
+#include "uminouta/roguelike.h"
 
 class FileRequestAsync;
 struct BattleArgs;
@@ -77,6 +78,12 @@ class MapUpdateAsyncContext {
  * Game_Map namespace
  */
 namespace Game_Map {
+
+	void Gen(int c0, int c1);
+	void Roll();	
+
+	void summon(Cards::monster c, int p_id, int x, int y);
+	void newMapEvent(std::string title, int p_id, int x, int y);
 
 	/**
 	 * Initialize Game_Map.
@@ -557,6 +564,8 @@ namespace Game_Map {
 	 */
 	void SetChipset(int id);
 
+	bool ReloadChipset();
+
 	Game_Vehicle* GetVehicle(Game_Vehicle::Type which);
 	int SubstituteDown(int old_id, int new_id);
 	int SubstituteUp(int old_id, int new_id);
@@ -610,9 +619,6 @@ namespace Game_Map {
 	bool UpdateMessage(MapUpdateAsyncContext& actx);
 	bool UpdateForegroundEvents(MapUpdateAsyncContext& actx);
 
-	void Gen(int c0, int c1);
-	void Roll();
-
 	/**
 	 * Construct a map name, either for EasyRPG or RPG Maker projects
 	 *
@@ -654,10 +660,22 @@ namespace Game_Map {
 		/** Call this when you find out the width and height of the BG. */
 		void Initialize(int width, int height);
 
+		/** Adds x to the panorama x-position MOD parallax_width * TILE_SIZE * 2 */
+		void AddPositionX(int x);
+
+		/** Adds y to the panorama y-position MOD parallax_width * TILE_SIZE * 2 */
+		void AddPositionY(int y);
+
+		/** Sets the panorama x-position MOD parallax_width * TILE_SIZE * 2 */
+		void SetPositionX(int x);
+
+		/** Sets the panorama y-position MOD parallax_width * TILE_SIZE * 2 */
+		void SetPositionY(int y);
+
 		/** Reset the x position of the BG. */
 		void ResetPositionX();
 
-		/** Reset the y position of the BG. */
+		/** Reset the x position of the BG. */
 		void ResetPositionY();
 
 		/**

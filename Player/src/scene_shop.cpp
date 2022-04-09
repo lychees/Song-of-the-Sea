@@ -22,6 +22,7 @@
 #include <lcf/reader_util.h>
 #include "scene_shop.h"
 #include "output.h"
+#include "cards/cards.h"
 
 Scene_Shop::Scene_Shop(
 		std::vector<int> goods,
@@ -55,6 +56,23 @@ void Scene_Shop::Start() {
 	gold_window.reset(new Window_Gold(184, 128, 136, 32));
 	empty_window.reset(new Window_Base(0, 32, SCREEN_TARGET_WIDTH, 128));
 	empty_window2.reset(new Window_Base(0, 32, 184, 128));
+
+	std::sort(goods.begin(), goods.end(), [](int a, int b){
+		const lcf::rpg::Item* item_a = lcf::ReaderUtil::GetElement(lcf::Data::items, a);
+		std::string item_a_name = std::string(item_a->name);
+		const lcf::rpg::Item* item_b = lcf::ReaderUtil::GetElement(lcf::Data::items, b);
+		std::string item_b_name = std::string(item_b->name);
+
+		if(item_a_name.substr(0, 5) == ".card") item_a_name = item_a_name.substr(6);
+		else return a < b;
+		if(item_b_name.substr(0, 5) == ".card") item_b_name = item_b_name.substr(6);
+		else return a < b;
+
+		a = int(Cards::instance().json[item_a_name]["cost"]);
+		b = int(Cards::instance().json[item_b_name]["cost"]);
+		return a < b;
+	});
+
 	buy_window.reset(new Window_ShopBuy(goods, 0, 32, 184, 128));
 	party_window.reset(new Window_ShopParty(184, 32, 136, 48));
 	sell_window.reset(new Window_ShopSell(0, 32, SCREEN_TARGET_WIDTH, 128));

@@ -36,7 +36,7 @@
 #include "flash.h"
 #include "shake.h"
 #include "rand.h"
-#include "game_multiplayer_other_player.h"
+#include "multiplayer/game_multiplayer_other_player.h"
 
 Game_Screen::Game_Screen()
 {

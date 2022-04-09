@@ -1,0 +1,118 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GAME_NAME 1.0\n"
+"Language-Team: YOUR NAME <mail@your.address>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-CreatedBy: LcfTrans"
+
+#. ID 1, Page 1, Line 10, Pos (9,14)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"（...鍵が掛かっている）"
+msgstr ""
+
+#. ID 2, Page 1, Line 5, Pos (1,0)
+msgid ""
+"\\c[1]???:\\c[0]\n"
+"エーリル... "
+msgstr ""
+
+#. ID 2, Page 1, Line 7, Pos (1,0)
+msgid ""
+"\\c[1]???:\\c[0]\n"
+"目覚め、エーリル... "
+msgstr ""
+
+#. ID 2, Page 1, Line 10, Pos (1,0)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"この声、誰？\n"
+"もしかして..."
+msgstr ""
+
+#. ID 2, Page 1, Line 14, Pos (1,0)
+msgid ""
+"\\c[1]???:\\c[0]\n"
+"そう、私です。"
+msgstr ""
+
+#. ID 2, Page 1, Line 18, Pos (1,0)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"私の友人イレーヌ！早く私を救ってください..."
+msgstr ""
+
+#. ID 2, Page 1, Line 21, Pos (1,0)
+msgid ""
+"\\c[1]イレーヌ:\\c[0]\n"
+"それは無理です、私には戦う力がありません。"
+msgstr ""
+
+#. ID 2, Page 1, Line 23, Pos (1,0)
+msgid ""
+"\\c[1]イレーヌ:\\c[0]\n"
+"人々は自分自身だけを守るです、他人の力を当てにできない。"
+msgstr ""
+
+#. ID 2, Page 1, Line 27, Pos (1,0)
+msgid ""
+"\\c[1]イレーヌ:\\c[0]\n"
+"しかし、私はあなたのために，このセルへの鍵を見つけました。\n"
+"でも、ガードは、自分で考えてみる必要があります。"
+msgstr ""
+
+#. ID 2, Page 1, Line 30, Pos (1,0)
+msgid ""
+"\\c[1]イレーヌ:\\c[0]\n"
+"私が先に行く、いつもの場所で待ってます。"
+msgstr ""
+
+#. ID 2, Page 1, Line 33, Pos (1,0)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"イレーヌ、"
+msgstr ""
+
+#. ID 2, Page 1, Line 36, Pos (1,0)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"ありがとう！"
+msgstr ""
+
+#. ID 3, Page 1, Line 3, Pos (0,15)
+#. ID 4, Page 1, Line 3, Pos (0,16)
+msgid ".turnon_FOV"
+msgstr ""
+
+#. ID 5, Page 1, Line 2, Pos (11,8)
+msgid "キーを見つけました"
+msgstr ""
+
+#. ID 7, Page 1, Line 3, Pos (6,6)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"（只能先睡大觉了吗？）"
+msgstr ""
+
+#. ID 8, Page 1, Line 3, Pos (0,0)
+#. ID 8, Page 1, Line 5, Pos (0,0)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"放我出去！"
+msgstr ""
+
+#. ID 8, Page 1, Line 8, Pos (0,0)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"。。。"
+msgstr ""
+
+#. ID 8, Page 1, Line 11, Pos (0,0)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"没办法，不知道什么时候才能被放出去。"
+msgstr ""
+
