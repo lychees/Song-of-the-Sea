@@ -76,7 +76,8 @@ void Translation::Reset()
 }
 
 void Translation::InitTranslations()
-{
+{	
+	return;
 	// Reset
 	Reset();
 
@@ -84,9 +85,6 @@ void Translation::InitTranslations()
 	auto fs = FileFinder::Game();
 	auto game_tree = fs.ListDirectory();
 	for (const auto& tr_name : *game_tree) {
-
-		Output::Debug("languages {}", tr_name.first);
-
 		if (tr_name.first == TRDIR_NAME_LEGACY) {
 			Output::Warning("Deprecation warning: Please rename \"languages\" directory to \"language\"");
 			translation_root_fs = fs.Subtree(tr_name.second.name);
