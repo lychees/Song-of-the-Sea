@@ -1521,7 +1521,7 @@ void Game_Map::newMapEvent(std::string title, int p_id, int x, int y) {
 	cards.hand.erase(cards.hand.begin() + cards.selected_id);
 	cards.selected_id = 0;
 
-	summon(c, p_id, x, y);
+	//summon(c, p_id, x, y);
 	SendChatMessage((std::string(".summon2 ") + c.key + " " + std::to_string(p_id) + 
 		+ " " + std::to_string(x) + " " + std::to_string(y)).c_str());
 }
