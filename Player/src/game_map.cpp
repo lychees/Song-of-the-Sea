@@ -52,9 +52,11 @@
 #include <lcf/rpg/save.h>
 #include "scene_gameover.h"
 #include "feature.h"
+#ifdef EMSCRIPTEN
 #include "multiplayer/game_multiplayer_connection.h"
 #include "multiplayer/game_multiplayer_main_loop.h"
 #include "multiplayer/game_multiplayer_other_player.h"
+#endif
 
 namespace {
 	lcf::rpg::SaveMapInfo map_info;
@@ -199,8 +201,10 @@ void Game_Map::Setup(std::unique_ptr<lcf::rpg::Map> map_in) {
 	// events will properly resume upon loading.
 	Main_Data::game_player->UpdateSaveCounts(lcf::Data::system.save_count, GetMapSaveCount());
 
-	//multiplayer setup
+	// multiplayer setup
+#ifdef EMSCRIPTEN
 	Game_Multiplayer::ConnectToRoom(GetMapId());	
+#endif	
 }
 
 void Game_Map::SetupFromSave(
@@ -266,7 +270,9 @@ void Game_Map::SetupFromSave(
 	// cause panorama chunks to be out of sync.
 	Game_Map::Parallax::ChangeBG(GetParallaxParams());
 	// multiplayer setup
+#ifdef EMSCRIPTEN	
 	Game_Multiplayer::ConnectToRoom(GetMapId());	
+#endif	
 }
 
 std::unique_ptr<lcf::rpg::Map> Game_Map::loadMapFile(int map_id) {
@@ -970,7 +976,7 @@ void Game_Map::Update(MapUpdateAsyncContext& actx, bool is_preupdate) {
 	if (!actx.IsActive()) {
 		//If not resuming from async op ...
 		Main_Data::game_player->Update();
-#ifdef EMSCRIPTEN	
+#ifdef EMSCRIPTEN
 		Game_Multiplayer::Update();
 #endif		
 

@@ -65,7 +65,9 @@
 #include "rand.h"
 #include "cards/cards.h"
 #include "cards/scene_cards.h"
+#ifdef EMSCRIPTEN
 #include "multiplayer/game_multiplayer_senders.h"
+#endif
 #include "uminouta/roguelike.h"
 
 extern "C" void SendChatMessage(const char* msg);
@@ -1095,16 +1097,20 @@ bool Game_Interpreter::CommandControlSwitches(lcf::rpg::EventCommand const& com)
 			} else {
 				Main_Data::game_switches->Flip(start);
 			}
+			#ifdef EMSCRIPTEN
 			Game_Multiplayer::SwitchSync(start, Main_Data::game_switches->Get(start));			
+			#endif
 		} else {
 			if (val < 2) {
 				Main_Data::game_switches->SetRange(start, end, val == 0);
 			} else {
 				Main_Data::game_switches->FlipRange(start, end);
 			}
+			#ifdef EMSCRIPTEN
 			for(int i = start; i < end; i++) {
 				Game_Multiplayer::SwitchSync(start + i, Main_Data::game_switches->Get(start + i));
 			}			
+			#endif
 		}
 
 		Game_Map::SetNeedRefresh(true);
@@ -1435,7 +1441,9 @@ bool Game_Interpreter::CommandControlVariables(lcf::rpg::EventCommand const& com
 					Main_Data::game_variables->BitShiftRight(start, value);
 					break;
 			}
+			#ifdef EMSCRIPTEN
 			Game_Multiplayer::VariableSync(start, Main_Data::game_variables->Get(start));
+			#endif
 		} else if (com.parameters[4] == 1) {
 			// Multiple variables - Direct variable lookup
 			int var_id = com.parameters[5];
@@ -2138,7 +2146,9 @@ bool Game_Interpreter::CommandPlaySound(lcf::rpg::EventCommand const& com) { // 
 	sound.tempo = com.parameters[1];
 	sound.balance = com.parameters[2];
 	Main_Data::game_system->SePlay(sound, true);
+#ifdef EMSCRIPTEN	
 	Game_Multiplayer::SePlaySync(sound);
+#endif	
 	return true;
 }
 
@@ -2692,7 +2702,9 @@ bool Game_Interpreter::CommandWeatherEffects(lcf::rpg::EventCommand const& com) 
 	int str = com.parameters[1];
 	// Few games use a greater strength value to achieve more intense but glichty weather
 	int strength = std::min(str, 2);
+#ifdef EMSCRIPTEN	
 	Game_Multiplayer::WeatherEffectSync(type, strength);
+#endif	
 	screen->SetWeatherEffect(type, strength);
 	return true;
 }
