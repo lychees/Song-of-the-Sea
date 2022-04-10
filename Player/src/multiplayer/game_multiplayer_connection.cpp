@@ -141,12 +141,11 @@ EM_BOOL onmessage(int eventType, const EmscriptenWebSocketMessageEvent *websocke
 }
 #else
 namespace Game_Multiplayer {
-	//changes room client is connected to
+	void ConnectToGame() {	
+	}
 	void ConnectToRoom() {
-
 	}	
 	void ConnectToRoom(int room_id) {
-
 	}
 }
 

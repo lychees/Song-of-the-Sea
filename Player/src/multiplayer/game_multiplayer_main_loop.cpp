@@ -53,7 +53,6 @@ void MovePlayerToPos(std::shared_ptr<Game_PlayerOther> &player, int x, int y) {
 
 void Update() {
 
-
 	if(MyData::shouldsync) {
 		SyncMe();
 		MyData::shouldsync = false;
