@@ -483,10 +483,10 @@ bool Game_Character::Move(int dir) {
 	}
 
 	bool move_success = false;
-	if(_type != Event || !Game_Multiplayer::MyData::syncnpc) {
+	//if(_type != Event || !Game_Multiplayer::MyData::syncnpc) {
 		SetDirection(dir);
 		UpdateFacing();
-	}
+	//}
 
 	const auto x = GetX();
 	const auto y = GetY();
