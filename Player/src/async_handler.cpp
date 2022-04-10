@@ -228,6 +228,9 @@ void FileRequestAsync::SetGraphicFile(bool graphic) {
 }
 
 void FileRequestAsync::Start() {
+
+	Output::Debug("FileRequestAsync::Start");
+
 	if (file == CACHE_DEFAULT_BITMAP) {
 		// Embedded asset -> Fire immediately
 		DownloadDone(true);

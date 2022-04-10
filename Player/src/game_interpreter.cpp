@@ -953,7 +953,7 @@ bool DoCommandShowMessage(std::string cmd) {
 		Roguelike::isCmd(cmd);
 		return true;
 	}		
-
+	return false;
 }
 
 bool Game_Interpreter::CommandShowMessage(lcf::rpg::EventCommand const& com) { // code 10110
