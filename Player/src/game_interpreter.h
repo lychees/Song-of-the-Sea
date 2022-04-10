@@ -172,7 +172,7 @@ protected:
 	 * @return true if game over was started.
 	 */
 	bool CheckGameOver();
-
+public:
 	bool CommandOptionGeneric(lcf::rpg::EventCommand const& com, int option_sub_idx, std::initializer_list<Cmd> next);
 
 	bool CommandShowMessage(lcf::rpg::EventCommand const& com);
@@ -273,7 +273,7 @@ protected:
 	bool CommandManiacChangePictureId(lcf::rpg::EventCommand const& com);
 	bool CommandManiacSetGameOption(lcf::rpg::EventCommand const& com);
 	bool CommandManiacCallCommand(lcf::rpg::EventCommand const& com);
-
+protected:
 	int DecodeInt(lcf::DBArray<int32_t>::const_iterator& it);
 	const std::string DecodeString(lcf::DBArray<int32_t>::const_iterator& it);
 	lcf::rpg::MoveCommand DecodeMove(lcf::DBArray<int32_t>::const_iterator& it);
@@ -316,6 +316,9 @@ protected:
 		void fromSave(const lcf::rpg::SaveEventExecState& save);
 		void toSave(lcf::rpg::SaveEventExecState& save) const;
 	};
+
+	bool CheckOperator(int val, int val2, int op) const;
+	bool ManiacCheckContinueLoop(int val, int val2, int type, int op) const;
 
 	lcf::rpg::SaveEventExecState _state;
 	KeyInputState _keyinput;

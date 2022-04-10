@@ -36,7 +36,7 @@
 #include "flash.h"
 #include "shake.h"
 #include "rand.h"
-#include "game_multiplayer_other_player.h"
+#include "multiplayer/game_multiplayer_other_player.h"
 
 Game_Screen::Game_Screen()
 {
@@ -116,8 +116,9 @@ void Game_Screen::FlashOnce(int r, int g, int b, int s, int frames) {
 	data.flash_time_left = frames;
 	data.flash_continuous = false;
 	flash_period = 0;
-
+#ifdef EMSCRIPTEN
 	Game_Multiplayer::FlashAll(r, g, b, s, frames);
+#endif	
 }
 
 void Game_Screen::FlashBegin(int r, int g, int b, int s, int frames) {
@@ -312,7 +313,9 @@ void Game_Screen::UpdateScreenEffects() {
 		data.tint_current_blue = interpolate(data.tint_time_left, data.tint_current_blue, data.tint_finish_blue);
 		data.tint_current_sat = interpolate(data.tint_time_left, data.tint_current_sat, data.tint_finish_sat);
 		data.tint_time_left = data.tint_time_left - 1;
+#ifdef EMSCRIPTEN		
 		Game_Multiplayer::TintAll();
+#endif		
 	}
 
 	Flash::Update(data.flash_current_level,

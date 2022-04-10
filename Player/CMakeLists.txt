@@ -108,6 +108,8 @@ add_library(${PROJECT_NAME} STATIC
 	src/enemyai.h
 	src/exe_reader.cpp
 	src/exe_reader.h
+	src/feature.cpp
+	src/feature.h	
 	src/exfont.h
 	src/filefinder.cpp
 	src/filefinder.h
@@ -167,49 +169,6 @@ add_library(${PROJECT_NAME} STATIC
 	src/game_interpreter_map.h
 	src/game_map.cpp
 	src/game_map.h
- src/game_multiplayer_connection.cpp
- src/game_multiplayer_connection.h
- src/game_multiplayer_js_export.cpp
- src/game_multiplayer_js_export.h
- src/game_multiplayer_js_import.cpp
- src/game_multiplayer_js_import.h
- src/game_multiplayer_main_loop.cpp
- src/game_multiplayer_main_loop.h
- src/game_multiplayer_my_data.h
- src/game_multiplayer_my_data.cpp
- src/game_multiplayer_nametags.cpp
- src/game_multiplayer_nametags.h
- src/game_multiplayer_other_player.cpp
- src/game_multiplayer_other_player.h
- src/game_multiplayer_receive_handler.cpp
- src/game_multiplayer_receive_handler.h
- src/game_multiplayer_rng.cpp
- src/game_multiplayer_rng.h
- src/game_multiplayer_senders.cpp
- src/game_multiplayer_senders.h
- src/game_multiplayer_settings_scene.cpp
- src/game_multiplayer_settings_scene.h
- src/game_multiplayer.h
- src/chat_multiplayer.cpp
- src/chat_multiplayer.h
- src/nxjson.cpp
- src/nxjson.h
- src/uminouta/roguelike.h
- src/uminouta/roguelike.cpp
- src/uminouta/window_crpg_status.h
- src/uminouta/window_crpg_status.cpp
- src/uminouta/window_alignment.h
- src/uminouta/window_alignment.cpp
- src/uminouta/window_quirks.h
- src/uminouta/window_quirks.cpp
- src/uminouta/window_courses.h
- src/uminouta/window_courses.cpp
- src/uminouta/scene_crpg_status.h
- src/uminouta/scene_crpg_status.cpp
- src/uminouta/scene_quirks.h
- src/uminouta/scene_quirks.cpp
- src/uminouta/scene_courses.h
- src/uminouta/scene_courses.cpp
 	src/game_message.cpp
 	src/game_message.h
 	src/game_party_base.cpp
@@ -471,6 +430,70 @@ add_library(${PROJECT_NAME} STATIC
 	src/window_varlist.cpp
 	src/window_varlist.h
 	src/external/rang.hpp
+src/multiplayer/game_multiplayer_connection.cpp
+src/multiplayer/game_multiplayer_connection.h
+src/multiplayer/game_multiplayer_js_export.cpp
+src/multiplayer/game_multiplayer_js_export.h
+src/multiplayer/game_multiplayer_js_import.cpp
+src/multiplayer/game_multiplayer_js_import.h
+src/multiplayer/game_multiplayer_main_loop.cpp
+src/multiplayer/game_multiplayer_main_loop.h
+src/multiplayer/game_multiplayer_my_data.h
+src/multiplayer/game_multiplayer_my_data.cpp
+src/multiplayer/game_multiplayer_nametags.cpp
+src/multiplayer/game_multiplayer_nametags.h
+src/multiplayer/game_multiplayer_other_player.cpp
+src/multiplayer/game_multiplayer_other_player.h
+src/multiplayer/game_multiplayer_receive_handler.cpp
+src/multiplayer/game_multiplayer_receive_handler.h
+src/multiplayer/game_multiplayer_rng.cpp
+src/multiplayer/game_multiplayer_rng.h
+src/multiplayer/game_multiplayer_senders.cpp
+src/multiplayer/game_multiplayer_senders.h
+src/multiplayer/game_multiplayer_settings_scene.cpp
+src/multiplayer/game_multiplayer_settings_scene.h
+src/multiplayer/game_multiplayer.h
+src/multiplayer/chat_multiplayer.cpp
+src/multiplayer/chat_multiplayer.h
+src/multiplayer/nxjson.cpp
+src/multiplayer/nxjson.h	
+src/configor/configor.hpp
+src/configor/configor_basic.hpp
+src/configor/configor_conversion.hpp
+src/configor/configor_declare.hpp
+src/configor/configor_encoding.hpp
+src/configor/configor_exception.hpp
+src/configor/configor_iterator.hpp
+src/configor/configor_parser.hpp
+src/configor/configor_serializer.hpp
+src/configor/configor_stream.hpp
+src/configor/configor_token.hpp
+src/configor/configor_value.hpp
+src/configor/json.hpp	
+src/uminouta/roguelike.h
+src/uminouta/roguelike.cpp
+src/uminouta/window_crpg_status.h
+src/uminouta/window_crpg_status.cpp
+src/uminouta/window_alignment.h
+src/uminouta/window_alignment.cpp
+src/uminouta/window_quirks.h
+src/uminouta/window_quirks.cpp
+src/uminouta/window_courses.h
+src/uminouta/window_courses.cpp
+src/uminouta/scene_crpg_status.h
+src/uminouta/scene_crpg_status.cpp
+src/uminouta/scene_quirks.h
+src/uminouta/scene_quirks.cpp
+src/uminouta/scene_courses.h
+src/uminouta/scene_courses.cpp
+src/cards/cards.h
+src/cards/cards.cpp
+src/cards/scene_cards.h
+src/cards/scene_cards.cpp
+src/cards/window_cards.h
+src/cards/window_cards.cpp
+src/cards/cardsinfo_overlay.h
+src/cards/cardsinfo_overlay.cpp
 )
 
 # These are actually unused when building in CMake

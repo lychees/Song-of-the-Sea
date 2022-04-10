@@ -99,6 +99,10 @@ Input::ButtonMappingArray Input::GetDefaultButtonMappings() {
 		{RESET, Keys::F12},
 		{FAST_FORWARD, Keys::F},
 		{FAST_FORWARD_PLUS, Keys::G},
+		{TOGGLE_CARDSINFO, Keys::R},
+		{PREV_CARD, Keys::Q},
+		{SUCC_CARD, Keys::E},
+#ifdef EMSCRIPTEN	
 		{CHAT_FOCUS, Keys::TAB}, // chat inputs
 		{CHAT_UNFOCUS, Keys::TAB}, // chat inputs
 		{CHAT_UP, Keys::UP}, // chat inputs
@@ -112,8 +116,8 @@ Input::ButtonMappingArray Input::GetDefaultButtonMappings() {
 		{CHAT_COPY, Keys::C}, // chat inputs (check for CTRL modifier done separately)
 		{CHAT_PASTE, Keys::V}, // chat inputs (check for CTRL modifier done separately)
 		{CHAT_CTRL, Keys::LCTRL}, // chat inputs
-		{CHAT_CTRL, Keys::RCTRL}, // chat inputs
-
+		{CHAT_CTRL, Keys::RCTRL}, // chat inputs		
+#endif	
 #if defined(USE_MOUSE) && defined(SUPPORT_MOUSE)
 		{DECISION, Keys::MOUSE_LEFT},
 		{CANCEL, Keys::MOUSE_RIGHT},

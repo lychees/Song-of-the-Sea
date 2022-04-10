@@ -49,6 +49,8 @@ public:
 	void SetSaveData(lcf::rpg::SaveActor save);
 	lcf::rpg::SaveActor GetSaveData() const;
 
+	void ReloadDbActor();
+
 	int MaxHpValue() const override;
 
 	int MaxSpValue() const override;
@@ -226,6 +228,13 @@ public:
 	 * @return Attribute rate
 	 */
 	int GetBaseAttributeRate(int attribute_id) const override;
+
+	/**
+	 * Checks if the actor is immune to attribute downshifts.
+	 *
+	 * @return if the actor is immune to attribute downshifts.
+	 */
+	bool IsImmuneToAttributeDownshifts() const override;
 
 	/**
 	 * Gets actor name.
@@ -836,12 +845,12 @@ public:
 	bool HasAttackAll(Weapon weapon = WeaponAll) const override;
 
 	/**
-	 * Tests if the battler has a weapon which ignores evasion.
+	 * Tests if the actor has a weapon which ignores evasion.
 	 *
 	 * @param weapon Which weapons to include in calculating result.
 	 * @return If the actor has weapon that ignores evasion
 	 */
-	bool AttackIgnoresEvasion(Weapon weapon = WeaponAll) const;
+	bool AttackIgnoresEvasion(Weapon weapon = WeaponAll) const override;
 
 	/**
 	 * @return If the actor has equipment that protects against terrain damage.
@@ -849,14 +858,14 @@ public:
 	bool PreventsTerrainDamage() const;
 
 	/**
-	 * @return If the actor has an equipment that protects against critical hits.
+	 * @return If the actor is protected against critical hits.
 	 */
-	bool PreventsCritical() const;
+	bool PreventsCritical() const override;
 
 	/**
-	 * @return If the actor has an equipment that with physical evasion up.
+	 * @return If the actor has an increased physical evasion rate.
 	 */
-	bool HasPhysicalEvasionUp() const;
+	bool HasPhysicalEvasionUp() const override;
 
 	/**
 	 * @return If the actor has an equipment with half sp cost.
@@ -918,6 +927,8 @@ public:
 	void UpdateBattle() override;
 
 	Sprite_Actor* GetActorBattleSprite() const;
+
+	int GetActorAi() const;
 
 private:
 	void AdjustEquipmentStates(const lcf::rpg::Item* item, bool add, bool allow_battle_states);
@@ -1085,6 +1096,10 @@ inline void Game_Actor::SetStrongDefense(bool value) {
 
 inline Sprite_Actor* Game_Actor::GetActorBattleSprite() const {
 	return static_cast<Sprite_Actor*>(Game_Battler::GetBattleSprite());
+}
+
+inline int Game_Actor::GetActorAi() const {
+	return dbActor->easyrpg_actorai;
 }
 
 #endif

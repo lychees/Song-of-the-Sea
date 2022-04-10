@@ -24,6 +24,7 @@
 #include "input.h"
 #include "font.h"
 #include "drawable_mgr.h"
+#include "output.h"
 
 using namespace std::chrono_literals;
 
@@ -75,7 +76,6 @@ void FpsOverlay::Draw(Bitmap& dst) {
 			fps_bitmap->Clear();
 			fps_bitmap->Fill(Color(0, 0, 0, 128));
 			fps_bitmap->TextDraw(1, 0, Color(255, 255, 255, 255), text);
-
 			fps_rect = Rect(0, 0, rect.width + 1, rect.height - 1);
 
 			fps_dirty = false;

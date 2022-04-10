@@ -34,9 +34,12 @@
 #include "scene_save.h"
 #include "scene_map.h"
 #include "utils.h"
-#include "game_multiplayer.h"
-#include "chat_multiplayer.h"
 #include "audio_secache.h"
+#include "feature.h"
+#if defined(INGAME_CHAT)
+#include "multiplayer/chat_multiplayer.h"
+#include "multiplayer/game_multiplayer.h"
+#endif
 
 Game_System::Game_System()
 	: dbsys(&lcf::Data::system)
@@ -136,6 +139,9 @@ void Game_System::BgmFade(int duration, bool clear_current_music) {
 }
 
 void Game_System::SePlay(const lcf::rpg::Sound& se, bool stop_sounds) {
+
+	Output::Debug("sound name: {}", se.name);
+
 	if (se.name.empty()) {
 		return;
 	} else if (se.name == "(OFF)") {
@@ -197,10 +203,8 @@ void Game_System::OnChangeSystemGraphicReady(FileRequestResult* result) {
 	bg_color = Cache::SystemOrBlack()->GetBackgroundColor();
 
 	Scene_Map* scene = (Scene_Map*)Scene::Find(Scene::Map).get();
-
-	if (!scene)
+	if (!scene || !scene->spriteset)
 		return;
-
 	scene->spriteset->SystemGraphicUpdated();
 }
 
@@ -224,8 +228,10 @@ void Game_System::SetSystemGraphic(const std::string& new_system_name,
 
 	if (changed) {
 		ReloadSystemGraphic();
+#if defined(INGAME_CHAT)	
 		Game_Multiplayer::SendSystem(new_system_name);
 		Chat_Multiplayer::refresh();
+#endif		
 	}
 }
 
@@ -584,7 +590,7 @@ void Game_System::OnSeReady(FileRequestResult* result, lcf::rpg::Sound se, bool 
 }
 
 bool Game_System::IsMessageTransparent() {
-	if (Player::IsRPG2k() && Game_Battle::IsBattleRunning()) {
+	if (Feature::HasRpg2kBattleSystem() && Game_Battle::IsBattleRunning()) {
 		return false;
 	}
 

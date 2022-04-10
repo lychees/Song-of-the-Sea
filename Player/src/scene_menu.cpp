@@ -33,7 +33,10 @@
 #include "scene_save.h"
 #include "scene_status.h"
 #include "bitmap.h"
-#include "game_multiplayer_settings_scene.h"
+#include "feature.h"
+#if defined(INGAME_CHAT)
+#include "multiplayer/game_multiplayer_settings_scene.h"
+#endif
 #include "uminouta/scene_crpg_status.h"
 #include "uminouta/scene_quirks.h"
 
@@ -94,7 +97,21 @@ void Scene_Menu::CreateCommandWindow() {
 	} else {
 		for (std::vector<int16_t>::iterator it = lcf::Data::system.menu_commands.begin();
 			it != lcf::Data::system.menu_commands.end(); ++it) {
-				command_options.push_back((CommandOptionType)*it);
+				switch (*it) {
+				case Row:
+					if (Feature::HasRow()) {
+						command_options.push_back((CommandOptionType)*it);
+					}
+					break;
+				case Wait:
+					if (Feature::HasRpg2k3BattleSystem()) {
+						command_options.push_back((CommandOptionType)*it);
+					}
+					break;
+				default:
+					command_options.push_back((CommandOptionType)*it);
+					break;
+				}
 		}
 		//if (Player::debug_flag) {
 			command_options.push_back(Debug);
@@ -243,11 +260,13 @@ void Scene_Menu::UpdateCommand() {
 			Main_Data::game_system->SePlay(Main_Data::game_system->GetSystemSE(Main_Data::game_system->SFX_Decision));
 			Scene::Push(std::make_shared<Scene_End>());
 			break;
+#ifdef EMSCRIPTEN			
 		case Multiplayer:
-			Main_Data::game_system->SePlay(Main_Data::game_system->GetSystemSE(Main_Data::game_system->SFX_Decision));
+			Main_Data::game_system->SePlay(Main_Data::game_system->GetSystemSE(Main_Data::game_system->SFX_Decision));			
 			Scene::Push(std::make_shared<Game_Multiplayer::Scene_MultiplayerSettings>());
 			break;
-		}
+#endif			
+		}		
 	}
 }
 

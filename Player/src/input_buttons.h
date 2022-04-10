@@ -75,6 +75,10 @@ namespace Input {
 		FAST_FORWARD_PLUS,
 		TOGGLE_FULLSCREEN,
 		TOGGLE_ZOOM,
+		TOGGLE_CARDSINFO,
+		PREV_CARD,
+		SUCC_CARD,
+#ifdef EMSCRIPTEN	
 		CHAT_FOCUS, // chat inputs
 		CHAT_UNFOCUS, // chat inputs
 		CHAT_UP, // chat inputs
@@ -87,7 +91,8 @@ namespace Input {
 		CHAT_TOGGLE_GLOBAL, // chat inputs
 		CHAT_COPY, // chat inputs
 		CHAT_PASTE, // chat inputs
-		CHAT_CTRL, // chat inputs
+		CHAT_CTRL, // chat inputs		
+#endif		
 		BUTTON_COUNT
 	};
 
@@ -131,7 +136,11 @@ namespace Input {
 		"FAST_FORWARD_PLUS",
 		"TOGGLE_FULLSCREEN",
 		"TOGGLE_ZOOM",
-		"BUTTON_COUNT");
+		"TOGGLE_CARDSINFO",
+		"PREV_CARD",
+		"SUCC_CARD",
+		"BUTTON_COUNT"
+	);
 
 	constexpr auto kButtonHelp = lcf::makeEnumTags<InputButton>(
 		"Up Direction",
@@ -173,7 +182,8 @@ namespace Input {
 		"Fast forward plus key",
 		"Toggle Fullscreen mode",
 		"Toggle Window Zoom level",
-		"Total Button Count");
+		"Total Button Count",
+		"Toggle the info of the cards display");
 
 	/**
 	 * Return true if the given button is a system button.
@@ -188,6 +198,9 @@ namespace Input {
 			case TOGGLE_ZOOM:
 			case FAST_FORWARD:
 			case FAST_FORWARD_PLUS:
+			case TOGGLE_CARDSINFO:
+			case PREV_CARD:
+			case SUCC_CARD:
 				return true;
 			default:
 				return false;

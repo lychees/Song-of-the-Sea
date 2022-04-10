@@ -40,8 +40,13 @@ namespace Graphics {
 
 	std::unique_ptr<MessageOverlay> message_overlay;
 	std::unique_ptr<FpsOverlay> fps_overlay;
+	std::unique_ptr<CardsInfoOverlay> cardsinfo_overlay;
 
 	std::string window_title_key;
+}
+
+void Graphics::setCardsInfo(bool value) {
+	cardsinfo_overlay->SetDrawCardsinfo(value);
 }
 
 void Graphics::Init() {
@@ -50,26 +55,30 @@ void Graphics::Init() {
 
 	message_overlay = std::make_unique<MessageOverlay>();
 	fps_overlay = std::make_unique<FpsOverlay>();
+	cardsinfo_overlay = std::make_unique<CardsInfoOverlay>();
 }
 
 void Graphics::Quit() {
 	fps_overlay.reset();
 	message_overlay.reset();
+	cardsinfo_overlay.reset();
 
-	Cache::Clear();
+	Cache::ClearAll();
 
 	Scene::PopUntil(Scene::Null);
 	Scene::Pop();
 }
 
 void Graphics::Update() {
-	BitmapRef disp = DisplayUi->GetDisplaySurface();
 	fps_overlay->SetDrawFps(DisplayUi->RenderFps());
+	cardsinfo_overlay->SetDrawCardsinfo(DisplayUi->RenderCardsinfo());
+	// cardsinfo_overlay->SetDrawFps(true);
 
 	//Update Graphics:
 	if (fps_overlay->Update()) {
 		UpdateTitle();
 	}
+	cardsinfo_overlay->Update();
 	message_overlay->Update();
 }
 
@@ -149,5 +158,9 @@ std::shared_ptr<Scene> Graphics::UpdateSceneCallback() {
 
 MessageOverlay& Graphics::GetMessageOverlay() {
 	return *message_overlay;
+}
+
+CardsInfoOverlay& Graphics::GetCardsinfoOverlay() {
+	return *cardsinfo_overlay;
 }
 

@@ -1,0 +1,306 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GAME_NAME 1.0\n"
+"Language-Team: YOUR NAME <mail@your.address>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-CreatedBy: LcfTrans"
+
+#. ID 6, Page 1, Line 2, Pos (42,9)
+#. ID 8, Page 1, Line 2, Pos (43,9)
+#. ID 9, Page 1, Line 2, Pos (41,9)
+#. ID 10, Page 1, Line 2, Pos (44,9)
+msgid "于是，一行人出城前往火车站，乘车前往学院。"
+msgstr ""
+
+#. ID 11, Page 1, Line 1, Pos (21,32)
+msgid "这里是被多罗河分为南城和北城的库尔多。"
+msgstr ""
+
+#. ID 12, Page 1, Line 1, Pos (41,31)
+msgid ""
+"我家住在南城，在库尔多桥竣工之前，\n"
+"只能靠坐船来往两地，\n"
+"这个世界一直在发生着变化呀 ..."
+msgstr ""
+
+#. ID 13, Page 1, Line 1, Pos (45,34)
+#. ID 34, Page 1, Line 58, Pos (30,31)
+msgid "..."
+msgstr ""
+
+#. ID 14, Page 1, Line 1, Pos (62,24)
+msgid ""
+"这里是总督大人的官邸，\n"
+"无关人员不可进入。"
+msgstr ""
+
+#. ID 14, Page 1, Line 4, Pos (62,24)
+msgid ""
+"偭偰丄偁傟丠\n"
+"偁傫偨丄偳偙偐傜擖偭偨傫偩丠両\n"
+"弌偰偭偨 弌偰偭偨両"
+msgstr ""
+
+#. ID 22, Page 1, Line 3, Pos (10,29)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"镇子上好热闹呀。。。"
+msgstr ""
+
+#. ID 22, Page 1, Line 5, Pos (10,29)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"\\n[2]，这座城市叫做什么名字？"
+msgstr ""
+
+#. ID 22, Page 1, Line 8, Pos (10,29)
+msgid ""
+"\\c[1]\\n[2]:\\c[0]\n"
+"回殿下，这里港口城镇库尔多，虽说是城镇，\n"
+"但几年前时这里还只是一片荒无人烟的沙洲，"
+msgstr ""
+
+#. ID 22, Page 1, Line 11, Pos (10,29)
+msgid ""
+"\\c[1]\\n[2]:\\c[0]\n"
+"直到最近，各地的商人在此地聚集，\n"
+"才逐渐热闹起来。"
+msgstr ""
+
+#. ID 22, Page 1, Line 15, Pos (10,29)
+msgid ""
+"\\c[1]\\n[1]:\\c[0]\n"
+"这样啊... \n"
+"天色还早，不如我们去镇子上逛逛吧！"
+msgstr ""
+
+#. ID 22, Page 1, Line 19, Pos (10,29)
+msgid ""
+"\\c[1]\\n[2]:\\c[0]\n"
+"殿下，我们应该先行前往城镇中央的客栈订房，\n"
+"其它国家的学生近日或许也会先经过此地，"
+msgstr ""
+
+#. ID 22, Page 1, Line 22, Pos (10,29)
+msgid ""
+"\\c[1]\\n[2]:\\c[0]\n"
+"去晚了若是没有房间，殿下和奴家可就要露宿街头了。"
+msgstr ""
+
+#. ID 22, Page 1, Line 25, Pos (10,29)
+msgid ""
+"\\c[1]\\n[1]:\\c[0]\n"
+"没事，我自会留意时间的。"
+msgstr ""
+
+#. ID 23, Page 1, Line 1, Pos (33,29)
+msgid ""
+"（此处应有昆特牌）\n"
+""
+msgstr ""
+
+#. ID 24, Page 1, Line 1, Pos (32,30)
+#. ID 28, Page 1, Line 1, Pos (34,30)
+msgid "（此处应有昆特牌）"
+msgstr ""
+
+#. ID 30, Page 1, Line 1, Pos (40,11)
+#. ID 31, Page 1, Line 1, Pos (45,11)
+msgid "欢迎来到库尔多。"
+msgstr ""
+
+#. ID 32, Page 1, Line 1, Pos (55,32)
+msgid "哈哈哈，看样子精灵小姐是第一次来库尔多吧，"
+msgstr ""
+
+#. ID 32, Page 1, Line 2, Pos (55,32)
+msgid ""
+"可别小看了这座城市，在这里\n"
+"你甚至能买到一些王都也没有的商品。"
+msgstr ""
+
+#. ID 33, Page 1, Line 1, Pos (51,21)
+msgid ""
+"南面的城镇原先叫做库尔图，\n"
+"近年随着城市的扩大才规划进城区。"
+msgstr ""
+
+#. ID 34, Page 1, Line 2, Pos (30,31)
+msgid ""
+"\\c[1]\\n[1]\\c[0]\n"
+"「欸。。。？」"
+msgstr ""
+
+#. ID 34, Page 1, Line 5, Pos (30,31)
+msgid ""
+"\\c[1]\\n[1]\\c[0]\n"
+"「等等，前面的孩子们莫不是在玩？\n"
+"  \\c[4]旅法牌\\c[0]！！」"
+msgstr ""
+
+#. ID 34, Page 1, Line 13, Pos (30,31)
+msgid ""
+"\\c[1]\\n[2]\\c[0]\n"
+"「殿下，恕属下冒昧，请问... \n"
+"  什么是律法牌喵？」"
+msgstr ""
+
+#. ID 34, Page 1, Line 18, Pos (30,31)
+msgid ""
+"\\c[1]\\n[1]\\c[0]\n"
+"「不是律法牌，是\\c[4]旅法牌\\c[0]！\n"
+"  相传是当年某位厉害的大魔法师为了传授\n"
+"  魔物特性与魔法技巧给自己的爱徒，"
+msgstr ""
+
+#. ID 34, Page 1, Line 23, Pos (30,31)
+msgid ""
+"「而将自己旅行和作战经历进行归纳总结所制成的\n"
+"  集换式卡牌游戏！现在在大陆的魔法师之间很流行的，\n"
+"  啊啊啊啊，不过创始人并没有给出书面的规则书，因而\n"
+"  各地都有着地方规则，加之部分卡片的平衡性糟糕，"
+msgstr ""
+
+#. ID 34, Page 1, Line 27, Pos (30,31)
+msgid ""
+"「此前社区之间一直各自为阵，没有达成共识。\n"
+"  近年来各地魔法师们成立了\\c[4]旅法师协会\\c[0]，用来\n"
+"  对卡牌的平衡性做出统一的规范和调整，并且还允许\n"
+"  魔法师们根据自己的见闻，设计和上传自己的卡牌呢！"
+msgstr ""
+
+#. ID 34, Page 1, Line 31, Pos (30,31)
+msgid ""
+"「总之，很久以前就是再魔法师之间流行的游戏，\n"
+"  没想到现在已经推广到民众之间了！」"
+msgstr ""
+
+#. ID 34, Page 1, Line 34, Pos (30,31)
+msgid ""
+"\\c[1]\\n[2]\\c[0]\n"
+"「是。。是这样啊。。（想不到殿下平日里\n"
+"  文质彬彬，居然还会喜欢这种明显是哄骗 \n"
+"  小孩子的游戏。。。）（叹气）」"
+msgstr ""
+
+#. ID 34, Page 1, Line 39, Pos (30,31)
+msgid ""
+"\\c[1]\\n[1]\\c[0]\n"
+"「呐，\\n[2]，我想留在此地稍微看看本地\n"
+"  旅法牌的规则书，可以拜托\\n[2]，\n"
+"  先行去订旅店的房间吗？」"
+msgstr ""
+
+#. ID 34, Page 1, Line 44, Pos (30,31)
+msgid ""
+"\\c[1]\\n[2]\\c[0]\n"
+"「承知。」"
+msgstr ""
+
+#. ID 34, Page 1, Line 47, Pos (30,31)
+msgid ""
+"\\c[1]\\n[1]:\\c[0]\n"
+"「嘎嘎嘎嘎，谢谢你啦！」"
+msgstr ""
+
+#. ID 34, Page 1, Line 52, Pos (30,31)
+msgid ""
+"说罢，\\n[1]便从口袋中摸出一副卡组，\n"
+"硬是凑到地上加入到了孩子们的游戏之中 ..."
+msgstr ""
+
+#. ID 34, Page 1, Line 55, Pos (30,31)
+msgid ""
+"\\c[1]\\n[2]\\c[0]\n"
+"那，那么奴家便先行告退了，请殿下尽情\n"
+"娱乐，再属下回来之前不要乱跑..."
+msgstr ""
+
+#. ID 34, Page 1, Line 59, Pos (30,31)
+msgid "（并没有被理睬。）"
+msgstr ""
+
+#. ID 34, Page 1, Line 61, Pos (30,31)
+#. Contains choice at line 2 (2 options)
+msgid "（要留在此地围观打牌吗？）"
+msgstr ""
+
+#. ID 34, Page 1, Line 62, Pos (30,31)
+#. Choice (2 options, embedded in a message)
+msgid ""
+"扮演\\n[1]熟悉本地旅法牌的规则\n"
+"扮演\\n[2]前往城镇中心的旅订房"
+msgstr ""
+
+#. ID 34, Page 1, Line 66, Pos (30,31)
+msgid "于是，艾莉尔打了一会牌。"
+msgstr ""
+
+#. ID 34, Page 1, Line 76, Pos (30,31)
+msgid ""
+"\\c[1]リリス:\\c[0]\n"
+"殿下，房间已经订好了。"
+msgstr ""
+
+#. ID 34, Page 1, Line 78, Pos (30,31)
+msgid ""
+"\\c[1]リリス:\\c[0]\n"
+"请殿下随我去旅店休息吧。"
+msgstr ""
+
+#. ID 34, Page 1, Line 81, Pos (30,31)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"嗯，好的。"
+msgstr ""
+
+#. ID 34, Page 1, Line 86, Pos (30,31)
+msgid ""
+"\\c[1]リリス:\\c[0]\n"
+"（总之，先去找旅店订房过夜吧。。"
+msgstr ""
+
+#. ID 35, Page 2, Line 3, Pos (33,31)
+msgid "笨蛋，5 费打勾勒姆，装备炼金术师的外壳的 Combo 啊。。。"
+msgstr ""
+
+#. ID 35, Page 2, Line 7, Pos (33,31)
+msgid "不对不对，打这张。。"
+msgstr ""
+
+#. ID 35, Page 2, Line 10, Pos (33,31)
+msgid "你先解它场啊。。。"
+msgstr ""
+
+#. ID 35, Page 3, Line 2, Pos (33,31)
+msgid ""
+"\\c[1]\\n[2]\\c[0]\n"
+"「殿下，房间已经定好了，\n"
+"  需要回房休息吗？」"
+msgstr ""
+
+#. ID 35, Page 3, Line 6, Pos (33,31)
+msgid ""
+"\\c[1]\\n[1]\\c[0]\n"
+"「可恶，我又输了。。」"
+msgstr ""
+
+#. ID 35, Page 3, Line 9, Pos (33,31)
+msgid ""
+"\\c[1]\\n[2]\\c[0]\n"
+"「殿下。。。」"
+msgstr ""
+
+#. ID 35, Page 3, Line 12, Pos (33,31)
+msgid ""
+"\\c[1]\\n[1]\\c[0]\n"
+"「啊啊啊，你回来啦，那我们先回去吧。」"
+msgstr ""
+
+#. ID 35, Page 3, Line 14, Pos (33,31)
+msgid "\\n[1]加入队伍。"
+msgstr ""
+

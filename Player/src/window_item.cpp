@@ -25,6 +25,7 @@
 #include <lcf/reader_util.h>
 #include "game_battle.h"
 #include "output.h"
+#include "cards/cards.h"
 
 Window_Item::Window_Item(int ix, int iy, int iwidth, int iheight) :
 	Window_Selectable(ix, iy, iwidth, iheight) {
@@ -129,6 +130,15 @@ void Window_Item::DrawItem(int index) {
 }
 
 void Window_Item::UpdateHelp() {
+	/*std::string item_name = std::string(GetItem()->name);
+	
+	if (item_name.substr(0, 5) == ".card"){
+		item_name = item_name.substr(6);
+		auto item_monster = Cards::monster(item_name);
+		help_window->SetText(item_monster.info());
+	} else {
+		help_window->SetText(GetItem() == nullptr ? "" : ToString(GetItem()->description));
+	} */
 	help_window->SetText(GetItem() == nullptr ? "" : ToString(GetItem()->description));
 }
 

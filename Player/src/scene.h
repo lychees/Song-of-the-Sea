@@ -54,7 +54,7 @@ public:
 		Name,
 		Gameover,
 		Debug,
-		Multiplayer,
+		Multiplayer,		
 		Logo,
 		Order,
 		GameBrowser,
@@ -263,6 +263,7 @@ public:
 
 	virtual void OnPartyChanged(Game_Actor* actor, bool add);
 	virtual void OnEventHpChanged(Game_Battler* battler, int hp);
+	virtual void OnTranslationChanged();
 
 protected:
 	using AsyncContinuation = std::function<void(void)>;

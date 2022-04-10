@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GAME_NAME 1.0\n"
+"Language-Team: YOUR NAME <mail@your.address>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-CreatedBy: LcfTrans"
+
+#. ID 3, Page 2, Line 1, Pos (16,18)
+msgid "欢迎光临！请问是刚刚前来订房的客人吗？"
+msgstr ""
+
+#. ID 3, Page 2, Line 2, Pos (16,18)
+#. Contains choice at line 2 (2 options)
+msgid "请跟我来，这是本店最高级的客房。如果需要服务请按铃。"
+msgstr ""
+
+#. ID 3, Page 2, Line 3, Pos (16,18)
+#. Choice (2 options, embedded in a message)
+msgid ""
+"招呼其它人一起住下\n"
+"等等再说"
+msgstr ""
+
+#. ID 3, Page 2, Line 6, Pos (16,18)
+msgid ""
+"于是，一行人在旅店住下，老板似乎认出我们身份贵重，\n"
+"不仅服务更加体贴细致，而且还准备了单独的房间。"
+msgstr ""
+
+#. ID 3, Page 2, Line 8, Pos (16,18)
+msgid "直到第二天早晨。。。"
+msgstr ""
+
+#. ID 3, Page 2, Line 11, Pos (16,18)
+msgid "接下来，就是前往城北的出城口，然后去火车站了。"
+msgstr ""
+
+#. ID 3, Page 3, Line 1, Pos (16,18)
+msgid "欢迎光临！请问需要住宿吗？"
+msgstr ""
+
+#. ID 3, Page 3, Line 2, Pos (16,18)
+#. Contains choice at line 3 (2 options)
+msgid ""
+"本店提供优质住宿服务，选用上等棉质床单，柔软舒适，\n"
+"每日清洁保持卫生，还有浴室提供使用。"
+msgstr ""
+
+#. ID 3, Page 3, Line 4, Pos (16,18)
+#. Choice (2 options, embedded in a message)
+msgid ""
+"订下房间\n"
+"再等等"
+msgstr ""
+
+#. ID 3, Page 3, Line 6, Pos (16,18)
+msgid "好哦，稍等呢，正在准备房间，再次感谢您的光临！"
+msgstr ""
+
+#. ID 3, Page 3, Line 9, Pos (16,18)
+msgid "（订好房间了，该回去接公主殿下了。）"
+msgstr ""
+

@@ -33,8 +33,8 @@
 #include "rand.h"
 #include <cmath>
 #include <cassert>
-#include "game_multiplayer_other_player.h"
-#include "game_multiplayer_my_data.h"
+#include "multiplayer/game_multiplayer_other_player.h"
+#include "multiplayer/game_multiplayer_my_data.h"
 
 Game_Character::Game_Character(Type type, lcf::rpg::SaveMapEventBase* d) :
 	_type(type), _data(d)
@@ -211,8 +211,10 @@ void Game_Character::UpdateAnimation() {
 		IncAnimFrame();
 		return;
 	}
+	#ifdef EMSCRIPTEN
 	if(GetType() == Player && oldframe - data()->anim_frame)
 		Game_Multiplayer::AnimFrameSync(data()->anim_frame);
+	#endif
 }
 
 void Game_Character::UpdateFlash() {
@@ -220,7 +222,9 @@ void Game_Character::UpdateFlash() {
 	static Color prev_c = Color(255, 255, 255, 255);
 	static int prev_p = -1;
 	if(GetType() == Player) {
+		#ifdef EMSCRIPTEN
 		Game_Multiplayer::FlashPauseSync(prev_t == data()->flash_time_left && data()->flash_time_left && prev_c == GetFlashColor() && prev_p == GetFlashLevel());
+		#endif
 		prev_t = data()->flash_time_left;
 		if(prev_t == 0) prev_t = -1;
 		prev_c = GetFlashColor();
@@ -431,7 +435,9 @@ void Game_Character::UpdateMoveRoute(int32_t& current_index, const lcf::rpg::Mov
 						sound.tempo = move_command.parameter_b;
 						sound.balance = move_command.parameter_c;
 						Main_Data::game_system->SePlay(sound);
+						#ifdef EMSCRIPTEN
 						Game_Multiplayer::SePlaySync(sound);
+						#endif
 					}
 					break;
 				case Code::walk_everywhere_on:
@@ -477,10 +483,10 @@ bool Game_Character::Move(int dir) {
 	}
 
 	bool move_success = false;
-	if(_type != Event || !Game_Multiplayer::MyData::syncnpc) {
+	//if(_type != Event || !Game_Multiplayer::MyData::syncnpc) {
 		SetDirection(dir);
 		UpdateFacing();
-	}
+	//}
 
 	const auto x = GetX();
 	const auto y = GetY();
@@ -505,7 +511,9 @@ bool Game_Character::Move(int dir) {
 	const auto new_y = Game_Map::RoundY(y + dy);
 
 	if(_type == Event && Game_Multiplayer::MyData::syncnpc) {
+		#ifdef EMSCRIPTEN
 		Game_Multiplayer::NpcMoveSync(new_x, new_y, GetDirection(), ((Game_Event*)this)->GetId());
+		#endif
 	} else {
 		SetX(new_x);
 		SetY(new_y);
@@ -513,9 +521,11 @@ bool Game_Character::Move(int dir) {
 	}
 
 	if (_type == Player) {
+		#ifdef EMSCRIPTEN
 		Game_Multiplayer::MainPlayerMoved(dir);
+		#endif
 	}
-	
+
 	return true;
 }
 
@@ -540,10 +550,10 @@ void Game_Character::Turn90DegreeLeftOrRight() {
 }
 
 int Game_Character::GetDirectionToHero() {
-	int px, py;
-
+	int px = GetX(), py = GetY();
+#ifdef EMSCRIPTEN
 	Game_Multiplayer::GetClosestPlayerCoords(GetX(), GetY(), px, py);
-
+#endif
 	int sx = GetX() - px;//DistanceXfromPlayer();
 	int sy = GetY() - py;//DistanceYfromPlayer();
 
@@ -555,10 +565,10 @@ int Game_Character::GetDirectionToHero() {
 }
 
 int Game_Character::GetDirectionAwayHero() {
-	int px, py;
-
+	int px = GetX(), py = GetY();
+#ifdef EMSCRIPTEN
 	Game_Multiplayer::GetClosestPlayerCoords(GetX(), GetY(), px, py);
-
+#endif
 	int sx = GetX() - px;//DistanceXfromPlayer();
 	int sy = GetY() - py;//DistanceYfromPlayer();
 
@@ -874,7 +884,9 @@ void Game_Character::Flash(int r, int g, int b, int power, int frames) {
 	data()->flash_current_level = power;
 	data()->flash_time_left = frames;
 	if(GetType() == Player) {
+		#ifdef EMSCRIPTEN
 		Game_Multiplayer::FlashSync(r, g, b, power, frames);
+		#endif
 	}
 }
 

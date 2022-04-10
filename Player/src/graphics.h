@@ -24,6 +24,7 @@
 #include "drawable.h"
 #include "drawable_list.h"
 #include "game_clock.h"
+#include "cards/cardsinfo_overlay.h"
 
 class MessageOverlay;
 class Scene;
@@ -54,12 +55,15 @@ namespace Graphics {
 
 	std::shared_ptr<Scene> UpdateSceneCallback();
 
+	void setCardsInfo(bool value);
+
 	/**
 	 * Returns a handle to the message overlay.
 	 * Only used by Output to put messages.
 	 *
 	 * @return message overlay
 	 */
+	CardsInfoOverlay& GetCardsinfoOverlay();
 	MessageOverlay& GetMessageOverlay();
 }
 

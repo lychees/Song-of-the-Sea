@@ -23,6 +23,7 @@
 #include "scene_debug.h"
 #include "main_data.h"
 #include "game_map.h"
+#include "game_actors.h"
 #include "game_message.h"
 #include "game_party.h"
 #include "game_player.h"
@@ -219,6 +220,13 @@ void Scene_Map::DrawBackground(Bitmap& dst) {
 	}
 }
 
+void Scene_Map::OnTranslationChanged() {
+	// FIXME: Map events are not reloaded
+	// They require leaving and reentering the map
+	Scene::OnTranslationChanged();
+	Game_Map::ReloadChipset();
+}
+
 void Scene_Map::PreUpdate(MapUpdateAsyncContext& actx) {
 	Game_Map::Update(actx, true);
 	UpdateGraphics();
@@ -319,7 +327,7 @@ void Scene_Map::FinishPendingTeleport(TeleportParams tp) {
 	Main_Data::game_player->PerformTeleport();
 
 	if (Game_Map::GetMapId() != old_map_id) {
-		spriteset.reset(new Spriteset_Map());
+		spriteset->Refresh();
 	}
 	FinishPendingTeleport2(MapUpdateAsyncContext(), tp);
 }
@@ -384,7 +392,7 @@ void Scene_Map::PerformAsyncTeleport(TeleportTarget original_tt) {
 	Main_Data::game_player->PerformTeleport();
 	Main_Data::game_player->ResetTeleportTarget(original_tt);
 
-	spriteset.reset(new Spriteset_Map());
+	spriteset->Refresh();
 
 	AsyncNext(std::move(map_async_continuation));
 }

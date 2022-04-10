@@ -42,6 +42,8 @@ class Spriteset_Map {
 public:
 	Spriteset_Map();
 
+	void Refresh();
+
 	void Update();
 
 	/**
@@ -53,6 +55,11 @@ public:
 	 * Notifies that the map's chipset has changed.
 	 */
 	void ChipsetUpdated();
+
+	/**
+	 * Notifies that the map's parallax has changed.
+	 */
+	void ParallaxUpdated();
 
 	/**
 	 * Notifies that the System graphic has changed.
@@ -86,7 +93,7 @@ protected:
 	std::unique_ptr<Screen> screen;
 	std::unique_ptr<Frame> frame;
 
-	//void CreateSprite(Game_Character* character, bool create_x_clone, bool create_y_clone);
+
 	void CreateAirshipShadowSprite(bool create_x_clone, bool create_y_clone);
 
 	void OnTilemapSpriteReady(FileRequestResult*);

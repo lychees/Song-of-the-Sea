@@ -1,0 +1,208 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GAME_NAME 1.0\n"
+"Language-Team: YOUR NAME <mail@your.address>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-CreatedBy: LcfTrans"
+
+#. ID 2, Page 1, Line 7, Pos (2,0)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"今天的风儿，有点喧嚣呢。"
+msgstr ""
+
+#. ID 2, Page 1, Line 14, Pos (2,0)
+msgid "别过来啊..."
+msgstr ""
+
+#. ID 2, Page 1, Line 15, Pos (2,0)
+msgid "再过来，再过来我可要叫了！"
+msgstr ""
+
+#. ID 2, Page 1, Line 20, Pos (2,0)
+msgid "嘿嘿，你叫吧，你叫破了喉咙也不会有人理你的。"
+msgstr ""
+
+#. ID 2, Page 1, Line 28, Pos (2,0)
+msgid "不要啊。。。"
+msgstr ""
+
+#. ID 2, Page 1, Line 45, Pos (2,0)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"发生什么事了。。。"
+msgstr ""
+
+#. ID 2, Page 1, Line 59, Pos (2,0)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"可恶，又是这些帝国士兵..."
+msgstr ""
+
+#. ID 2, Page 1, Line 62, Pos (2,0)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"住手！"
+msgstr ""
+
+#. ID 2, Page 1, Line 64, Pos (2,0)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"你们这些家伙..."
+msgstr ""
+
+#. ID 2, Page 1, Line 70, Pos (2,0)
+msgid "你又是哪里来的小孩子。"
+msgstr ""
+
+#. ID 2, Page 1, Line 71, Pos (2,0)
+msgid "快闪边去，别让本大爷不客气。"
+msgstr ""
+
+#. ID 2, Page 1, Line 82, Pos (2,0)
+msgid "好痛啊，可恶的黄毛丫头。。。"
+msgstr ""
+
+#. ID 2, Page 1, Line 86, Pos (2,0)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"你们有多少人..."
+msgstr ""
+
+#. ID 2, Page 1, Line 90, Pos (2,0)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"直接来吧！"
+msgstr ""
+
+#. ID 3, Page 1, Line 6, Pos (1,0)
+msgid ""
+"遥远的安琪拉群岛，远离大陆的世外之地。\n"
+"从史前时代开始，这片水域附近就生活着\n"
+"与其它大陆截然不同的群落，"
+msgstr ""
+
+#. ID 3, Page 1, Line 9, Pos (1,0)
+msgid "这片土地，世代被生活在这里的海之精灵守护。"
+msgstr ""
+
+#. ID 3, Page 1, Line 10, Pos (1,0)
+msgid ""
+"这份宁静，在产业革命的到来之后，被逐渐打破，\n"
+"一支又一支帝国的船舰建立了这片海域与大陆的航线，\n"
+"伴随着与繁荣与文明同时而来的也有一丝不安的气氛。"
+msgstr ""
+
+#. ID 3, Page 1, Line 13, Pos (1,0)
+msgid ""
+"安琪拉群岛年少的长公主——艾莉尔，\n"
+"一如往常一样，在海边与小动物们游玩，"
+msgstr ""
+
+#. ID 3, Page 1, Line 15, Pos (1,0)
+msgid ""
+"我们的故事就从这里开始，\n"
+"此刻，她还不知道，未来等待她的命运将是如何..."
+msgstr ""
+
+#. ID 7, Page 1, Line 5, Pos (29,36)
+msgid "咕咕！..."
+msgstr ""
+
+#. ID 7, Page 1, Line 7, Pos (29,36)
+msgid "咕咕！QWQ"
+msgstr ""
+
+#. ID 7, Page 1, Line 9, Pos (29,36)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"你受伤了！\n"
+"别动，快让我给你包扎。"
+msgstr ""
+
+#. ID 7, Page 1, Line 13, Pos (29,36)
+msgid "咕咕。。。"
+msgstr ""
+
+#. ID 7, Page 1, Line 15, Pos (29,36)
+msgid "（安静地接受了药草包扎）"
+msgstr ""
+
+#. ID 9, Page 1, Line 5, Pos (28,36)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"你没事吧。。。"
+msgstr ""
+
+#. ID 9, Page 1, Line 8, Pos (28,36)
+msgid ""
+"\\c[1] :\\c[0]\n"
+"没事。。。谢谢您。。。"
+msgstr ""
+
+#. ID 9, Page 1, Line 11, Pos (28,36)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"你受伤了，要包扎一下吗？"
+msgstr ""
+
+#. ID 9, Page 1, Line 14, Pos (28,36)
+msgid ""
+"\\c[1] :\\c[0]\n"
+"啊。。嗯。。没事。。\n"
+"谢谢您救了我。。。"
+msgstr ""
+
+#. ID 24, Page 1, Line 7, Pos (3,49)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"是谁！"
+msgstr ""
+
+#. ID 24, Page 1, Line 12, Pos (3,49)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"要赶快给她治疗！"
+msgstr ""
+
+#. ID 24, Page 1, Line 14, Pos (3,49)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"哈啊~啊啦~啦啦啦~（歌唱）"
+msgstr ""
+
+#. ID 24, Page 1, Line 17, Pos (3,49)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"这样就好。。。"
+msgstr ""
+
+#. ID 24, Page 1, Line 36, Pos (3,49)
+msgid "哪来的小丫头，竟敢对我们的兄弟出手！"
+msgstr ""
+
+#. ID 24, Page 1, Line 38, Pos (3,49)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"明明是你们欺压平民！野蛮的帝国军！"
+msgstr ""
+
+#. ID 24, Page 1, Line 49, Pos (3,49)
+msgid "可恶的小丫头！唔好痛。。"
+msgstr ""
+
+#. ID 24, Page 1, Line 54, Pos (3,49)
+msgid "住手！所有人都停下来！"
+msgstr ""
+
+#. ID 24, Page 1, Line 55, Pos (3,49)
+msgid "帝国士兵，请你们原地休整，会有其他士兵带你们离开。"
+msgstr ""
+
+#. ID 24, Page 1, Line 56, Pos (3,49)
+msgid "公主殿下！请和我们走一趟！"
+msgstr ""
+

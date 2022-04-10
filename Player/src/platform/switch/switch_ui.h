@@ -18,8 +18,6 @@
 #ifndef EP_PLATFORM_SWITCH_UI_H
 #define EP_PLATFORM_SWITCH_UI_H
 
-#ifdef __SWITCH__
-
 // Headers
 #include "baseui.h"
 #include "color.h"
@@ -65,15 +63,13 @@ public:
 
 private:
 	BitmapRef touch_ui;
-	bool update_ui = true;
-	int ui_mode = 0;
+	PadState pad;
+	HidTouchScreenState touch = {0};
 
 #ifdef SUPPORT_AUDIO
 	std::unique_ptr<AudioInterface> audio_;
 #endif
 
 };
-
-#endif
 
 #endif

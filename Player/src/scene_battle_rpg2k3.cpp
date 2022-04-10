@@ -49,6 +49,7 @@
 #include "enemyai.h"
 #include <algorithm>
 #include <memory>
+#include "feature.h"
 
 Scene_Battle_Rpg2k3::Scene_Battle_Rpg2k3(const BattleArgs& args) :
 	Scene_Battle(args),
@@ -592,7 +593,7 @@ std::vector<std::string> Scene_Battle_Rpg2k3::GetBattleCommandNames(const Game_A
 			commands.push_back(ToString(cmd->name));
 		}
 	}
-	if (lcf::Data::battlecommands.easyrpg_enable_battle_row_command) {
+	if (Feature::HasRow() && lcf::Data::battlecommands.easyrpg_enable_battle_row_command) {
 		commands.push_back(ToString(lcf::Data::terms.row));
 	}
 
@@ -774,7 +775,11 @@ void Scene_Battle_Rpg2k3::CreateEnemyActions() {
 	for (auto* enemy: Main_Data::game_enemyparty->GetEnemies()) {
 		if (enemy->IsAtbGaugeFull() && !enemy->GetBattleAlgorithm()) {
 			if (!EnemyAi::SetStateRestrictedAction(*enemy)) {
-				enemyai_algo->SetEnemyAiAction(*enemy);
+				if (enemy->GetEnemyAi() == -1) {
+					enemyai_algos[default_enemyai_algo]->SetEnemyAiAction(*enemy);
+				} else {
+					enemyai_algos[enemy->GetEnemyAi()]->SetEnemyAiAction(*enemy);
+				}
 			}
 			assert(enemy->GetBattleAlgorithm() != nullptr);
 			ActionSelectedCallback(enemy);
@@ -816,7 +821,11 @@ void Scene_Battle_Rpg2k3::CreateActorAutoActions() {
 		if (random_target) {
 			actor->SetBattleAlgorithm(std::make_shared<Game_BattleAlgorithm::Normal>(actor, random_target));
 		} else {
-			this->autobattle_algo->SetAutoBattleAction(*actor);
+			if (actor->GetActorAi() == -1) {
+				this->autobattle_algos[default_autobattle_algo]->SetAutoBattleAction(*actor);
+			} else {
+				this->autobattle_algos[actor->GetActorAi()]->SetAutoBattleAction(*actor);
+			}
 			assert(actor->GetBattleAlgorithm() != nullptr);
 		}
 
@@ -1356,7 +1365,7 @@ Scene_Battle_Rpg2k3::SceneActionReturn Scene_Battle_Rpg2k3::ProcessSceneActionCo
 		if (Input::IsTriggered(Input::DECISION)) {
 			int index = command_window->GetIndex();
 			// Row command always uses the last index
-			if (!lcf::Data::battlecommands.easyrpg_enable_battle_row_command || index < command_window->GetRowMax() - 1) {
+			if (!Feature::HasRow() || !lcf::Data::battlecommands.easyrpg_enable_battle_row_command || index < command_window->GetRowMax() - 1) {
 				const auto* command = active_actor->GetBattleCommand(index);
 
 				if (command) {

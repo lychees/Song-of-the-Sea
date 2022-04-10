@@ -1,0 +1,119 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GAME_NAME 1.0\n"
+"Language-Team: YOUR NAME <mail@your.address>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-CreatedBy: LcfTrans"
+
+#. ID 14, Page 1, Line 5, Pos (0,0)
+msgid ""
+"因为与人类使团的士兵起冲突，\n"
+"艾莉尔被母皇大人召回皇宫，\n"
+"面临她的将是怎样的惩罚呢？"
+msgstr ""
+
+#. ID 14, Page 1, Line 8, Pos (0,0)
+msgid ""
+"前来押送艾莉尔的卫兵，\n"
+"面对这种情况，也不敢轻举妄动。"
+msgstr ""
+
+#. ID 14, Page 1, Line 12, Pos (0,0)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"放开我 ..."
+msgstr ""
+
+#. ID 14, Page 1, Line 14, Pos (0,0)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"放开我，我自己会走路。"
+msgstr ""
+
+#. ID 14, Page 1, Line 17, Pos (0,0)
+msgid ""
+"\\c[1]卫兵:\\c[0]\n"
+"公主殿下，请您冷静一点 ..."
+msgstr ""
+
+#. ID 14, Page 1, Line 22, Pos (0,0)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"母上大人，恕我无理，我实在不能理解，\n"
+"您为什么要一再阻止我处理掉那些外来的人类！"
+msgstr ""
+
+#. ID 14, Page 1, Line 25, Pos (0,0)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"他们这些年来在我们的土地上带来的麻烦，\n"
+"难道还不够多吗？"
+msgstr ""
+
+#. ID 14, Page 1, Line 35, Pos (0,0)
+msgid ""
+"\\c[1]クイーン:\\c[0]\n"
+"住口！艾莉尔，我让你好好在房间和师傅读书，\n"
+"依然我行我素，顽劣不改，这次已经闯下了大祸。"
+msgstr ""
+
+#. ID 14, Page 1, Line 38, Pos (0,0)
+msgid ""
+"\\c[1]クイーン:\\c[0]\n"
+"看来我只有将你关进地下禁闭了，希望你能够好好反省..."
+msgstr ""
+
+#. ID 14, Page 1, Line 41, Pos (0,0)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"禁闭... 为什么要这么对待我..."
+msgstr ""
+
+#. ID 14, Page 1, Line 43, Pos (0,0)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"我所作的一切，只是希望守护安琪拉平静和安宁..."
+msgstr ""
+
+#. ID 14, Page 1, Line 54, Pos (0,0)
+msgid ""
+"\\c[1]クラウディア:\\c[0]\n"
+"母亲大人，姐姐说得也有道理，那些人类自从上次签订贸易条约之后，\n"
+"在沿岸已经建立起了越来越多的定居点，与当地居民的冲突也越来越\n"
+"多..."
+msgstr ""
+
+#. ID 14, Page 1, Line 58, Pos (0,0)
+msgid ""
+"\\c[1]クラウディア:\\c[0]\n"
+"这一次就放过姐姐吧..."
+msgstr ""
+
+#. ID 14, Page 1, Line 64, Pos (0,0)
+msgid ""
+"\\c[1]クイーン:\\c[0]\n"
+"克雷蒂娅，这件事情与你无关。\n"
+"我意已决，你也不必再替艾莉尔求情。"
+msgstr ""
+
+#. ID 14, Page 1, Line 68, Pos (0,0)
+msgid ""
+"\\c[1]クラウディア:\\c[0]\n"
+"母后大人..."
+msgstr ""
+
+#. ID 14, Page 1, Line 74, Pos (0,0)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"我不会改变心意的..."
+msgstr ""
+
+#. ID 14, Page 1, Line 82, Pos (0,0)
+msgid ""
+"\\c[1]クラウディア:\\c[0]\n"
+"(姐姐大人...)"
+msgstr ""
+

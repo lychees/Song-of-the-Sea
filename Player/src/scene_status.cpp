@@ -31,7 +31,7 @@ Scene_Status::Scene_Status(int actor_index) :
 void Scene_Status::Start() {
 	int actor = Main_Data::game_party->GetActors()[actor_index]->GetId();
 
-    actorinfo_window.reset(new Window_ActorInfo(0, 0, 124, 208, actor));
+	actorinfo_window.reset(new Window_ActorInfo(0, 0, 124, 208, actor));
 	actorstatus_window.reset(new Window_ActorStatus(124, 0, 196, 64, actor));
 	gold_window.reset(new Window_Gold(0, 208, 124, 32));
 	paramstatus_window.reset(new Window_ParamStatus(124, 64, 196, 80, actor));
