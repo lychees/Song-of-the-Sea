@@ -87,7 +87,7 @@ namespace Cards {
 		int current_map_event_id, selected_id;
 		std::vector<monster> deck, hand, battlefield, grave;
 		int hp, mp, MP, turn;
-
+		int player_id;
 		std::vector<monster> ai_deck, ai_hand;
 		int ai_hp, ai_mp, ai_MP;
 		bool pause;
@@ -109,6 +109,8 @@ namespace Cards {
 	void changeAvatar();
 	void prevCard();
 	void succCard();
+	void initP1();
+	void initP2();
 	bool isCmd(std::string msg);
 
 } // namespace Cards

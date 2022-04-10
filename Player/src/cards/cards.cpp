@@ -162,12 +162,11 @@ namespace Cards {
 		return master == 1 && y == 8 || master == 2 && y == 12;
 	}
 	void monster::check() {
-		if (master == 1) {
+		if ((master == 1) ^ (_.player_id != 1)) {			
 			_.ai_hp -= AP; Main_Data::game_screen->ShowBattleAnimation(142, 6, 0);
-			if (_.ai_hp <= 0) Cards::over();
+			if (_.ai_hp <= 0) Cards::over();			
 		} else {
-			_.hp -= AP;
-			Main_Data::game_screen->ShowBattleAnimation(142, 10001, 0);
+			_.hp -= AP; Main_Data::game_screen->ShowBattleAnimation(142, 10001, 0);
 			if (_.hp <= 0) Cards::over();
 		}
 	}
@@ -900,6 +899,13 @@ namespace Cards {
 		Graphics::setCardsInfo(true);
 	}
 
+	void initP1(){
+		_.player_id = 1;
+	}
+
+	void initP2(){
+		_.player_id = 2;
+	}
 
 	void init() {
 
@@ -963,50 +969,6 @@ namespace Cards {
 		}
 		return -1;
 	}
-
-	void atk() {
-
-		/*int this_id = _.current_map_event_id, that_id = -1;
-
-		Game_Event *this_event = Game_Map::GetEvent(this_id), *that_event;
-		int x = this_event->GetX(), y = this_event->GetY();
-
-		this_id = getBattleFieldId(this_id);
-
-		auto& this_card = _.battlefield[this_id];
-
-		int i = this_card.enemyNearby();
-
-		if (i == -1) {
-			if (this_card.master == 1) {
-				if (y != 8) return;
-				_.ai_hp -= _.battlefield[this_id].AP;
-				Main_Data::game_screen->ShowBattleAnimation(142, 6, 0);
-				if (_.ai_hp <= 0) over();
-			} else {
-				if (y != 12) return;
-				_.hp -= _.battlefield[this_id].AP;
-				Main_Data::game_screen->ShowBattleAnimation(142, 10001, 0);
-				if (_.hp <= 0) over();
-			}
-		} else {
-			this_card.atk(i);
-		}
-
-		if (this_card.master == 1) {
-			if (y != 8) return;
-			_.ai_hp -= _.battlefield[this_id].AP;
-			Main_Data::game_screen->ShowBattleAnimation(142, 6, 0);
-			if (_.ai_hp <= 0) over();
-		} else {
-			if (y != 12) return;
-			_.hp -= _.battlefield[this_id].AP;
-			Main_Data::game_screen->ShowBattleAnimation(142, 10001, 0);
-			if (_.hp <= 0) over();
-		}
-		*/
-	}
-
 
 	void ai_draw() {
 		if (_.ai_deck.empty()) return;
@@ -1088,6 +1050,14 @@ namespace Cards {
 		}
 		if (msg == ".dualInit") {
 			init();
+			return true;
+		}
+		if (msg == ".initP1") {
+			initP1();
+			return true;
+		}
+		if (msg == ".initP2") {
+			initP2();
 			return true;
 		}
 		if (msg == ".changeAvatar") {
