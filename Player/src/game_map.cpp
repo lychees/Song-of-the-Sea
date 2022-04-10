@@ -58,6 +58,8 @@
 #include "multiplayer/game_multiplayer_other_player.h"
 #endif
 
+extern "C" void SendChatMessage(const char* msg);
+
 namespace {
 	lcf::rpg::SaveMapInfo map_info;
 	lcf::rpg::SavePanorama panorama;
@@ -1519,6 +1521,8 @@ void Game_Map::newMapEvent(std::string title, int p_id, int x, int y) {
 	cards.selected_id = 0;
 
 	summon(c, p_id, x, y);
+	SendChatMessage(".summon2 {} {} {} {}", c.key, p_id, x, y);
+
 }
 
 Game_Event* Game_Map::GetEvent(int event_id) {
