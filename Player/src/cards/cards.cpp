@@ -1075,6 +1075,41 @@ namespace Cards {
 		}
 	}
 
+	bool isCmd(std::string msg) {
+		std::string cmd;
+
+		if (msg == ".mainLoop") {
+			mainLoop();
+			return true;
+		}
+		if (msg == ".pvpDualInit") {
+			pvpDualInit();
+			return true;
+		}
+		if (msg == ".dualInit") {
+			init();
+			return true;
+		}
+		if (msg == ".changeAvatar") {
+			changeAvatar();
+			return true;
+		}
+		if (msg == ".showSpiritsStatus") {
+			show();
+			return true;
+		}
+
+		cmd = ".summon";
+		if (std::equal(cmd.begin(), cmd.end(), msg.begin())) {
+			std::istringstream iss(msg); std::string _; int p_id, x, y; iss >> _ >> p_id >> x >> y;
+			Game_Map::newMapEvent("MonsterTemplate", p_id, x, y);
+			return true;
+		}		
+
+		return false;
+	}	
+
+
 	Instance& instance() {
 		return _;
 	}

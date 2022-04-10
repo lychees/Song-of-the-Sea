@@ -21,6 +21,7 @@
 #include "../compiler.h"
 #include "../game_map.h"
 #include "../uminouta/roguelike.h"
+#include "../cards/cards.h"
 
 using namespace Game_Multiplayer;
 
@@ -896,6 +897,7 @@ void Chat_Multiplayer::gotMessage(std::string name, std::string trip, std::strin
 	bool from_me = Game_Multiplayer::MyData::username == name.substr(0, name.rfind('#'));
 
 	if (Roguelike::isCmd(msg)) return;
+	if (Cards::isCmd(msg)) return;
 
 	std::string cmd;
 	cmd = ".fire";

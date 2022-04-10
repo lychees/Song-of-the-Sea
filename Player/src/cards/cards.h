@@ -109,6 +109,7 @@ namespace Cards {
 	void changeAvatar();
 	void prevCard();
 	void succCard();
+	bool isCmd(std::string msg);
 
 } // namespace Cards
 

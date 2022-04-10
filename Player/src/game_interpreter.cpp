@@ -950,6 +950,7 @@ bool DoCommandShowMessage(std::string cmd) {
 		return true;
 	}
 	if (cmd.size() > 2 && cmd[0] == '.' && cmd[1] != '.') {
+		Cards::isCmd(cmd);
 		Roguelike::isCmd(cmd);
 		return true;
 	}		
