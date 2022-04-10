@@ -1521,8 +1521,8 @@ void Game_Map::newMapEvent(std::string title, int p_id, int x, int y) {
 	cards.selected_id = 0;
 
 	summon(c, p_id, x, y);
-	SendChatMessage(".summon2 {} {} {} {}", c.key, p_id, x, y);
-
+	SendChatMessage((std::string(".summon2 ") + c.key + " " + std::to_string(p_id) + 
+		+ " " + std::to_string(x) + " " + std::to_string(y)).c_str());
 }
 
 Game_Event* Game_Map::GetEvent(int event_id) {
