@@ -130,7 +130,7 @@ void Window_Item::DrawItem(int index) {
 }
 
 void Window_Item::UpdateHelp() {
-	std::string item_name = std::string(GetItem()->name);
+	/*std::string item_name = std::string(GetItem()->name);
 	
 	if (item_name.substr(0, 5) == ".card"){
 		item_name = item_name.substr(6);
@@ -138,7 +138,8 @@ void Window_Item::UpdateHelp() {
 		help_window->SetText(item_monster.info());
 	} else {
 		help_window->SetText(GetItem() == nullptr ? "" : ToString(GetItem()->description));
-	}
+	} */
+	help_window->SetText(GetItem() == nullptr ? "" : ToString(GetItem()->description));
 }
 
 void Window_Item::SetActor(Game_Actor * actor) {

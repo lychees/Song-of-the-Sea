@@ -874,7 +874,7 @@ namespace Cards {
 	}
 
 	void pvpDualInit() {
-
+		Output::Debug("Dual Start");
 		_.pause = false;
 		_.deck.clear(); _.ai_deck.clear();
 		_.hand.clear(); _.ai_hand.clear();
@@ -885,7 +885,7 @@ namespace Cards {
 
 		// Init Player Deck
 		std::vector<int> party_items;
-		Main_Data::game_party->GetItems(party_items);
+		Main_Data::game_party->GetItems(party_items);		
 
 		for (size_t i = 0; i < party_items.size(); ++i) {
 			auto item = *lcf::ReaderUtil::GetElement(lcf::Data::items, party_items[i]);

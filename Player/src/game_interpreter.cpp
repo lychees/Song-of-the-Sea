@@ -898,10 +898,6 @@ bool DoCommandShowMessage(std::string cmd) {
 		Cards::pvpDualInit();
 		return true;
 	}
-	if (cmd == ".pvpDualInit") {
-		Cards::pvpDualInit();
-		return true;
-	}	
 	if (cmd == ".dualInit") {
 		Cards::init();
 		return true;
