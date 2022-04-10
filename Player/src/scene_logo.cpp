@@ -27,7 +27,7 @@
 #include "scene_gamebrowser.h"
 #include "output.h"
 #include "logo.h"
-
+#include "cards/cards.h"
 Scene_Logo::Scene_Logo() :
 	frame_counter(0) {
 	type = Scene::Logo;
@@ -141,4 +141,12 @@ void Scene_Logo::OnIndexReady(FileRequestResult*) {
 	exfont->Start();
 	soundfont->Start();
 	autorun_ineluki->Start();
+	Cards::initJson();
+	auto json = Cards::instance().json;
+
+	for (auto& t: json) {
+ 		FileRequestAsync* request = AsyncHandler::RequestFile("CharSet",  t.second["charset"]); 
+		request->SetImportantFile(true);
+		request->Start();
+	}
 }
