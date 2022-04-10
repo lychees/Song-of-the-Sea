@@ -1099,19 +1099,19 @@ namespace Cards {
 			return true;
 		}
 
+		cmd = ".summon2";
+		if (std::equal(cmd.begin(), cmd.end(), msg.begin())) {			
+			std::istringstream iss(msg); std::string _, key; int p_id, x, y; iss >> _ >> key >> p_id >> x >> y;
+			Game_Map::summon(monster(key), p_id, x, y);
+			return true;
+		}
+
 		cmd = ".summon";
 		if (std::equal(cmd.begin(), cmd.end(), msg.begin())) {
 			std::istringstream iss(msg); std::string _; int p_id, x, y; iss >> _ >> p_id >> x >> y;
 			Game_Map::newMapEvent("MonsterTemplate", p_id, x, y);
 			return true;
 		}		
-
-		cmd = ".summon2";
-		if (std::equal(cmd.begin(), cmd.end(), msg.begin())) {			
-			std::istringstream iss(msg); std::string _, key; int p_id, x, y; iss >> _ >> key >> p_id >> x >> y;
-			Game_Map::summon(monster(key), p_id, x, y);
-			return true;
-		}	
 
 		return false;
 	}	
