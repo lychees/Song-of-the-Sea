@@ -141,11 +141,11 @@ void Scene_Logo::OnIndexReady(FileRequestResult*) {
 	exfont->Start();
 	soundfont->Start();
 	autorun_ineluki->Start();
-	Cards::initJson();
-	auto json = Cards::instance().json;
 
-	for (auto& t: json) {
- 		FileRequestAsync* request = AsyncHandler::RequestFile("CharSet",  t.second["charset"]); 
+	Cards::initJson();
+	auto& json = Cards::instance().json;
+	for (auto it = json.begin(); it != json.end(); it++) {	 		
+		FileRequestAsync* request = AsyncHandler::RequestFile("CharSet",  it.value()["charset"]); 
 		request->SetImportantFile(true);
 		request->Start();
 	}
