@@ -25,7 +25,7 @@
 
 extern "C" int main(int argc, char* argv[]) {
 	Player::Init(argc, argv);
-	// Player::Run();
+	Player::Run();
 
 	return EXIT_SUCCESS;
 }
