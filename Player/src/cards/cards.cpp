@@ -895,7 +895,7 @@ namespace Cards {
 			DO(cnt) _.deck.push_back(monster(s));
 		}
 
-		DO(7) draw();
+		DO(5) draw();
 		Graphics::setCardsInfo(true);
 	}
 

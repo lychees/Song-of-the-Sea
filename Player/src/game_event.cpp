@@ -38,6 +38,8 @@
 #include "multiplayer/game_multiplayer_rng.h"
 #include "cards/cards.h"
 
+extern "C" void SendChatMessage(const char* msg);
+
 Game_Event::Game_Event(int map_id, const lcf::rpg::Event* event) :
 	Game_EventBase(Event),
 	event(event)
@@ -593,7 +595,8 @@ void Game_Event::MyMoveTypeForward() {
 
 	// 是否是死灵法师并且满蓝
 	if (a.key == "nec" && a.mp == a.MP) {
-		Game_Map::summon(Cards::monster(std::string("skull")), a.master, GetX(), GetY());
+		SendChatMessage((std::string(".summon2 ") + "skull" + " " + std::to_string(a.master) + 
+		+ " " + std::to_string(GetX()) + " " + std::to_string(GetY())).c_str());
 		a.mp = 0;
 		return;
 	}
