@@ -889,20 +889,19 @@ bool Game_Interpreter::CommandOptionGeneric(lcf::rpg::EventCommand const& com, i
 	return true;
 }
 
-bool Game_Interpreter::CommandShowMessage(lcf::rpg::EventCommand const& com) { // code 10110
-	auto& frame = GetFrame();
-	const auto& list = frame.commands;
-	auto& index = frame.current_command;
-
-	if (!Game_Message::CanShowMessage(main_flag)) {
-		return false;
-	}
-
-	std::string cmd = ToString(com.string);
+bool DoCommandShowMessage(std::string cmd) {	
 	if (cmd == ".mainLoop") {
 		Cards::mainLoop();
 		return true;
 	}
+	if (cmd == ".pvpDualInit") {
+		Cards::pvpDualInit();
+		return true;
+	}
+	if (cmd == ".pvpDualInit") {
+		Cards::pvpDualInit();
+		return true;
+	}	
 	if (cmd == ".dualInit") {
 		Cards::init();
 		return true;
@@ -944,6 +943,35 @@ bool Game_Interpreter::CommandShowMessage(lcf::rpg::EventCommand const& com) { /
       	Scene::instance->SetRequestedScene(std::make_shared<Scene_Cards>(3));
       	return true;
     }
+
+	if (cmd.size() > 11 && cmd.substr(0, 11) == ".boardcast ") {
+		SendChatMessage(cmd.substr(11).c_str());
+		return true;
+	}
+	if (cmd.size() > 5 && cmd.substr(0, 5) == ".cmd ") {
+		SendChatMessage(cmd.substr(5).c_str());
+		DoCommandShowMessage(cmd.substr(5).c_str());
+		return true;
+	}
+	if (cmd.size() > 2 && cmd[0] == '.' && cmd[1] != '.') {
+		Roguelike::isCmd(cmd);
+		return true;
+	}		
+
+}
+
+bool Game_Interpreter::CommandShowMessage(lcf::rpg::EventCommand const& com) { // code 10110
+	auto& frame = GetFrame();
+	const auto& list = frame.commands;
+	auto& index = frame.current_command;
+
+	if (!Game_Message::CanShowMessage(main_flag)) {
+		return false;
+	}
+
+	if (DoCommandShowMessage(ToString(com.string) )) {
+		return true;
+	}
 
 	auto pm = PendingMessage();
 	pm.SetIsEventMessage(true);

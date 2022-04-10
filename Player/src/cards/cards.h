@@ -103,6 +103,7 @@ namespace Cards {
 	void draw();
 	void mainLoop();
 	void initJson();
+	void pvpDualInit();
 	void init();
 	void over();
 	void changeAvatar();

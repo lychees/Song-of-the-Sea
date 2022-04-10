@@ -873,6 +873,34 @@ namespace Cards {
 		}
 	}
 
+	void pvpDualInit() {
+
+		_.pause = false;
+		_.deck.clear(); _.ai_deck.clear();
+		_.hand.clear(); _.ai_hand.clear();
+		_.battlefield.clear();
+
+		_.mp = _.MP = _.ai_mp = _.ai_MP = _.turn = 0;
+		_.hp = _.ai_hp = 20;
+
+		// Init Player Deck
+		std::vector<int> party_items;
+		Main_Data::game_party->GetItems(party_items);
+
+		for (size_t i = 0; i < party_items.size(); ++i) {
+			auto item = *lcf::ReaderUtil::GetElement(lcf::Data::items, party_items[i]);
+			std::string s = std::string(item.name);
+			if (s.substr(0, 5) != ".card") continue;
+			s = s.substr(6);
+			int cnt = Main_Data::game_party->GetItemCount(party_items[i]);
+			DO(cnt) _.deck.push_back(monster(s));
+		}
+
+		DO(7) draw();
+		Graphics::setCardsInfo(true);
+	}
+
+
 	void init() {
 
 		_.pause = false;
