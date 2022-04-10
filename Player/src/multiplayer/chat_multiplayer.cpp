@@ -891,7 +891,12 @@ void Chat_Multiplayer::update() {
 
 void Chat_Multiplayer::gotMessage(std::string name, std::string trip, std::string msg, std::string src) {
 	if(chatBox == nullptr) return;
-
+	addLogEntry(
+		(src=="G"?"G← ":"")+name,
+		"•"+trip+":\n",
+		"\u00A0"+msg,
+		src=="G"?CV_GLOBAL:CV_LOCAL
+	);
 
 	// TODO(minakokojima): Only resolve cmd from other player
 	bool from_me = Game_Multiplayer::MyData::username == name.substr(0, name.rfind('#'));
@@ -938,13 +943,6 @@ void Chat_Multiplayer::gotMessage(std::string name, std::string trip, std::strin
 		Scene::PopUntil(Scene::Map);
 		return;
 	}
-
-	addLogEntry(
-		(src=="G"?"G← ":"")+name,
-		"•"+trip+":\n",
-		"\u00A0"+msg,
-		src=="G"?CV_GLOBAL:CV_LOCAL
-	);
 }
 
 void Chat_Multiplayer::gotInfo(std::string msg) {
