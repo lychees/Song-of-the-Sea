@@ -1439,6 +1439,7 @@ int Game_Map::GetHighestEventId() {
 #include "configor/json.hpp"
 
 void Game_Map::summon(Cards::monster c, int p_id, int x, int y) {
+	Output::Debug("summon");
 	auto& cards = Cards::instance();
 
 	if (c.key == "skull") {

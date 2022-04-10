@@ -1106,8 +1106,8 @@ namespace Cards {
 			return true;
 		}		
 
-		cmd.substr(0, 9) = ".summon2";
-		if (std::equal(cmd.begin(), cmd.end(), msg.begin())) {
+		cmd = ".summon2";
+		if (std::equal(cmd.begin(), cmd.end(), msg.begin())) {			
 			std::istringstream iss(msg); std::string _, key; int p_id, x, y; iss >> _ >> key >> p_id >> x >> y;
 			Game_Map::summon(monster(key), p_id, x, y);
 			return true;
