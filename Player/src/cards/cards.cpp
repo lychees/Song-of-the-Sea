@@ -1090,7 +1090,7 @@ namespace Cards {
 
 		cmd = ".summon2";
 		if (std::equal(cmd.begin(), cmd.end(), msg.begin())) {			
-			std::istringstream iss(msg); std::string _, key; int p_id, x, y, flag, hp, HP, AP, mp, MP, charset, offset; iss >> _ >> key >> p_id >> x >> y >> flag >> hp >> HP >> AP >> mp >> MP >> charset >> offset;
+			std::istringstream iss(msg); std::string _, key; int p_id, x, y, flag, hp, HP, AP, mp, MP, charset, offset; iss >> _ >> key >> flag >> p_id >> x >> y >> hp >> HP >> AP >> mp >> MP >> charset >> offset;
 			if(flag == 0){
 				Game_Map::summon(monster(key), p_id, x, y);
 			} else {
