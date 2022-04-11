@@ -681,13 +681,13 @@ void Game_Event::MyMoveTypeForward() {
 			} else {
 				a.offset = 2;
 			}
+			a.mp = 0;
 			SendChatMessage(
 				((std::string(".summon2 ") + "silme" + " " + "1" + " " + std::to_string(a.master) + 
 			+ " " + std::to_string(GetX()) + " " + std::to_string(GetY())) + " " + std::to_string(a.hp)
 			+ " " + std::to_string(a.HP) + " " + std::to_string(a.AP) + " " + std::to_string(a.mp) + " " + std::to_string(a.MP) + " " + a.key
 			+ " " + std::to_string(a.offset)).c_str());
 			a.ev()->SetSpriteGraphic(_.json[a.key]["charset"], a.offset);
-			a.mp = 0;
 			return;
 		}
 	}
