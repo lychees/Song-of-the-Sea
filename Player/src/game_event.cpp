@@ -684,7 +684,7 @@ void Game_Event::MyMoveTypeForward() {
 			a.mp = 0;
 			a.ev()->SetSpriteGraphic(_.json[a.key]["charset"], a.offset);
 			SendChatMessage(
-				((std::string(".summon2 ") + "slime" + " " + "1" + " " + std::to_string(a.master) + 
+				((std::string(".summon2 ") + a.key + " " + "1" + " " + std::to_string(a.master) + 
 			+ " " + std::to_string(GetX()) + " " + std::to_string(GetY())) + " " + std::to_string(a.hp)
 			+ " " + std::to_string(a.HP) + " " + std::to_string(a.AP) + " " + std::to_string(a.mp) + " " + std::to_string(a.MP) + " "
 			+ " " + std::to_string(a.offset)).c_str());
@@ -708,10 +708,10 @@ void Game_Event::MyMoveTypeForward() {
 	int target = a.enemyNearby();
 	if (target != -1) {
 		if (a.hasQuirk("aoe")) {
-			for (int i=0;i<_.battlefield.size();++i) if (i != id) {
-				Game_Event *the_event = Game_Map::GetEvent(_.battlefield[i].id);
-				int x = the_event->GetX(), y = the_event->GetY();
+			Output::Debug("has aoe");
+			for (int i=_.battlefield.size();i>=0;--i) if (i != id) {
 				if (_.battlefield[i].dist(_.battlefield[id]) <= 1 && a.master != _.battlefield[i].master) {
+					Output::Debug("target: {}", i);
 					a.atk(i);
 				}
 			}
