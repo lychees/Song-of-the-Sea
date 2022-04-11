@@ -595,7 +595,7 @@ void Game_Event::MyMoveTypeForward() {
 
 	// 是否是死灵法师并且满蓝
 	if (a.key == "nec" && a.mp == a.MP) {
-		SendChatMessage((std::string(".summon2 ") + "skull" + " " + std::to_string(a.master) + 
+		SendChatMessage((std::string(".summon2 ") + "skull" + " " + "0" + " " + std::to_string(a.master) + 
 		+ " " + std::to_string(GetX()) + " " + std::to_string(GetY())).c_str());
 		a.mp = 0;
 		return;
@@ -672,9 +672,11 @@ void Game_Event::MyMoveTypeForward() {
 			} else {
 				a.offset = 2;
 			}
-			a.ev()->SetSpriteGraphic(_.json[a.key]["charset"], a.offset); //?
-			Cards::monster child = a;
-			Game_Map::summon(child, a.master, GetX(), GetY());
+			SendChatMessage((std::string(".summon2 ") + "silme" + " " + "1" + " " + std::to_string(a.master) + 
+			+ " " + std::to_string(GetX()) + " " + std::to_string(GetY())).c_str()) + " " + std::to_string(a.hp)
+			+ " " + std::to_string(a.HP) + " " + std::to_string(a.AP) + " " + std::to_string(a.mp) + " " + std::to_string(a.MP) + " " + std::to_string(a.key)
+			+ " " + std::to_string(a.offset);
+			a.ev()->SetSpriteGraphic(_.json[a.key]["charset"], a.offset);
 			a.mp = 0;
 			return;
 		}
