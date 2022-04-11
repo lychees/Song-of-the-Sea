@@ -545,6 +545,12 @@ void Game_Event::MyMoveTypeForward() {
 		a.draw();
 		return;
 	}	
+	if(a.hasQuirk("selfhealing") && a.mp == a.MP && a.hp < a.HP) {
+		a.hp = min(a.hp+a.quirks["selfhealing"], a.HP);
+		a.mp = 0;
+		return;
+	}
+	
 
 	// 是否是魔女并且满蓝
 	if (a.key == "witch" && a.mp == a.MP) {
@@ -670,8 +676,8 @@ void Game_Event::MyMoveTypeForward() {
 	// 是否是史莱姆并且满蓝并且血够
 	if (a.key == "slime" || a.key == "gaint_slime") {
 		move_dir = rand() % 4;
-		if (a.mp == a.MP && a.hp > 1) {
-			// a.AP = a.AP > 1 ? a.AP-1 : 0;
+		if (a.mp == a.MP && a.hp > 1 && a.AP > 1) {
+			a.AP = a.AP-1;
 			a.hp = a.hp-1;
 
 			if (a.hp == 1) {

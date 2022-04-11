@@ -259,6 +259,11 @@ namespace Cards {
 						{"DP", 0},
 						{"charset", "char_m_sl_g"},
 						{"offset", 0}
+						{
+							"quirks", {
+								{"selfhealing", 1}
+							}
+						}
 					}
 				},
 				{
@@ -272,6 +277,11 @@ namespace Cards {
 						{"DP", 0},
 						{"charset", "char_m_sl_g"},
 						{"offset", 2}
+						{
+							"quirks", {
+								{"selfhealing", 1}
+							}
+						}
 					}
 				},
 				{
@@ -311,6 +321,11 @@ namespace Cards {
 						{"DP", 0},
 						{"charset", "Monster1"},
 						{"offset", 3}
+						{
+							"quirks", {
+								{"selfhealing", 2}
+							}
+						}
 					}
 				},
 				{
