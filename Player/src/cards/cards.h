@@ -80,6 +80,8 @@ namespace Cards {
 		int enemyNearby();
 		int dist(const monster m);
 		void atk(int t);
+		void draw();
+		void jump_cost();		
 		std::string info();
 	};
 

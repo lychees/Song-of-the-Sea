@@ -171,6 +171,25 @@ namespace Cards {
 		}
 	}
 
+	void monster::draw() {
+		int d = quirks["draw"];
+		if (master == 1) {
+			DO(d) draw();
+		} else {
+			DO(d) ai_draw();
+		}
+		mp = 0;
+	}
+	void monster::jump_cost() {
+		int d = quirks["jump_cost"];
+		if (master == 1) {
+			_.mp += d;
+		} else {
+			_.ai_mp += d;
+		}
+		mp = 0;
+	}	
+
 	bool monster::hasQuirk(std::string quirk) {
 		return quirks.find(quirk) != quirks.end();
 	}

@@ -537,6 +537,15 @@ void Game_Event::MyMoveTypeForward() {
 	if (a.mp < a.MP) a.mp += 1;
 	Output::Debug("current turn: {} {} {}", a.name, a.AP, a.hp);
 
+	if (a.hasQuirk("jump_cost") && a.mp == a.MP) {
+		a.jump_cost();
+		return;
+	}
+	if (a.hasQuirk("draw") && a.mp == a.MP) {
+		a.draw();
+		return;
+	}	
+
 	// 是否是魔女并且满蓝
 	if (a.key == "witch" && a.mp == a.MP) {
 		int d = 3214567, target = -1;
@@ -672,10 +681,11 @@ void Game_Event::MyMoveTypeForward() {
 			} else {
 				a.offset = 2;
 			}
-			SendChatMessage((std::string(".summon2 ") + "silme" + " " + "1" + " " + std::to_string(a.master) + 
-			+ " " + std::to_string(GetX()) + " " + std::to_string(GetY())).c_str()) + " " + std::to_string(a.hp)
-			+ " " + std::to_string(a.HP) + " " + std::to_string(a.AP) + " " + std::to_string(a.mp) + " " + std::to_string(a.MP) + " " + std::to_string(a.key)
-			+ " " + std::to_string(a.offset);
+			SendChatMessage(
+				((std::string(".summon2 ") + "silme" + " " + "1" + " " + std::to_string(a.master) + 
+			+ " " + std::to_string(GetX()) + " " + std::to_string(GetY())) + " " + std::to_string(a.hp)
+			+ " " + std::to_string(a.HP) + " " + std::to_string(a.AP) + " " + std::to_string(a.mp) + " " + std::to_string(a.MP) + " " + a.key
+			+ " " + std::to_string(a.offset)).c_str());
 			a.ev()->SetSpriteGraphic(_.json[a.key]["charset"], a.offset);
 			a.mp = 0;
 			return;
@@ -697,7 +707,17 @@ void Game_Event::MyMoveTypeForward() {
 
 	int target = a.enemyNearby();
 	if (target != -1) {
-		a.atk(target);
+		if (a.hasQuirk("aoe")) {
+			for (int i=0;i<_.battlefield.size();++i) if (i != id) {
+				Game_Event *the_event = Game_Map::GetEvent(_.battlefield[i].id);
+				int x = the_event->GetX(), y = the_event->GetY();
+				if (_.battlefield[i].dist(_.battlefield[id]) <= 1 && a.master != _.battlefield[i].master) {
+					a.atk(i);
+				}
+			}
+		} else {
+			a.atk(target);
+		}
 	} else {
 
 		if (a.hasQuirk("ranged")) {
