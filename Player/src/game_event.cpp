@@ -676,8 +676,8 @@ void Game_Event::MyMoveTypeForward() {
 	// 是否是史莱姆并且满蓝并且血够
 	if (a.key == "slime" || a.key == "gaint_slime") {
 		move_dir = rand() % 4;
-		if (a.mp == a.MP && a.hp > 1 && a.AP > 1) {
-			a.AP = a.AP-1;
+		if (a.mp == a.MP && a.hp > 1) {
+			a.AP = a.AP > 1 ? a.AP-1 : 0
 			a.hp = a.hp-1;
 
 			if (a.AP == 0) {

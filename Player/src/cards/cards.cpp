@@ -443,7 +443,7 @@ namespace Cards {
 					"hydra", {
 						{"name", "九头怪"},
 						{"cost", 7},
-						{"description", ""},
+						{"description", "范围攻击"},
 						{"hp", 18},{"HP", 18},
 						{"mp", 0},{"MP", 0},
 						{"AP", 3},
