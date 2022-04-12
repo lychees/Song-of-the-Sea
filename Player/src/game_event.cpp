@@ -714,13 +714,10 @@ void Game_Event::MyMoveTypeForward() {
 	int target = a.enemyNearby();
 	if (target != -1) {
 		if (a.hasQuirk("aoe")) {
-			Output::Debug("has aoe");
-			for (int i=_.battlefield.size();i>=0;--i) if (i != id) {
-				if (_.battlefield[i].dist(_.battlefield[id]) <= 1 && a.master != _.battlefield[i].master) {
-					Output::Debug("target: {}", i);
-					a.atk(i);
-				}
-			}
+			do {
+				a.atk(target);
+				target = a.enemyNearby();
+			} while (target != -1);
 		} else {
 			a.atk(target);
 		}
