@@ -546,7 +546,7 @@ void Game_Event::MyMoveTypeForward() {
 		return;
 	}	
 	if(a.hasQuirk("selfhealing") && a.mp == a.MP && a.hp < a.HP) {
-		a.hp = min(a.hp+a.quirks["selfhealing"], a.HP);
+		a.hp = std::min(a.hp+a.quirks["selfhealing"], a.HP);
 		a.mp = 0;
 		return;
 	}
@@ -680,9 +680,9 @@ void Game_Event::MyMoveTypeForward() {
 			a.AP = a.AP-1;
 			a.hp = a.hp-1;
 
-			if (a.hp == 1) {
+			if (a.AP == 0) {
 				a.offset = 1;
-			} else if (a.hp < 4) {
+			} else if (a.AP < 3) {
 				a.offset = 0;
 			} else {
 				a.offset = 2;

@@ -258,7 +258,7 @@ namespace Cards {
 						{"AP", 1},
 						{"DP", 0},
 						{"charset", "char_m_sl_g"},
-						{"offset", 0}
+						{"offset", 0},
 						{
 							"quirks", {
 								{"selfhealing", 1}
@@ -276,7 +276,7 @@ namespace Cards {
 						{"AP", 3},
 						{"DP", 0},
 						{"charset", "char_m_sl_g"},
-						{"offset", 2}
+						{"offset", 2},
 						{
 							"quirks", {
 								{"selfhealing", 1}
@@ -301,7 +301,7 @@ namespace Cards {
 					"skull", {
 						{"name", "骷髅"},
 						{"cost", 1},
-						{"description", "被法术操纵的人形骨骼，亡语：从卡组中检索另一张同名卡牌加入手牌。"},
+						{"description", "亡语：从牌组检索一张同名卡牌"},
 						{"hp", 2},{"HP", 2},
 						{"mp", 0},{"MP", 0},
 						{"AP", 1},
@@ -314,13 +314,13 @@ namespace Cards {
 					"ghost", {
 						{"name", "幽灵"},
 						{"cost", 3},
-						{"description", "Ghost Reporting."},
+						{"description", "再生 2"},
 						{"hp", 5},{"HP", 5},
 						{"mp", 0},{"MP", 0},
 						{"AP", 4},
 						{"DP", 0},
 						{"charset", "Monster1"},
-						{"offset", 3}
+						{"offset", 3},
 						{
 							"quirks", {
 								{"selfhealing", 2}
@@ -332,10 +332,10 @@ namespace Cards {
 					"bone_dragon", {
 						{"name", "骨龙"},
 						{"cost", 7},
-						{"description", "可从墓地除外至多 3 张卡片进行召唤，每除外 1 张费用减 1。"},
-						{"hp", 12},{"HP", 12},
+						{"description", "可除外墓地中的牌替代部署费用，每张牌替代 1 费"},
+						{"hp", 9},{"HP", 9},
 						{"mp", 0},{"MP", 0},
-						{"AP", 4},
+						{"AP", 3},
 						{"DP", 0},
 						{"charset", "18277"},
 						{"offset", 3}
@@ -858,7 +858,7 @@ namespace Cards {
 					"farmer_john", {
 						{"name", "农夫约翰"},
 						{"cost", 1},
-						{"description", "抽取一张卡牌。"},
+						{"description", "0/10 摸一张卡（10）"},
 						{"hp", 2},{"HP", 2},
 						{"mp", 0},{"MP", 10},
 						{"AP", 1},
