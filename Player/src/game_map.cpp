@@ -350,7 +350,7 @@ void Game_Map::SetupCommon() {
 	Output::Debug("Tree: {}", ss.str());
 
 	// Create the map events
-	events.reserve(map->events.size() + 1024);
+	events.reserve(map->events.size() + 128);
 	for (const auto& ev : map->events) {
 		events.emplace_back(GetMapId(), &ev);
 	}
