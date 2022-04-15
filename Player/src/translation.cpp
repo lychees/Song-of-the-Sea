@@ -77,8 +77,6 @@ void Translation::Reset()
 
 void Translation::InitTranslations()
 {	
-	return;
-	// Reset
 	Reset();
 
 	// Determine if the "languages" directory exists, and convert its case.
