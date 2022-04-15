@@ -688,7 +688,7 @@ namespace Cards {
 				{
 					"priest", {
 						{"name", "祭司"},
-						{"cost", 5},
+						{"cost", },
 						{"description", "10/10 祈祷：全场其它友方使魔 +1/2（10）"},
 						{"hp", 6},{"HP", 6},
 						{"mp", 10},{"MP", 10},
@@ -726,10 +726,10 @@ namespace Cards {
 						{"name", "石像鬼"},
 						{"cost", 2},
 						{"description", "可以变成石头。"},
-						{"hp", 4},{"HP", 4},
+						{"hp", 2},{"HP", 2},
 						{"mp", 0},{"MP", 0},
 						{"AP", 2},
-						{"DP", 0},
+						{"DP", 1},
 						{"charset", "18550"},
 						{"offset", 0}
 					}

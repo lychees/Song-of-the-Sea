@@ -31,5 +31,5 @@ bool Window_ShopSell::CheckEnable(int item_id) {
 
 	const lcf::rpg::Item* item = lcf::ReaderUtil::GetElement(lcf::Data::items, item_id);
 
-	return item->price > 0;
+	return item->price >= 0;
 }
