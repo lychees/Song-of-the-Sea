@@ -272,7 +272,7 @@ void Scene_Shop::UpdateBuySelection() {
 			const lcf::rpg::Item* item = lcf::ReaderUtil::GetElement(lcf::Data::items, item_id);
 
 			int max = Main_Data::game_party->GetMaxItemCount(item_id) - Main_Data::game_party->GetItemCount(item_id);
-			if (item->price > 0) {
+			if (item->price >= 0) {
 				max = std::min<int>(max, Main_Data::game_party->GetGold() / item->price);
 			}
 			number_window->SetData(item_id, max, item->price);
@@ -299,7 +299,7 @@ void Scene_Shop::UpdateSellSelection() {
 		status_window->SetItemId(item_id);
 		party_window->SetItemId(item_id);
 
-		if (item && item->price > 0) {
+		if (item && item->price >= 0) {
 			Main_Data::game_system->SePlay(Main_Data::game_system->GetSystemSE(Main_Data::game_system->SFX_Decision));
 			number_window->SetData(item->ID, Main_Data::game_party->GetItemCount(item->ID), item->price / 2);
 			SetMode(SellHowMany);
