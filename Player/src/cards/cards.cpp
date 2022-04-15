@@ -688,7 +688,7 @@ namespace Cards {
 				{
 					"priest", {
 						{"name", "祭司"},
-						{"cost", },
+						{"cost", 5},
 						{"description", "10/10 祈祷：全场其它友方使魔 +1/2（10）"},
 						{"hp", 6},{"HP", 6},
 						{"mp", 10},{"MP", 10},
