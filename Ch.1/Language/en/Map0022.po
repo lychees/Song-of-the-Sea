@@ -1,0 +1,53 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GAME_NAME 1.0\n"
+"Language-Team: YOUR NAME <mail@your.address>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-CreatedBy: LcfTrans"
+
+#. ID 3, Page 1, Line 1, Pos (17,17)
+msgid "偄傜偭偟傖乣偄丅"
+msgstr ""
+
+#. ID 4, Page 1, Line 1, Pos (20,19)
+msgid ""
+"嵟嬤丄僒儘僯傾偺忛偵擖傞偺偑\n"
+"戝曄偵側偭偨傫偱偡傛乧 "
+msgstr ""
+
+#. ID 4, Page 1, Line 3, Pos (20,19)
+msgid ""
+"埲慜偼 婄僷僗偩偭偨偺偵丄崱偠傖\n"
+"嫋壜偑昁梫偩偺側傫偩偺偱乧"
+msgstr ""
+
+#. ID 5, Page 1, Line 1, Pos (18,22)
+msgid "我曾经是个勇者，"
+msgstr ""
+
+#. ID 5, Page 1, Line 2, Pos (18,22)
+msgid ""
+"直到膝盖中了一箭。\n"
+""
+msgstr ""
+
+#. ID 6, Page 1, Line 1, Pos (20,15)
+msgid ""
+"偄傜偭偟傖偄丅\n"
+"備偭偔傝偟偰偄偭偰偔偩偝偄丅"
+msgstr ""
+
+#. ID 8, Page 1, Line 1, Pos (23,22)
+msgid "偙偙偺抧壓偵偼曟抧偑偁傞傫偩偭偰側丅"
+msgstr ""
+
+#. ID 8, Page 1, Line 2, Pos (23,22)
+msgid ""
+"偟偐傕丄曟傪峳傜偝傟偨崷傒側偺偐丄\n"
+"傾儞僨僢僪偑 僂儓僂儓偟偰傞傜偟偄乧\n"
+"嬤偯偔偺偼巭傔偲偙偆乧"
+msgstr ""
+

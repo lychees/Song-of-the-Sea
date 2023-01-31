@@ -1,0 +1,50 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GAME_NAME 1.0\n"
+"Language-Team: YOUR NAME <mail@your.address>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-CreatedBy: LcfTrans"
+
+#. ID 1, Page 1, Line 5, Pos (0,0)
+msgid "艾莉尔！！！"
+msgstr ""
+
+#. ID 1, Page 1, Line 6, Pos (0,0)
+msgid "可恶！你对她做了什么！？"
+msgstr ""
+
+#. ID 1, Page 1, Line 8, Pos (0,0)
+msgid "哈哈哈！不过是把她的魔力吸收了而已。"
+msgstr ""
+
+#. ID 1, Page 1, Line 9, Pos (0,0)
+msgid "现在你的小女友可再也用不了魔法了。"
+msgstr ""
+
+#. ID 1, Page 1, Line 10, Pos (0,0)
+msgid "这股魔力，会让我更加强大。"
+msgstr ""
+
+#. ID 1, Page 1, Line 11, Pos (0,0)
+msgid "只要再等片刻，吸收就会完成，她也会死掉，要一起看吗？"
+msgstr ""
+
+#. ID 1, Page 1, Line 13, Pos (0,0)
+msgid "不可饶恕！"
+msgstr ""
+
+#. ID 1, Page 1, Line 19, Pos (0,0)
+msgid "哼，算了，反正也吸收得差不多了！"
+msgstr ""
+
+#. ID 1, Page 1, Line 20, Pos (0,0)
+msgid "不陪你玩啦，小鬼。我还有很多事要忙。"
+msgstr ""
+
+#. ID 1, Page 1, Line 30, Pos (0,0)
+msgid "艾莉尔！艾莉尔！"
+msgstr ""
+

@@ -1,0 +1,1911 @@
+[2023-01-26 08:40:42] Debug: command code: 22010
+[2023-01-26 08:40:42] Debug: command code: 10
+[2023-01-26 08:40:42] Debug: command code: 22011
+[2023-01-26 08:40:42] Debug: command code: 10220
+[2023-01-26 08:40:42] Debug: command code: 12010
+[2023-01-26 08:40:42] Debug: command code: 22010
+[2023-01-26 08:40:42] Debug: command code: 10
+[2023-01-26 08:40:42] Debug: command code: 22011
+[2023-01-26 08:40:42] Debug: command code: 10220
+[2023-01-26 08:40:42] Debug: command code: 12010
+[2023-01-26 08:40:42] Debug: command code: 22010
+[2023-01-26 08:40:42] Debug: command code: 10
+[2023-01-26 08:40:42] Debug: command code: 22011
+[2023-01-26 08:40:42] Debug: command code: 10220
+[2023-01-26 08:40:42] Debug: command code: 12010
+[2023-01-26 08:40:42] Debug: command code: 22010
+[2023-01-26 08:40:42] Debug: command code: 10
+[2023-01-26 08:40:42] Debug: command code: 22011
+[2023-01-26 08:40:42] Debug: command code: 10220
+[2023-01-26 08:40:42] Debug: command code: 12010
+[2023-01-26 08:40:42] Debug: command code: 22010
+[2023-01-26 08:40:42] Debug: command code: 10
+[2023-01-26 08:40:42] Debug: command code: 22011
+[2023-01-26 08:40:42] Debug: command code: 10220
+[2023-01-26 08:40:42] Debug: command code: 12010
+[2023-01-26 08:40:42] Debug: command code: 22010
+[2023-01-26 08:40:42] Debug: command code: 10
+[2023-01-26 08:40:42] Debug: command code: 22011
+[2023-01-26 08:40:42] Debug: command code: 10220
+[2023-01-26 08:40:42] Debug: command code: 12010
+[2023-01-26 08:40:42] Debug: command code: 22010
+[2023-01-26 08:40:42] Debug: command code: 10
+[2023-01-26 08:40:42] Debug: command code: 22011
+[2023-01-26 08:40:42] Debug: command code: 10220
+[2023-01-26 08:40:42] Debug: command code: 12010
+[2023-01-26 08:40:42] Debug: command code: 22010
+[2023-01-26 08:40:42] Debug: command code: 10
+[2023-01-26 08:40:42] Debug: command code: 22011
+[2023-01-26 08:40:42] Debug: command code: 10220
+[2023-01-26 08:40:42] Debug: command code: 12010
+[2023-01-26 08:40:42] Debug: command code: 22010
+[2023-01-26 08:40:42] Debug: command code: 10
+[2023-01-26 08:40:42] Debug: command code: 22011
+[2023-01-26 08:40:42] Debug: command code: 10220
+[2023-01-26 08:40:42] Debug: command code: 12010
+[2023-01-26 08:40:42] Debug: command code: 22010
+[2023-01-26 08:40:42] Debug: command code: 10
+[2023-01-26 08:40:42] Debug: command code: 22011
+[2023-01-26 08:40:42] Debug: command code: 10220
+[2023-01-26 08:40:42] Debug: command code: 12010
+[2023-01-26 08:40:42] Debug: command code: 22010
+[2023-01-26 08:40:42] Debug: command code: 10
+[2023-01-26 08:40:42] Debug: command code: 22011
+[2023-01-26 08:40:42] Debug: command code: 10220
+[2023-01-26 08:40:42] Debug: command code: 12010
+[2023-01-26 08:40:42] Debug: command code: 22010
+[2023-01-26 08:40:42] Debug: command code: 10
+[2023-01-26 08:40:42] Debug: command code: 22011
+[2023-01-26 08:40:42] Debug: command code: 10220
+[2023-01-26 08:40:42] Debug: command code: 12010
+[2023-01-26 08:40:42] Debug: command code: 22010
+[2023-01-26 08:40:42] Debug: command code: 10
+[2023-01-26 08:40:42] Debug: command code: 22011
+[2023-01-26 08:40:42] Debug: command code: 10220
+[2023-01-26 08:40:42] Debug: command code: 12010
+[2023-01-26 08:40:42] Debug: command code: 22010
+[2023-01-26 08:40:42] Debug: command code: 10
+[2023-01-26 08:40:42] Debug: command code: 22011
+[2023-01-26 08:40:42] Debug: command code: 10220
+[2023-01-26 08:40:42] Debug: command code: 12010
+[2023-01-26 08:40:42] Debug: command code: 22010
+[2023-01-26 08:40:42] Debug: command code: 10
+[2023-01-26 08:40:42] Debug: command code: 22011
+[2023-01-26 08:40:42] Debug: command code: 10220
+[2023-01-26 08:40:42] Debug: command code: 12010
+[2023-01-26 08:40:42] Debug: command code: 22010
+[2023-01-26 08:40:42] Debug: command code: 10
+[2023-01-26 08:40:42] Debug: command code: 22011
+[2023-01-26 08:40:42] Debug: command code: 10220
+[2023-01-26 08:40:42] Debug: command code: 12010
+[2023-01-26 08:40:42] Debug: command code: 22010
+[2023-01-26 08:40:42] Debug: command code: 10
+[2023-01-26 08:40:42] Debug: command code: 22011
+[2023-01-26 08:40:42] Debug: command code: 10220
+[2023-01-26 08:40:42] Debug: command code: 12010
+[2023-01-26 08:40:42] Debug: command code: 22010
+[2023-01-26 08:40:42] Debug: command code: 10
+[2023-01-26 08:40:42] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:43] Debug: command code: 10220
+[2023-01-26 08:40:43] Debug: command code: 12010
+[2023-01-26 08:40:43] Debug: command code: 22010
+[2023-01-26 08:40:43] Debug: command code: 10
+[2023-01-26 08:40:43] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:44] Debug: command code: 10220
+[2023-01-26 08:40:44] Debug: command code: 12010
+[2023-01-26 08:40:44] Debug: command code: 22010
+[2023-01-26 08:40:44] Debug: command code: 10
+[2023-01-26 08:40:44] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:45] Debug: command code: 22011
+[2023-01-26 08:40:45] Debug: command code: 10220
+[2023-01-26 08:40:45] Debug: command code: 12010
+[2023-01-26 08:40:45] Debug: command code: 22010
+[2023-01-26 08:40:45] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: command code: 12010
+[2023-01-26 08:40:46] Debug: command code: 22010
+[2023-01-26 08:40:46] Debug: command code: 10
+[2023-01-26 08:40:46] Debug: command code: 22011
+[2023-01-26 08:40:46] Debug: command code: 10220
+[2023-01-26 08:40:46] Debug: comma[2023-01-26 08:41:45] Debug: EasyRPG Player 0.7.0 started
+[2023-01-26 08:41:45] Debug: ============================
+[2023-01-26 08:41:45] Debug: Clock: StdSteady steady=true period=ns (1 / 1000000000)
+[2023-01-26 08:41:45] Debug: Seeded the RNG with 1674693705.
+[2023-01-26 08:41:45] Debug: CLI: 
+[2023-01-26 08:41:45] Debug: SDL2: RendererInfo hw=true sw=false vsync=true
+[2023-01-26 08:41:45] Debug: SDL2: Detected format (0) SDL_PIXELFORMAT_ARGB8888 : rank=(2)
+[2023-01-26 08:41:45] Debug: SDL2: Selected Pixel Format SDL_PIXELFORMAT_ARGB8888
+[2023-01-26 08:41:45] Debug: Detected encoding: windows-936-2000
+[2023-01-26 08:41:45] Debug: Game and Save Directory:
+[2023-01-26 08:41:45] Debug: 1: [Native] 
+[2023-01-26 08:41:45] Debug: Loading game Untitled
+[2023-01-26 08:41:45] Debug: Using RPG2k3 (English release, v1.11) Interpreter
+[2023-01-26 08:41:45] Debug: Engine configured as: 2k=false 2k3=true MajorUpdated=true Eng=true
+[2023-01-26 08:41:45] Debug: Adding D:\Program Files (x86)\Steam\steamapps\common\RPG Maker 2003\RTP to RTP path
+[2023-01-26 08:41:46] Debug: RTP is "Official English" (675/675)
+[2023-01-26 08:41:46] Debug: RTP path C:\RPG2003\RTP is invalid, not adding
+[2023-01-26 08:41:46] Debug: Patch configuration: dynrpg=false maniac=false
+[2023-01-26 08:41:46] Debug: Cannot find: ./ExFont
+[2023-01-26 08:41:46] Debug: Loading ExFont from RPG_RT.exe
+[2023-01-26 08:41:46] Debug: EXEReader: EXFONT resource found (DE 0xe9f20; 0xeff60; len 0x2168)
+[2023-01-26 08:41:46] Debug: Actor 1: Removing item 44 from equipment slot 2 (Not equippable by this actor)
+[2023-01-26 08:41:46] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
+[2023-01-26 08:41:46] Debug: Set Animation
+[2023-01-26 08:41:47] Debug: Set Animation [4x]
+[2023-01-26 08:41:47] Debug: libpng: iCCP: known incorrect sRGB profile
+[2023-01-26 08:41:47] Debug: libpng: cHRM: inconsistent chromaticities
+[2023-01-26 08:41:47] Debug: Could not load soundfont.
+[2023-01-26 08:41:48] Debug: Starting new game
+[2023-01-26 08:41:48] Debug: Loaded Map Map0004.lmu
+[2023-01-26 08:41:48] Debug: Tree: Scene 1 - Coast
+[2023-01-26 08:41:48] Debug: Set Animation
+[2023-01-26 08:41:48] Debug: Set Animation [25x]
+[2023-01-26 08:41:48] Debug: Cannot find: Music/_M_Night Sky
+[2023-01-26 08:41:48] Debug: Music not found: _M_Night Sky
+[2023-01-26 08:41:50] Debug: command code: 11310
+[2023-01-26 08:41:50] Debug: command code: 12320
+[2023-01-26 08:41:50] Debug: command code: 10220
+[2023-01-26 08:41:50] Debug: Set Animation
+[2023-01-26 08:41:50] Debug: command code: 12010
+[2023-01-26 08:41:50] Debug: command code: 22010
+[2023-01-26 08:41:50] Debug: command code: 10
+[2023-01-26 08:41:50] Debug: command code: 22011
+[2023-01-26 08:41:50] Debug: command code: 11550
+[2023-01-26 08:41:50] Debug: command code: 11410
+[2023-01-26 08:41:51] Debug: command code: 11510
+[2023-01-26 08:41:51] Debug: command code: 11330
+[2023-01-26 08:41:51] Debug: command code: 10120
+[2023-01-26 08:41:51] Debug: command code: 10110
+[2023-01-26 08:41:55] Debug: command code: 10110 [5x]
+[2023-01-26 08:42:05] Debug: EasyRPG Player 0.7.0 started
+[2023-01-26 08:42:05] Debug: ============================
+[2023-01-26 08:42:05] Debug: Clock: StdSteady steady=true period=ns (1 / 1000000000)
+[2023-01-26 08:42:05] Debug: Seeded the RNG with 1674693724.
+[2023-01-26 08:42:05] Debug: CLI: 
+[2023-01-26 08:42:05] Debug: SDL2: RendererInfo hw=true sw=false vsync=true
+[2023-01-26 08:42:05] Debug: SDL2: Detected format (0) SDL_PIXELFORMAT_ARGB8888 : rank=(2)
+[2023-01-26 08:42:05] Debug: SDL2: Selected Pixel Format SDL_PIXELFORMAT_ARGB8888
+[2023-01-26 08:42:05] Debug: Detected encoding: windows-936-2000
+[2023-01-26 08:42:05] Debug: Game and Save Directory:
+[2023-01-26 08:42:05] Debug: 1: [Native] 
+[2023-01-26 08:42:05] Debug: Loading game Untitled
+[2023-01-26 08:42:05] Debug: Using RPG2k3 (English release, v1.11) Interpreter
+[2023-01-26 08:42:05] Debug: Engine configured as: 2k=false 2k3=true MajorUpdated=true Eng=true
+[2023-01-26 08:42:05] Debug: Adding D:\Program Files (x86)\Steam\steamapps\common\RPG Maker 2003\RTP to RTP path
+[2023-01-26 08:42:05] Debug: RTP is "Official English" (675/675)
+[2023-01-26 08:42:05] Debug: RTP path C:\RPG2003\RTP is invalid, not adding
+[2023-01-26 08:42:05] Debug: Patch configuration: dynrpg=false maniac=false
+[2023-01-26 08:42:05] Debug: Cannot find: ./ExFont
+[2023-01-26 08:42:05] Debug: Loading ExFont from RPG_RT.exe
+[2023-01-26 08:42:05] Debug: EXEReader: EXFONT resource found (DE 0xe9f20; 0xeff60; len 0x2168)
+[2023-01-26 08:42:05] Debug: Actor 1: Removing item 44 from equipment slot 2 (Not equippable by this actor)
+[2023-01-26 08:42:05] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
+[2023-01-26 08:42:05] Debug: Set Animation
+[2023-01-26 08:42:06] Debug: Set Animation [4x]
+[2023-01-26 08:42:06] Debug: libpng: iCCP: known incorrect sRGB profile
+[2023-01-26 08:42:06] Debug: libpng: cHRM: inconsistent chromaticities
+[2023-01-26 08:42:06] Debug: Could not load soundfont.
+[2023-01-26 08:42:07] Debug: Starting new game
+[2023-01-26 08:42:07] Debug: Loaded Map Map0001.lmu
+[2023-01-26 08:42:07] Debug: Tree: Scene 3 - Dungeon
+[2023-01-26 08:42:07] Debug: Set Animation
+[2023-01-26 08:42:08] Debug: Set Animation [6x]
+[2023-01-26 08:42:08] Debug: command code: 10220
+[2023-01-26 08:42:08] Debug: command code: 12320
+[2023-01-26 08:42:08] Debug: command code: 11550
+[2023-01-26 08:42:08] Debug: command code: 10130
+[2023-01-26 08:42:08] Debug: command code: 10110
+[2023-01-26 08:42:09] Debug: command code: 10110 [2x]
+[2023-01-26 08:42:09] Debug: command code: 10130
+[2023-01-26 08:42:09] Debug: command code: 10110
+[2023-01-26 08:42:09] Debug: command code: 10130
+[2023-01-26 08:42:09] Debug: command code: 10110
+[2023-01-26 08:42:10] Debug: command code: 12320
+[2023-01-26 08:42:11] Debug: command code: 11550
+[2023-01-26 08:42:11] Debug: Loaded Map Map0002.lmu
+[2023-01-26 08:42:11] Debug: Tree: Dungeon-1 < Scene 3 - Dungeon
+[2023-01-26 08:42:11] Debug: Set Animation
+[2023-01-26 08:42:12] Debug: Set Animation [8x]
+[2023-01-26 08:45:35] Debug: EasyRPG Player 0.7.0 started
+[2023-01-26 08:45:35] Debug: ============================
+[2023-01-26 08:45:35] Debug: Clock: StdSteady steady=true period=ns (1 / 1000000000)
+[2023-01-26 08:45:35] Debug: Seeded the RNG with 1674693935.
+[2023-01-26 08:45:35] Debug: CLI: 
+[2023-01-26 08:45:35] Debug: SDL2: RendererInfo hw=true sw=false vsync=true
+[2023-01-26 08:45:35] Debug: SDL2: Detected format (0) SDL_PIXELFORMAT_ARGB8888 : rank=(2)
+[2023-01-26 08:45:35] Debug: SDL2: Selected Pixel Format SDL_PIXELFORMAT_ARGB8888
+[2023-01-26 08:45:35] Debug: Detected encoding: windows-936-2000
+[2023-01-26 08:45:35] Debug: Game and Save Directory:
+[2023-01-26 08:45:35] Debug: 1: [Native] 
+[2023-01-26 08:45:36] Debug: Loading game Untitled
+[2023-01-26 08:45:36] Debug: Using RPG2k3 (English release, v1.11) Interpreter
+[2023-01-26 08:45:36] Debug: Engine configured as: 2k=false 2k3=true MajorUpdated=true Eng=true
+[2023-01-26 08:45:36] Debug: Adding D:\Program Files (x86)\Steam\steamapps\common\RPG Maker 2003\RTP to RTP path
+[2023-01-26 08:45:36] Debug: RTP is "Official English" (675/675)
+[2023-01-26 08:45:36] Debug: RTP path C:\RPG2003\RTP is invalid, not adding
+[2023-01-26 08:45:36] Debug: Patch configuration: dynrpg=false maniac=false
+[2023-01-26 08:45:36] Debug: Cannot find: ./ExFont
+[2023-01-26 08:45:36] Debug: Loading ExFont from RPG_RT.exe
+[2023-01-26 08:45:36] Debug: EXEReader: EXFONT resource found (DE 0xe9f20; 0xeff60; len 0x2168)
+[2023-01-26 08:45:36] Debug: Actor 1: Removing item 44 from equipment slot 2 (Not equippable by this actor)
+[2023-01-26 08:45:36] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
+[2023-01-26 08:45:36] Debug: FileRequestAsync::Start
+[2023-01-26 08:45:37] Debug: FileRequestAsync::Start [3x]
+[2023-01-26 08:45:37] Debug: libpng: iCCP: known incorrect sRGB profile
+[2023-01-26 08:45:37] Debug: libpng: cHRM: inconsistent chromaticities
+[2023-01-26 08:45:37] Debug: FileRequestAsync::Start
+[2023-01-26 08:45:37] Debug: Could not load soundfont.
+[2023-01-26 08:45:38] Debug: Starting new game
+[2023-01-26 08:45:38] Debug: sound name: Decision1
+[2023-01-26 08:45:38] Debug: FileRequestAsync::Start
+[2023-01-26 08:45:38] Debug: FileRequestAsync::Start [2x]
+[2023-01-29 03:11:22] Debug: EasyRPG Player 0.7.0 started
+[2023-01-29 03:11:22] Debug: ============================
+[2023-01-29 03:11:22] Debug: Clock: StdSteady steady=true period=ns (1 / 1000000000)
+[2023-01-29 03:11:22] Debug: Seeded the RNG with 1674933081.
+[2023-01-29 03:11:22] Debug: CLI: 
+[2023-01-29 03:11:22] Debug: SDL2: RendererInfo hw=true sw=false vsync=true
+[2023-01-29 03:11:22] Debug: SDL2: Detected format (0) SDL_PIXELFORMAT_ARGB8888 : rank=(2)
+[2023-01-29 03:11:22] Debug: SDL2: Selected Pixel Format SDL_PIXELFORMAT_ARGB8888
+[2023-01-29 03:11:22] Debug: Detected encoding: windows-936-2000
+[2023-01-29 03:11:22] Debug: Game and Save Directory:
+[2023-01-29 03:11:22] Debug: 1: [Native] 
+[2023-01-29 03:11:22] Debug: Loading game Untitled
+[2023-01-29 03:11:22] Debug: Using RPG2k3 (English release, v1.11) Interpreter
+[2023-01-29 03:11:22] Debug: Engine configured as: 2k=false 2k3=true MajorUpdated=true Eng=true
+[2023-01-29 03:11:22] Debug: Adding D:\Program Files (x86)\Steam\steamapps\common\RPG Maker 2003\RTP to RTP path
+[2023-01-29 03:11:23] Debug: RTP is "Official English" (675/675)
+[2023-01-29 03:11:23] Debug: RTP path C:\RPG2003\RTP is invalid, not adding
+[2023-01-29 03:11:23] Debug: Patch configuration: dynrpg=false maniac=false
+[2023-01-29 03:11:23] Debug: Cannot find: ./ExFont
+[2023-01-29 03:11:23] Debug: Loading ExFont from RPG_RT.exe
+[2023-01-29 03:11:23] Debug: EXEReader: EXFONT resource found (DE 0xe9f20; 0xeff60; len 0x2168)
+[2023-01-29 03:11:23] Debug: Actor 1: Removing item 44 from equipment slot 2 (Not equippable by this actor)
+[2023-01-29 03:11:23] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
+[2023-01-29 03:11:23] Debug: FileRequestAsync::Start
+[2023-01-29 03:11:24] Debug: FileRequestAsync::Start [3x]
+[2023-01-29 03:11:24] Debug: libpng: iCCP: known incorrect sRGB profile
+[2023-01-29 03:11:24] Debug: libpng: cHRM: inconsistent chromaticities
+[2023-01-29 03:11:24] Debug: FileRequestAsync::Start
+[2023-01-29 03:11:24] Debug: Could not load soundfont.
+[2023-01-29 03:11:33] Debug: Actor 1: Removing item 44 from equipment slot 2 (Not equippable by this actor)
+[2023-01-29 03:11:33] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
+[2023-01-29 03:11:33] Debug: FileRequestAsync::Start
+[2023-01-29 03:14:41] Debug: EasyRPG Player 0.7.0 started
+[2023-01-29 03:14:41] Debug: ============================
+[2023-01-29 03:14:41] Debug: Clock: StdSteady steady=true period=ns (1 / 1000000000)
+[2023-01-29 03:14:41] Debug: Seeded the RNG with 1674933281.
+[2023-01-29 03:14:41] Debug: CLI: 
+[2023-01-29 03:14:41] Debug: SDL2: RendererInfo hw=true sw=false vsync=true
+[2023-01-29 03:14:41] Debug: SDL2: Detected format (0) SDL_PIXELFORMAT_ARGB8888 : rank=(2)
+[2023-01-29 03:14:41] Debug: SDL2: Selected Pixel Format SDL_PIXELFORMAT_ARGB8888
+[2023-01-29 03:14:41] Debug: Detected encoding: windows-936-2000
+[2023-01-29 03:14:41] Debug: Game and Save Directory:
+[2023-01-29 03:14:41] Debug: 1: [Native] 
+[2023-01-29 03:14:41] Debug: Loading game Untitled
+[2023-01-29 03:14:41] Debug: Using RPG2k3 (English release, v1.11) Interpreter
+[2023-01-29 03:14:41] Debug: Engine configured as: 2k=false 2k3=true MajorUpdated=true Eng=true
+[2023-01-29 03:14:41] Debug: Adding D:\Program Files (x86)\Steam\steamapps\common\RPG Maker 2003\RTP to RTP path
+[2023-01-29 03:14:42] Debug: RTP is "Official English" (675/675)
+[2023-01-29 03:14:42] Debug: RTP path C:\RPG2003\RTP is invalid, not adding
+[2023-01-29 03:14:42] Debug: Patch configuration: dynrpg=false maniac=false
+[2023-01-29 03:14:42] Debug: Cannot find: ./ExFont
+[2023-01-29 03:14:42] Debug: Loading ExFont from RPG_RT.exe
+[2023-01-29 03:14:42] Debug: EXEReader: EXFONT resource found (DE 0xe9f20; 0xeff60; len 0x2168)
+[2023-01-29 03:14:42] Debug: Actor 1: Removing item 44 from equipment slot 2 (Not equippable by this actor)
+[2023-01-29 03:14:42] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
+[2023-01-29 03:14:42] Debug: FileRequestAsync::Start
+[2023-01-29 03:14:43] Debug: FileRequestAsync::Start [3x]
+[2023-01-29 03:14:43] Debug: libpng: iCCP: known incorrect sRGB profile
+[2023-01-29 03:14:43] Debug: libpng: cHRM: inconsistent chromaticities
+[2023-01-29 03:14:43] Debug: FileRequestAsync::Start
+[2023-01-29 03:14:43] Debug: Could not load soundfont.
+[2023-01-29 03:14:46] Debug: Actor 1: Removing item 44 from equipment slot 2 (Not equippable by this actor)
+[2023-01-29 03:14:46] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
+[2023-01-29 03:14:46] Debug: FileRequestAsync::Start
+[2023-01-29 03:15:01] Debug: EasyRPG Player 0.7.0 started
+[2023-01-29 03:15:01] Debug: ============================
+[2023-01-29 03:15:01] Debug: Clock: StdSteady steady=true period=ns (1 / 1000000000)
+[2023-01-29 03:15:01] Debug: Seeded the RNG with 1674933300.
+[2023-01-29 03:15:01] Debug: CLI: 
+[2023-01-29 03:15:01] Debug: SDL2: RendererInfo hw=true sw=false vsync=true
+[2023-01-29 03:15:01] Debug: SDL2: Detected format (0) SDL_PIXELFORMAT_ARGB8888 : rank=(2)
+[2023-01-29 03:15:01] Debug: SDL2: Selected Pixel Format SDL_PIXELFORMAT_ARGB8888
+[2023-01-29 03:15:01] Debug: Detected encoding: windows-936-2000
+[2023-01-29 03:15:01] Debug: Game and Save Directory:
+[2023-01-29 03:15:01] Debug: 1: [Native] 
+[2023-01-29 03:15:01] Debug: Loading game Untitled
+[2023-01-29 03:15:01] Debug: Using RPG2k3 (English release, v1.11) Interpreter
+[2023-01-29 03:15:01] Debug: Engine configured as: 2k=false 2k3=true MajorUpdated=true Eng=true
+[2023-01-29 03:15:01] Debug: Adding D:\Program Files (x86)\Steam\steamapps\common\RPG Maker 2003\RTP to RTP path
+[2023-01-29 03:15:02] Debug: RTP is "Official English" (675/675)
+[2023-01-29 03:15:02] Debug: RTP path C:\RPG2003\RTP is invalid, not adding
+[2023-01-29 03:15:02] Debug: Patch configuration: dynrpg=false maniac=false
+[2023-01-29 03:15:02] Debug: Cannot find: ./ExFont
+[2023-01-29 03:15:02] Debug: Loading ExFont from RPG_RT.exe
+[2023-01-29 03:15:02] Debug: EXEReader: EXFONT resource found (DE 0xe9f20; 0xeff60; len 0x2168)
+[2023-01-29 03:15:02] Debug: Actor 1: Removing item 44 from equipment slot 2 (Not equippable by this actor)
+[2023-01-29 03:15:02] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
+[2023-01-29 03:15:02] Debug: FileRequestAsync::Start
+[2023-01-29 03:15:03] Debug: FileRequestAsync::Start [3x]
+[2023-01-29 03:15:03] Debug: libpng: iCCP: known incorrect sRGB profile
+[2023-01-29 03:15:03] Debug: libpng: cHRM: inconsistent chromaticities
+[2023-01-29 03:15:03] Debug: FileRequestAsync::Start
+[2023-01-29 03:15:03] Debug: Could not load soundfont.
+[2023-01-29 03:15:05] Debug: Actor 1: Removing item 44 from equipment slot 2 (Not equippable by this actor)
+[2023-01-29 03:15:05] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
+[2023-01-29 03:15:05] Debug: FileRequestAsync::Start
+[2023-01-29 03:21:19] Debug: EasyRPG Player 0.7.0 started
+[2023-01-29 03:21:19] Debug: ============================
+[2023-01-29 03:21:19] Debug: Clock: StdSteady steady=true period=ns (1 / 1000000000)
+[2023-01-29 03:21:19] Debug: Seeded the RNG with 1674933679.
+[2023-01-29 03:21:19] Debug: CLI: 
+[2023-01-29 03:21:19] Debug: SDL2: RendererInfo hw=true sw=false vsync=true
+[2023-01-29 03:21:19] Debug: SDL2: Detected format (0) SDL_PIXELFORMAT_ARGB8888 : rank=(2)
+[2023-01-29 03:21:19] Debug: SDL2: Selected Pixel Format SDL_PIXELFORMAT_ARGB8888
+[2023-01-29 03:21:19] Debug: Detected encoding: windows-936-2000
+[2023-01-29 03:21:19] Debug: Game and Save Directory:
+[2023-01-29 03:21:19] Debug: 1: [Native] 
+[2023-01-29 03:21:20] Debug: Loading game Untitled
+[2023-01-29 03:21:20] Debug: Using RPG2k3 (English release, v1.11) Interpreter
+[2023-01-29 03:21:20] Debug: Engine configured as: 2k=false 2k3=true MajorUpdated=true Eng=true
+[2023-01-29 03:21:20] Debug: Adding D:\Program Files (x86)\Steam\steamapps\common\RPG Maker 2003\RTP to RTP path
+[2023-01-29 03:21:20] Debug: RTP is "Official English" (675/675)
+[2023-01-29 03:21:20] Debug: RTP path C:\RPG2003\RTP is invalid, not adding
+[2023-01-29 03:21:20] Debug: Patch configuration: dynrpg=false maniac=false
+[2023-01-29 03:21:20] Debug: Cannot find: ./ExFont
+[2023-01-29 03:21:20] Debug: Loading ExFont from RPG_RT.exe
+[2023-01-29 03:21:20] Debug: EXEReader: EXFONT resource found (DE 0xe9f20; 0xeff60; len 0x2168)
+[2023-01-29 03:21:20] Debug: Actor 1: Removing item 44 from equipment slot 2 (Not equippable by this actor)
+[2023-01-29 03:21:20] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
+[2023-01-29 03:21:20] Debug: FileRequestAsync::Start
+[2023-01-29 03:21:21] Debug: FileRequestAsync::Start [3x]
+[2023-01-29 05:59:32] Debug: EasyRPG Player 0.7.0 started
+[2023-01-29 05:59:32] Debug: ============================
+[2023-01-29 05:59:32] Debug: Clock: StdSteady steady=true period=ns (1 / 1000000000)
+[2023-01-29 05:59:32] Debug: Seeded the RNG with 1674943171.
+[2023-01-29 05:59:32] Debug: CLI: 
+[2023-01-29 05:59:32] Debug: SDL2: RendererInfo hw=true sw=false vsync=true
+[2023-01-29 05:59:32] Debug: SDL2: Detected format (0) SDL_PIXELFORMAT_ARGB8888 : rank=(2)
+[2023-01-29 05:59:32] Debug: SDL2: Selected Pixel Format SDL_PIXELFORMAT_ARGB8888
+[2023-01-29 05:59:32] Debug: Detected encoding: windows-936-2000
+[2023-01-29 05:59:32] Debug: Game and Save Directory:
+[2023-01-29 05:59:32] Debug: 1: [Native] 
+[2023-01-29 05:59:32] Debug: Loading game Untitled
+[2023-01-29 05:59:32] Debug: Using RPG2k3 (English release, v1.11) Interpreter
+[2023-01-29 05:59:32] Debug: Engine configured as: 2k=false 2k3=true MajorUpdated=true Eng=true
+[2023-01-29 05:59:32] Debug: Adding D:\Program Files (x86)\Steam\steamapps\common\RPG Maker 2003\RTP to RTP path
+[2023-01-29 05:59:33] Debug: RTP is "Official English" (675/675)
+[2023-01-29 05:59:33] Debug: RTP path C:\RPG2003\RTP is invalid, not adding
+[2023-01-29 05:59:33] Debug: Patch configuration: dynrpg=false maniac=false
+[2023-01-29 05:59:33] Debug: Cannot find: ./ExFont
+[2023-01-29 05:59:33] Debug: Loading ExFont from RPG_RT.exe
+[2023-01-29 05:59:33] Debug: EXEReader: EXFONT resource found (DE 0xe9f20; 0xeff60; len 0x2168)
+[2023-01-29 05:59:33] Debug: Actor 1: Removing item 44 from equipment slot 2 (Not equippable by this actor)
+[2023-01-29 05:59:33] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
+[2023-01-29 05:59:33] Debug: FileRequestAsync::Start
+[2023-01-29 05:59:34] Debug: FileRequestAsync::Start [3x]
+[2023-01-29 05:59:34] Debug: libpng: iCCP: known incorrect sRGB profile
+[2023-01-29 05:59:34] Debug: libpng: cHRM: inconsistent chromaticities
+[2023-01-29 05:59:34] Debug: FileRequestAsync::Start
+[2023-01-29 05:59:34] Debug: Could not load soundfont.
+[2023-01-29 05:59:35] Debug: Actor 1: Removing item 44 from equipment slot 2 (Not equippable by this actor)
+[2023-01-29 05:59:35] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
+[2023-01-29 05:59:35] Debug: FileRequestAsync::Start
+[2023-01-31 07:56:28] Debug: EasyRPG Player 0.7.0 started
+[2023-01-31 07:56:28] Debug: ============================
+[2023-01-31 07:56:28] Debug: Clock: StdSteady steady=true period=ns (1 / 1000000000)
+[2023-01-31 07:56:28] Debug: Seeded the RNG with 1675122987.
+[2023-01-31 07:56:28] Debug: CLI: 
+[2023-01-31 07:56:28] Debug: SDL2: RendererInfo hw=true sw=false vsync=true
+[2023-01-31 07:56:28] Debug: SDL2: Detected format (0) SDL_PIXELFORMAT_ARGB8888 : rank=(2)
+[2023-01-31 07:56:28] Debug: SDL2: Selected Pixel Format SDL_PIXELFORMAT_ARGB8888
+[2023-01-31 07:56:28] Debug: Detected encoding: windows-936-2000
+[2023-01-31 07:56:28] Debug: Game and Save Directory:
+[2023-01-31 07:56:28] Debug: 1: [Native] 
+[2023-01-31 07:56:28] Debug: Loading game Untitled
+[2023-01-31 07:56:28] Debug: Using RPG2k3 (English release, v1.11) Interpreter
+[2023-01-31 07:56:28] Debug: Engine configured as: 2k=false 2k3=true MajorUpdated=true Eng=true
+[2023-01-31 07:56:28] Debug: Adding D:\Program Files (x86)\Steam\steamapps\common\RPG Maker 2003\RTP to RTP path
+[2023-01-31 07:56:29] Debug: RTP is "Official English" (675/675)
+[2023-01-31 07:56:29] Debug: RTP path C:\RPG2003\RTP is invalid, not adding
+[2023-01-31 07:56:29] Debug: Patch configuration: dynrpg=false maniac=false
+[2023-01-31 07:56:29] Debug: Cannot find: ./ExFont
+[2023-01-31 07:56:29] Debug: Loading ExFont from RPG_RT.exe
+[2023-01-31 07:56:29] Debug: EXEReader: EXFONT resource found (DE 0xe9f20; 0xeff60; len 0x2168)
+[2023-01-31 07:56:29] Debug: Actor 1: Removing item 44 from equipment slot 2 (Not equippable by this actor)
+[2023-01-31 07:56:29] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
+[2023-01-31 07:56:29] Debug: FileRequestAsync::Start
+[2023-01-31 07:56:30] Debug: FileRequestAsync::Start [3x]
+[2023-01-31 07:56:30] Debug: libpng: iCCP: known incorrect sRGB profile
+[2023-01-31 07:56:30] Debug: libpng: cHRM: inconsistent chromaticities
+[2023-01-31 07:56:30] Debug: FileRequestAsync::Start
+[2023-01-31 07:56:30] Debug: Could not load soundfont.
+[2023-01-31 07:56:32] Debug: Starting new game
+[2023-01-31 07:56:32] Debug: sound name: Decision1
+[2023-01-31 07:56:32] Debug: FileRequestAsync::Start
+[2023-01-31 07:56:32] Debug: FileRequestAsync::Start [2x]
+[2023-01-31 08:15:45] Debug: EasyRPG Player 0.7.0 started
+[2023-01-31 08:15:45] Debug: ============================
+[2023-01-31 08:15:45] Debug: Clock: StdSteady steady=true period=ns (1 / 1000000000)
+[2023-01-31 08:15:45] Debug: Seeded the RNG with 1675124144.
+[2023-01-31 08:15:45] Debug: CLI: 
+[2023-01-31 08:15:45] Debug: SDL2: RendererInfo hw=true sw=false vsync=true
+[2023-01-31 08:15:45] Debug: SDL2: Detected format (0) SDL_PIXELFORMAT_ARGB8888 : rank=(2)
+[2023-01-31 08:15:45] Debug: SDL2: Selected Pixel Format SDL_PIXELFORMAT_ARGB8888
+[2023-01-31 08:15:45] Debug: Detected encoding: windows-936-2000
+[2023-01-31 08:15:45] Debug: Game and Save Directory:
+[2023-01-31 08:15:45] Debug: 1: [Native] 
+[2023-01-31 08:15:45] Debug: Loading game Untitled
+[2023-01-31 08:15:45] Debug: Using RPG2k3 (English release, v1.11) Interpreter
+[2023-01-31 08:15:45] Debug: Engine configured as: 2k=false 2k3=true MajorUpdated=true Eng=true
+[2023-01-31 08:15:45] Debug: Adding D:\Program Files (x86)\Steam\steamapps\common\RPG Maker 2003\RTP to RTP path
+[2023-01-31 08:15:46] Debug: RTP is "Official English" (675/675)
+[2023-01-31 08:15:46] Debug: RTP path C:\RPG2003\RTP is invalid, not adding
+[2023-01-31 08:15:46] Debug: Patch configuration: dynrpg=false maniac=false
+[2023-01-31 08:15:46] Debug: Cannot find: ./ExFont
+[2023-01-31 08:15:46] Debug: Loading ExFont from RPG_RT.exe
+[2023-01-31 08:15:46] Debug: EXEReader: EXFONT resource found (DE 0xe9f20; 0xeff60; len 0x2168)
+[2023-01-31 08:15:46] Debug: Actor 1: Removing item 44 from equipment slot 2 (Not equippable by this actor)
+[2023-01-31 08:15:46] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
+[2023-01-31 08:15:46] Debug: FileRequestAsync::Start
+[2023-01-31 08:15:47] Debug: FileRequestAsync::Start [3x]
+[2023-01-31 08:15:47] Debug: libpng: iCCP: known incorrect sRGB profile
+[2023-01-31 08:15:47] Debug: libpng: cHRM: inconsistent chromaticities
+[2023-01-31 08:15:47] Debug: FileRequestAsync::Start
+[2023-01-31 08:15:47] Debug: Could not load soundfont.
+[2023-01-31 08:15:48] Debug: Starting new game
+[2023-01-31 08:15:48] Debug: sound name: Decision1
+[2023-01-31 08:15:48] Debug: FileRequestAsync::Start
+[2023-01-31 08:15:48] Debug: FileRequestAsync::Start [2x]
+[2023-01-31 08:16:07] Debug: EasyRPG Player 0.7 git+460@9ee72af7-dirty (2023-01-26) started
+[2023-01-31 08:16:07] Debug: ==============================================================
+[2023-01-31 08:16:07] Debug: CLI: 
+[2023-01-31 08:16:07] Debug: Clock: StdSteady steady=true period=ns (1 / 1000000000)
+[2023-01-31 08:16:07] Debug: Seeded the RNG with 1675124166.
+[2023-01-31 08:16:07] Debug: SDL2: RendererInfo hw=true sw=false vsync=true
+[2023-01-31 08:16:07] Debug: SDL2: Detected format (0) SDL_PIXELFORMAT_ARGB8888 : rank=(2)
+[2023-01-31 08:16:07] Debug: SDL2: Selected Pixel Format SDL_PIXELFORMAT_ARGB8888
+[2023-01-31 08:16:07] Debug: Detected encoding: windows-936-2000
+[2023-01-31 08:16:07] Debug: Game and Save Directory:
+[2023-01-31 08:16:07] Debug: 1: [Native] 
+[2023-01-31 08:16:07] Debug: Loading game Untitled
+[2023-01-31 08:16:07] Debug: Using RPG2k3 (English release, v1.11) Interpreter
+[2023-01-31 08:16:07] Debug: Engine configured as: 2k=false 2k3=true MajorUpdated=true Eng=true
+[2023-01-31 08:16:07] Debug: Adding D:\Program Files (x86)\Steam\steamapps\common\RPG Maker 2003\RTP to RTP path
+[2023-01-31 08:16:07] Debug: RTP is "Official English" (675/675)
+[2023-01-31 08:16:07] Debug: RTP path C:\RPG2003\RTP is invalid, not adding
+[2023-01-31 08:16:07] Debug: Patch configuration: dynrpg=false maniac=false
+[2023-01-31 08:16:07] Debug: Cannot find: Font/ExFont
+[2023-01-31 08:16:07] Debug: Cannot find: ./ExFont
+[2023-01-31 08:16:07] Debug: Loading ExFont from RPG_RT.exe
+[2023-01-31 08:16:07] Debug: EXEReader: EXFONT resource found (DE 0xe9f20; 0xeff60; len 0x2168)
+[2023-01-31 08:16:07] Debug: Actor 1: Removing item 44 from equipment slot 2 (Not equippable by this actor)
+[2023-01-31 08:16:07] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
+[2023-01-31 08:16:07] Debug: Cannot find: Font/Font
+[2023-01-31 08:16:07] Debug: Cannot find: Font/Font2
+[2023-01-31 08:16:08] Debug: libpng: iCCP: known incorrect sRGB profile
+[2023-01-31 08:16:08] Debug: libpng: cHRM: inconsistent chromaticities
+[2023-01-31 08:16:08] Debug: Fluidsynth: Could not load soundfont.
+[2023-01-31 08:16:09] Debug: Starting new game
+[2023-01-31 08:16:09] Debug: Loaded Map Map0001.lmu
+[2023-01-31 08:16:09] Debug: Tree: Scene 3 - Dungeon
+[2023-01-31 08:16:11] Debug: \c[1]エーリル:\c[0]放我出去！
+[2023-01-31 08:16:13] Debug: \c[1]エーリル:\c[0]放我出去！ [4x]
+[2023-01-31 08:16:13] Debug: \c[1]エーリル:\c[0]。。。
+[2023-01-31 08:16:14] Debug: \c[1]エーリル:\c[0]。。。 [2x]
+[2023-01-31 08:16:14] Debug: \c[1]エーリル:\c[0]没办法，不知道什么时候才能被放出去。
+[2023-01-31 08:16:14] Debug: \c[1]エーリル:\c[0]没办法，不知道什么时候才能被放
+[2023-01-31 08:16:14] Debug: 出去。
+[2023-01-31 08:17:16] Debug: Actor 1: Removing item 44 from equipment slot 2 (Not equippable by this actor)
+[2023-01-31 08:17:16] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)

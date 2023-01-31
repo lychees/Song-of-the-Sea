@@ -1,0 +1,281 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GAME_NAME 1.0\n"
+"Language-Team: YOUR NAME <mail@your.address>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-CreatedBy: LcfTrans"
+
+#. ID 3, Page 1, Line 7, Pos (1,0)
+msgid ""
+"\\c[1]クイーン:\\c[0]\n"
+"（怎么办... 怎么办...）"
+msgstr ""
+
+#. ID 3, Page 1, Line 9, Pos (1,0)
+msgid ""
+"\\c[1]クイーン:\\c[0]\n"
+"（这下可如何是好...）"
+msgstr ""
+
+#. ID 3, Page 1, Line 12, Pos (1,0)
+msgid ""
+"\\c[1]クイーン:\\c[0]\n"
+"陛下..."
+msgstr ""
+
+#. ID 3, Page 1, Line 14, Pos (1,0)
+msgid ""
+"\\c[1]クイーン:\\c[0]\n"
+"陛下... 陛下还在为白天米格的使团\n"
+"邀请公主殿下前去学院的事情发愁吧..."
+msgstr ""
+
+#. ID 3, Page 1, Line 19, Pos (1,0)
+msgid ""
+"\\c[1]クイーン:\\c[0]\n"
+"哎..."
+msgstr ""
+
+#. ID 3, Page 1, Line 21, Pos (1,0)
+msgid ""
+"\\c[1]クイーン:\\c[0]\n"
+"米格的君主非但没有追究上次艾莉尔打伤船员的事件。\n"
+"还邀请她前往新落成的斯沃茨学院进修。"
+msgstr ""
+
+#. ID 3, Page 1, Line 24, Pos (1,0)
+msgid ""
+"\\c[1]クイーン:\\c[0]\n"
+"据说学院建设在原理米格都城的中立国莫托利的群山之中，\n"
+"去年底刚竣工，已经邀请了世界上各国王公的公子和小姐。"
+msgstr ""
+
+#. ID 3, Page 1, Line 27, Pos (1,0)
+msgid ""
+"\\c[1]クイーン:\\c[0]\n"
+"并由大陆各个学科最优秀的老师授课，\n"
+"但越是这样让我越发感到不安 ..."
+msgstr ""
+
+#. ID 3, Page 1, Line 30, Pos (1,0)
+msgid ""
+"\\c[1]クイーン:\\c[0]\n"
+"我担心这是一个陷阱，让各国未来的继承人都汇聚一处。"
+msgstr ""
+
+#. ID 3, Page 1, Line 33, Pos (1,0)
+msgid ""
+"陛下的担心不无道理... 但如果我们不肯放人，\n"
+"米格的人恐会引以为口实，将来引发额外的事端。"
+msgstr ""
+
+#. ID 3, Page 1, Line 35, Pos (1,0)
+msgid ""
+"况且我听闻，负责学院筹备工作的，是大魔法师邓布利夫。\n"
+"其法力高强，为人正直，有此人坐镇，应当不会出差错。"
+msgstr ""
+
+#. ID 3, Page 1, Line 37, Pos (1,0)
+msgid ""
+"再者，古有云：师夷长技以制夷。如若能趁此行，\n"
+"学习各国技术，广交王公贵族之人脉，那就再好不过了。"
+msgstr ""
+
+#. ID 3, Page 1, Line 40, Pos (1,0)
+msgid ""
+"\\c[1]クイーン:\\c[0]\n"
+"哎...（扶额"
+msgstr ""
+
+#. ID 3, Page 1, Line 44, Pos (1,0)
+msgid "皇后沉思良久，最终还是决定答应米格方面的邀请。"
+msgstr ""
+
+#. ID 3, Page 1, Line 45, Pos (1,0)
+msgid "送公主殿下，前往斯沃茨学院。"
+msgstr ""
+
+#. ID 3, Page 2, Line 9, Pos (1,0)
+#. ID 3, Page 2, Line 15, Pos (1,0)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"。。。"
+msgstr ""
+
+#. ID 3, Page 2, Line 12, Pos (1,0)
+msgid ""
+"\\c[1]クイーン:\\c[0]\n"
+"。。。"
+msgstr ""
+
+#. ID 3, Page 2, Line 17, Pos (1,0)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"哼！之前把我关进地牢，现在又把我放出来召见。\n"
+"你到底有什么事？"
+msgstr ""
+
+#. ID 3, Page 2, Line 21, Pos (1,0)
+msgid ""
+"\\c[1]クイーン:\\c[0]\n"
+"安琪拉的长公主，我的女儿艾莉尔 ...\n"
+"命令你明日随米格使团的船队一同前往大陆。"
+msgstr ""
+
+#. ID 3, Page 2, Line 24, Pos (1,0)
+msgid ""
+"\\c[1]クイーン:\\c[0]\n"
+"代表安琪拉参加学院的落成典礼，\n"
+"并在学院之中学习大陆的科学理念与知识。"
+msgstr ""
+
+#. ID 3, Page 2, Line 27, Pos (1,0)
+msgid ""
+"\\c[1]クイーン:\\c[0]\n"
+"希望公主可以戒骄戒躁，待学业有成之后，\n"
+"回国继承女王之位。"
+msgstr ""
+
+#. ID 3, Page 2, Line 30, Pos (1,0)
+msgid ""
+"\\c[1]クイーン:\\c[0]\n"
+"随身侍女莉莉丝也会陪同你一起前往，\n"
+"我已经安排她回房间收拾所需行李。"
+msgstr ""
+
+#. ID 3, Page 2, Line 33, Pos (1,0)
+msgid ""
+"\\c[1]クイーン:\\c[0]\n"
+"介于之前的事情，我国与米格方面关系愈发紧张。\n"
+"米格大使说，西方大陆的群山中新建了一所学院"
+msgstr ""
+
+#. ID 3, Page 2, Line 36, Pos (1,0)
+msgid ""
+"\\c[1]クイーン:\\c[0]\n"
+"学院位于中立国莫托利的山脉，叫斯沃茨学院"
+msgstr ""
+
+#. ID 3, Page 2, Line 38, Pos (1,0)
+msgid ""
+"\\c[1]クイーン:\\c[0]\n"
+"学院将会以中立的立场，接收各国的贵族子弟，\n"
+"教授近年发展的科学技术，并供学术交流。"
+msgstr ""
+
+#. ID 3, Page 2, Line 41, Pos (1,0)
+msgid ""
+"\\c[1]クイーン:\\c[0]\n"
+"米格方面希望我们可以派出皇女前去入学。\n"
+"这样也可以缓解与米格方面的紧张关系。"
+msgstr ""
+
+#. ID 3, Page 2, Line 44, Pos (1,0)
+msgid ""
+"\\c[1]クイーン:\\c[0]\n"
+"艾莉尔皇女，我作为皇后，命令你。\n"
+"明日启程前往西方的大陆，"
+msgstr ""
+
+#. ID 3, Page 2, Line 47, Pos (1,0)
+msgid ""
+"\\c[1]クイーン:\\c[0]\n"
+"前往人类的斯沃茨学院入学。"
+msgstr ""
+
+#. ID 3, Page 2, Line 50, Pos (1,0)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"不！这不公平！这群人类作恶多端，\n"
+"而且对我们如此不敬！"
+msgstr ""
+
+#. ID 3, Page 2, Line 53, Pos (1,0)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"凭什么听他们的，\n"
+"这不是在要求拿我做人质？"
+msgstr ""
+
+#. ID 3, Page 2, Line 57, Pos (1,0)
+#. ID 3, Page 2, Line 91, Pos (1,0)
+msgid ""
+"\\c[1]クイーン:\\c[0]\n"
+"唉。。。"
+msgstr ""
+
+#. ID 3, Page 2, Line 59, Pos (1,0)
+msgid ""
+"\\c[1]クイーン:\\c[0]\n"
+"人类的坚船利炮之强，万不可小视。"
+msgstr ""
+
+#. ID 3, Page 2, Line 61, Pos (1,0)
+msgid ""
+"\\c[1]クイーン:\\c[0]\n"
+"况且这次你闯出的事情，让人类对我们更加\n"
+"嚣张和敌意了。"
+msgstr ""
+
+#. ID 3, Page 2, Line 64, Pos (1,0)
+msgid ""
+"\\c[1]クイーン:\\c[0]\n"
+"如果不去，让让抓住口实，不仅是米格，\n"
+"其它人类国家也会与我们关系紧张。"
+msgstr ""
+
+#. ID 3, Page 2, Line 67, Pos (1,0)
+msgid ""
+"\\c[1]クイーン:\\c[0]\n"
+"并且我想，如果能在这中立的学院之中，\n"
+"学到些人类的科学技术，能师夷长技，也好。"
+msgstr ""
+
+#. ID 3, Page 2, Line 70, Pos (1,0)
+msgid ""
+"\\c[1]クイーン:\\c[0]\n"
+"我也。。。不。。没什么。。\n"
+"总之经过考虑，我们必须同意这个提议。"
+msgstr ""
+
+#. ID 3, Page 2, Line 73, Pos (1,0)
+msgid ""
+"\\c[1]クイーン:\\c[0]\n"
+"（我也不想让你去啊。。宝贝女儿。。）"
+msgstr ""
+
+#. ID 3, Page 2, Line 75, Pos (1,0)
+msgid ""
+"\\c[1]クイーン:\\c[0]\n"
+"（要是有其他办法倒好。。。）"
+msgstr ""
+
+#. ID 3, Page 2, Line 78, Pos (1,0)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"可恶。。。我才不要和人类。。。"
+msgstr ""
+
+#. ID 3, Page 2, Line 81, Pos (1,0)
+msgid ""
+"\\c[1]クイーン:\\c[0]\n"
+"我是在以皇后的身份命令你，不许拒绝。"
+msgstr ""
+
+#. ID 3, Page 2, Line 83, Pos (1,0)
+msgid ""
+"\\c[1]クイーン:\\c[0]\n"
+"随行人员都已经安排妥当，船将在明日出发。\n"
+"你先退下，去收拾行李吧。"
+msgstr ""
+
+#. ID 3, Page 2, Line 87, Pos (1,0)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"唔。。。\n"
+"遵旨。。。（咬牙切齿"
+msgstr ""
+

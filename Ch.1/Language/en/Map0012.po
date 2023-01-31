@@ -1,0 +1,35 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GAME_NAME 1.0\n"
+"Language-Team: YOUR NAME <mail@your.address>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-CreatedBy: LcfTrans"
+
+#. ID 1, Page 2, Line 1, Pos (22,23)
+msgid ""
+"僄僗僞儈儖偵拝偄偨偤両\n"
+"偝偰丄傂偲媥傒偡傞偐側丅"
+msgstr ""
+
+#. ID 1, Page 2, Line 3, Pos (22,23)
+msgid ""
+"億僼僩傊栠傞慏偐偄丠\n"
+"偦傟側傜丄傑偩弌側偄傫偩丅\n"
+"傕偆彮偟懸偭偰偔傟側丅"
+msgstr ""
+
+#. ID 2, Page 1, Line 1, Pos (31,23)
+msgid ""
+"偙偙僄僗僞儈儖偺尃椡幰僑乕儖僪儖偼\n"
+"嵟嬤巔傪尒偣側偄偦偆偩側乧"
+msgstr ""
+
+#. ID 3, Page 1, Line 1, Pos (31,24)
+msgid ""
+"杒僄僗僞儈儖偲撿僄僗僞儈儖偼\n"
+"嫶偱偮側偑偭偰傞偤両"
+msgstr ""
+

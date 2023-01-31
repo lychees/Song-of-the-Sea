@@ -1,0 +1,83 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GAME_NAME 1.0\n"
+"Language-Team: YOUR NAME <mail@your.address>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-CreatedBy: LcfTrans"
+
+#. ID 1, Page 1, Line 3, Pos (0,0)
+msgid "第二章 学院"
+msgstr ""
+
+#. ID 1, Page 1, Line 9, Pos (0,0)
+msgid ""
+"二人在船上又不知经过了几个昼夜，\n"
+"一日艾莉尔睡眼惺忪，忽闻见远处人声络绎不绝，\n"
+"起身正欲看时，只望见纱窗之外已是正午时分，阳光明媚，"
+msgstr ""
+
+#. ID 1, Page 1, Line 12, Pos (0,0)
+msgid ""
+"仔细听时，叫卖声，号子声，车马声，不绝于耳，\n"
+"人烟阜盛之处，全然不似岛上平日之光景，"
+msgstr ""
+
+#. ID 1, Page 1, Line 14, Pos (0,0)
+msgid ""
+"却看艾莉尔哪里见过此般热闹场景，\n"
+"随即弃船登岸，欲仔细探索一番，\n"
+"全然已无前日触景伤情之意。"
+msgstr ""
+
+#. ID 1, Page 1, Line 21, Pos (0,0)
+msgid ""
+"\\c[1]エーリル:\\c[0]\n"
+"终于到了。。。（哈欠"
+msgstr ""
+
+#. ID 1, Page 1, Line 24, Pos (0,0)
+msgid ""
+"\\c[1]リリス:\\c[0]\n"
+"殿下，海上旅途劳顿，虽然天色还不晚，\n"
+"但是今日已经没有前往学院的水车了，"
+msgstr ""
+
+#. ID 1, Page 1, Line 27, Pos (0,0)
+msgid ""
+"\\c[1]\\n[1]:\\c[0]\n"
+"水车？"
+msgstr ""
+
+#. ID 1, Page 1, Line 29, Pos (0,0)
+msgid ""
+"\\c[1]\\n[2]:\\c[0]\n"
+"奴家也不是很清楚呢，据说是大陆的一种机械，\n"
+"以水源作为动力，可以装运货物，日行百里。"
+msgstr ""
+
+#. ID 1, Page 1, Line 32, Pos (0,0)
+msgid ""
+"\\c[1]\\n[1]:\\c[0]\n"
+"有趣...）"
+msgstr ""
+
+#. ID 1, Page 1, Line 34, Pos (0,0)
+msgid ""
+"\\c[1]\\n[2]:\\c[0]\n"
+"殿下不妨在此城中借住一宿，待明日一早再乘坐水车\n"
+"前往学院吧。"
+msgstr ""
+
+#. ID 1, Page 1, Line 37, Pos (0,0)
+msgid ""
+"\\c[1]\\n[1]:\\c[0]\n"
+"嗯。"
+msgstr ""
+
+#. ID 1, Page 1, Line 41, Pos (0,0)
+msgid "\\n[2]加入队伍。"
+msgstr ""
+
