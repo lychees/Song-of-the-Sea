@@ -1,322 +1,3 @@
-[2023-01-29 12:21:06] Debug: 远处的汽笛声若影若现，人们也开始和送行的家人们告别，开始排起了长长的队伍，原本纷乱嘈杂的车站顿时变得井然有序。
-[2023-01-29 12:21:06] Debug: 远处的汽笛声若影若现，人们也开始和送行的家人们告别
-[2023-01-29 12:21:06] Debug: ，开始排起了长长的队伍，原本纷乱嘈杂的车站顿时变得
-[2023-01-29 12:21:06] Debug: 井然有序。
-[2023-01-29 12:21:11] Debug: 虽然，按照之前的约定，帕斯卡露应该在走散的地方等待。不过火车即将入站，也只好相信彼此的默契，先上车再说了。黛尔芙特姐姐的话，应该会在火车里找到自己的吧？
-[2023-01-29 12:21:11] Debug: 虽然，按照之前的约定，帕斯卡露应该在走散的地方等待
-[2023-01-29 12:21:11] Debug: 。不过火车即将入站，也只好相信彼此的默契，先上车再
-[2023-01-29 12:21:11] Debug: 说了。黛尔芙特姐姐的话，应该会在火车里找到自己的吧
-[2023-01-29 12:21:11] Debug: ？
-[2023-01-29 12:21:34] Debug: 汽笛声越来越近，火车逐渐减速，穿过站台，冒着滚滚蒸汽。帕斯卡露注视着这具钢铁打造的庞然大物静静地驻足在自己的面前...
-[2023-01-29 12:21:34] Debug: 汽笛声越来越近，火车逐渐减速，穿过站台，冒着滚滚蒸
-[2023-01-29 12:21:34] Debug: 汽。帕斯卡露注视着这具钢铁打造的庞然大物静静地驻足
-[2023-01-29 12:21:34] Debug: 在自己的面前...
-[2023-01-29 12:21:47] Debug: Loaded Map Map0002.lmu
-[2023-01-29 12:21:47] Debug: Tree: MAP0002 < MAP0001
-[2023-01-29 12:21:49] Debug: Loaded Map Map0001.lmu
-[2023-01-29 12:21:49] Debug: Tree: MAP0001
-[2023-01-29 12:21:49] Debug: 帕斯卡露原本只想走到离站台更近一点的位置，结果却迷失在了人群里。今天的库尔多车站比以往更加忙碌和拥挤。人类、矮人、侏儒、还有蜥蜴 ，帕斯卡露几乎在这里看到了所有自己能在书上见过的种族。
-[2023-01-29 12:21:49] Debug: 帕斯卡露原本只想走到离站台更近一点的位置，结果却迷
-[2023-01-29 12:21:49] Debug: 失在了人群里。今天的库尔多车站比以往更加忙碌和拥挤
-[2023-01-29 12:21:49] Debug: 。人类、矮人、侏儒、还有蜥蜴 ，帕斯卡露几乎在这里
-[2023-01-29 12:21:49] Debug: 看到了所有自己能在书上见过的种族。
-[2023-01-29 12:21:55] Debug: Actor 1: Removing item 44 (of type 2) from equipment slot 2 (needs type 1)
-[2023-01-29 12:21:55] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
-[2023-01-29 12:25:13] Debug: EasyRPG Player 0.7 git+460@9ee72af7-dirty (2023-01-26) started
-[2023-01-29 12:25:13] Debug: ==============================================================
-[2023-01-29 12:25:13] Debug: CLI: 
-[2023-01-29 12:25:13] Debug: Clock: StdSteady steady=true period=ns (1 / 1000000000)
-[2023-01-29 12:25:13] Debug: Seeded the RNG with 1674966307.
-[2023-01-29 12:25:13] Debug: SDL2: RendererInfo hw=true sw=false vsync=true
-[2023-01-29 12:25:13] Debug: SDL2: Detected format (0) SDL_PIXELFORMAT_ARGB8888 : rank=(2)
-[2023-01-29 12:25:13] Debug: SDL2: Selected Pixel Format SDL_PIXELFORMAT_ARGB8888
-[2023-01-29 12:25:13] Debug: Game and Save Directory:
-[2023-01-29 12:25:13] Debug: 1: [Native] 
-[2023-01-29 12:25:13] Debug: Loading game Song of the Sea
-[2023-01-29 12:25:13] Debug: Using RPG2k3 (English release, v1.11) Interpreter
-[2023-01-29 12:25:13] Debug: Engine configured as: 2k=false 2k3=true MajorUpdated=true Eng=true
-[2023-01-29 12:25:13] Debug: Adding D:\Program Files (x86)\Steam\steamapps\common\RPG Maker 2003\RTP to RTP path
-[2023-01-29 12:25:14] Debug: RTP is "Official English" (675/675)
-[2023-01-29 12:25:14] Debug: RTP path C:\RPG2003\RTP is invalid, not adding
-[2023-01-29 12:25:14] Debug: Patch configuration: dynrpg=false maniac=false
-[2023-01-29 12:25:14] Debug: Cannot find: Font/ExFont
-[2023-01-29 12:25:14] Debug: Cannot find: ./ExFont
-[2023-01-29 12:25:14] Debug: Loading ExFont from RPG_RT.exe
-[2023-01-29 12:25:14] Debug: EXEReader: EXFONT resource found (DE 0xe9f20; 0xeff60; len 0x2168)
-[2023-01-29 12:25:14] Debug: Actor 1: Removing item 44 (of type 2) from equipment slot 2 (needs type 1)
-[2023-01-29 12:25:14] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
-[2023-01-29 12:25:14] Debug: Cannot find: Font/Font
-[2023-01-29 12:25:14] Debug: Cannot find: Font/Font2
-[2023-01-29 12:26:31] Debug: libpng: iCCP: known incorrect sRGB profile
-[2023-01-29 12:26:31] Debug: libpng: cHRM: inconsistent chromaticities
-[2023-01-29 12:26:31] Debug: Game uses RTP "Official English"
-[2023-01-29 12:26:31] Debug: Fluidsynth: Could not load soundfont.
-[2023-01-29 12:26:32] Debug: Starting new game
-[2023-01-29 12:26:32] Debug: Loaded Map Map0001.lmu
-[2023-01-29 12:26:32] Debug: Tree: MAP0001
-[2023-01-29 12:26:34] Debug: 帕斯卡露原本只想走到离站台更近一点的位置，结果却迷失在了人群里。今天的库尔多车站比以往更加忙碌和拥挤。人类、矮人、侏儒、还有蜥蜴 ，帕斯卡露几乎在这里看到了所有自己能在书上见过的种族。
-[2023-01-29 12:26:34] Debug: 帕斯卡露原本只想走到离站台更近一点的位置，结果却迷
-[2023-01-29 12:26:34] Debug: 失在了人群里。今天的库尔多车站比以往更加忙碌和拥挤
-[2023-01-29 12:26:34] Debug: 。人类、矮人、侏儒、还有蜥蜴 ，帕斯卡露几乎在这里
-[2023-01-29 12:26:34] Debug: 看到了所有自己能在书上见过的种族。
-[2023-01-29 12:26:38] Debug: 大家都是爱托尼亚学院的学生吗？想不到这么早车站就聚集起了那么多人呢。一些人看起来和帕斯卡露差不多个头，看起来和自己一样也是学院的新生。不过和帕斯卡露不同，从它们的眼神和表情中，看得出大家都对即将到来的这个学期充满着各种憧憬。
-[2023-01-29 12:26:38] Debug: 大家都是爱托尼亚学院的学生吗？想不到这么早车站就聚
-[2023-01-29 12:26:38] Debug: 集起了那么多人呢。一些人看起来和帕斯卡露差不多个头
-[2023-01-29 12:26:38] Debug: ，看起来和自己一样也是学院的新生。不过和帕斯卡露不
-[2023-01-29 12:26:38] Debug: 同，从它们的眼神和表情中，看得出大家都对即将到来的
-[2023-01-29 12:26:38] Debug: 这个学期充满着各种憧憬。
-[2023-01-29 12:26:40] Debug: 周围的一些王子和千金模样打扮的家伙（这也并不奇怪，毕竟这是一所会培养未来各个国家继承人的学校吧？），开始客套地互相打起招呼，或彼此议论起关于时事，科技和学院相关的无聊话题。
-[2023-01-29 12:26:40] Debug: 周围的一些王子和千金模样打扮的家伙（这也并不奇怪，
-[2023-01-29 12:26:40] Debug: 毕竟这是一所会培养未来各个国家继承人的学校吧？），
-[2023-01-29 12:26:40] Debug: 开始客套地互相打起招呼，或彼此议论起关于时事，科技
-[2023-01-29 12:26:40] Debug: 和学院相关的无聊话题。
-[2023-01-29 12:26:42] Debug: 当然也有哭着和家人告别的孩子，原来印象里古板的蜥蜴人，也是如此富有感情的生物吗？虽然语言不同，但是帕斯卡露轻易的从人群的白噪音中辨别出了哭声。
-[2023-01-29 12:26:42] Debug: 当然也有哭着和家人告别的孩子，原来印象里古板的蜥蜴
-[2023-01-29 12:26:42] Debug: 人，也是如此富有感情的生物吗？虽然语言不同，但是帕
-[2023-01-29 12:26:42] Debug: 斯卡露轻易的从人群的白噪音中辨别出了哭声。
-[2023-01-29 12:26:43] Debug: 不知为何，帕斯卡露也突然也回想起了安琪拉的家人们。哥哥回家了吗？妹妹在研究些什么？母上还在生自己的气吗？可回头看时，自己却怎么找不到黛尔芙特姐姐的身影。糟糕，这里可不是什么好的走散场所。
-[2023-01-29 12:26:43] Debug: 不知为何，帕斯卡露也突然也回想起了安琪拉的家人们。
-[2023-01-29 12:26:43] Debug: 哥哥回家了吗？妹妹在研究些什么？母上还在生自己的气
-[2023-01-29 12:26:43] Debug: 吗？可回头看时，自己却怎么找不到黛尔芙特姐姐的身影
-[2023-01-29 12:26:43] Debug: 。糟糕，这里可不是什么好的走散场所。
-[2023-01-29 12:26:46] Debug: 远处的汽笛声若影若现，人们也开始和送行的家人们告别，开始排起了长长的队伍，原本纷乱嘈杂的车站顿时变得井然有序。
-[2023-01-29 12:26:46] Debug: 远处的汽笛声若影若现，人们也开始和送行的家人们告别
-[2023-01-29 12:26:46] Debug: ，开始排起了长长的队伍，原本纷乱嘈杂的车站顿时变得
-[2023-01-29 12:26:46] Debug: 井然有序。
-[2023-01-29 12:26:52] Debug: 虽然，按照之前的约定，帕斯卡露应该在走散的地方等待。不过火车即将入站，也只好相信彼此的默契，先上车再说了。黛尔芙特姐姐的话，应该会在火车里找到自己的吧？
-[2023-01-29 12:26:52] Debug: 虽然，按照之前的约定，帕斯卡露应该在走散的地方等待
-[2023-01-29 12:26:52] Debug: 。不过火车即将入站，也只好相信彼此的默契，先上车再
-[2023-01-29 12:26:52] Debug: 说了。黛尔芙特姐姐的话，应该会在火车里找到自己的吧
-[2023-01-29 12:26:52] Debug: ？
-[2023-01-29 12:26:57] Debug: 汽笛声越来越近，火车逐渐减速，穿过站台，冒着滚滚蒸汽。帕斯卡露注视着这具钢铁打造的庞然大物静静地驻足在自己的面前...
-[2023-01-29 12:26:57] Debug: 汽笛声越来越近，火车逐渐减速，穿过站台，冒着滚滚蒸
-[2023-01-29 12:26:57] Debug: 汽。帕斯卡露注视着这具钢铁打造的庞然大物静静地驻足
-[2023-01-29 12:26:57] Debug: 在自己的面前...
-[2023-01-29 12:27:07] Debug: Loaded Map Map0002.lmu
-[2023-01-29 12:27:07] Debug: Tree: MAP0002 < MAP0001
-[2023-01-29 12:27:10] Debug: Loaded Map Map0001.lmu
-[2023-01-29 12:27:10] Debug: Tree: MAP0001
-[2023-01-29 12:27:11] Debug: 帕斯卡露原本只想走到离站台更近一点的位置，结果却迷失在了人群里。今天的库尔多车站比以往更加忙碌和拥挤。人类、矮人、侏儒、还有蜥蜴 ，帕斯卡露几乎在这里看到了所有自己能在书上见过的种族。
-[2023-01-29 12:27:11] Debug: 帕斯卡露原本只想走到离站台更近一点的位置，结果却迷
-[2023-01-29 12:27:11] Debug: 失在了人群里。今天的库尔多车站比以往更加忙碌和拥挤
-[2023-01-29 12:27:11] Debug: 。人类、矮人、侏儒、还有蜥蜴 ，帕斯卡露几乎在这里
-[2023-01-29 12:27:11] Debug: 看到了所有自己能在书上见过的种族。
-[2023-01-29 12:27:15] Debug: 大家都是爱托尼亚学院的学生吗？想不到这么早车站就聚集起了那么多人呢。一些人看起来和帕斯卡露差不多个头，看起来和自己一样也是学院的新生。不过和帕斯卡露不同，从它们的眼神和表情中，看得出大家都对即将到来的这个学期充满着各种憧憬。
-[2023-01-29 12:27:15] Debug: 大家都是爱托尼亚学院的学生吗？想不到这么早车站就聚
-[2023-01-29 12:27:15] Debug: 集起了那么多人呢。一些人看起来和帕斯卡露差不多个头
-[2023-01-29 12:27:15] Debug: ，看起来和自己一样也是学院的新生。不过和帕斯卡露不
-[2023-01-29 12:27:15] Debug: 同，从它们的眼神和表情中，看得出大家都对即将到来的
-[2023-01-29 12:27:15] Debug: 这个学期充满着各种憧憬。
-[2023-01-29 12:27:17] Debug: 周围的一些王子和千金模样打扮的家伙（这也并不奇怪，毕竟这是一所会培养未来各个国家继承人的学校吧？），开始客套地互相打起招呼，或彼此议论起关于时事，科技和学院相关的无聊话题。
-[2023-01-29 12:27:17] Debug: 周围的一些王子和千金模样打扮的家伙（这也并不奇怪，
-[2023-01-29 12:27:17] Debug: 毕竟这是一所会培养未来各个国家继承人的学校吧？），
-[2023-01-29 12:27:17] Debug: 开始客套地互相打起招呼，或彼此议论起关于时事，科技
-[2023-01-29 12:27:17] Debug: 和学院相关的无聊话题。
-[2023-01-29 12:27:17] Debug: 当然也有哭着和家人告别的孩子，原来印象里古板的蜥蜴人，也是如此富有感情的生物吗？虽然语言不同，但是帕斯卡露轻易的从人群的白噪音中辨别出了哭声。
-[2023-01-29 12:27:17] Debug: 当然也有哭着和家人告别的孩子，原来印象里古板的蜥蜴
-[2023-01-29 12:27:17] Debug: 人，也是如此富有感情的生物吗？虽然语言不同，但是帕
-[2023-01-29 12:27:17] Debug: 斯卡露轻易的从人群的白噪音中辨别出了哭声。
-[2023-01-29 12:27:17] Debug: 不知为何，帕斯卡露也突然也回想起了安琪拉的家人们。哥哥回家了吗？妹妹在研究些什么？母上还在生自己的气吗？可回头看时，自己却怎么找不到黛尔芙特姐姐的身影。糟糕，这里可不是什么好的走散场所。
-[2023-01-29 12:27:17] Debug: 不知为何，帕斯卡露也突然也回想起了安琪拉的家人们。
-[2023-01-29 12:27:17] Debug: 哥哥回家了吗？妹妹在研究些什么？母上还在生自己的气
-[2023-01-29 12:27:17] Debug: 吗？可回头看时，自己却怎么找不到黛尔芙特姐姐的身影
-[2023-01-29 12:27:17] Debug: 。糟糕，这里可不是什么好的走散场所。
-[2023-01-29 12:27:18] Debug: 远处的汽笛声若影若现，人们也开始和送行的家人们告别，开始排起了长长的队伍，原本纷乱嘈杂的车站顿时变得井然有序。
-[2023-01-29 12:27:18] Debug: 远处的汽笛声若影若现，人们也开始和送行的家人们告别
-[2023-01-29 12:27:18] Debug: ，开始排起了长长的队伍，原本纷乱嘈杂的车站顿时变得
-[2023-01-29 12:27:18] Debug: 井然有序。
-[2023-01-29 12:27:18] Debug: 虽然，按照之前的约定，帕斯卡露应该在走散的地方等待。不过火车即将入站，也只好相信彼此的默契，先上车再说了。黛尔芙特姐姐的话，应该会在火车里找到自己的吧？
-[2023-01-29 12:27:18] Debug: 虽然，按照之前的约定，帕斯卡露应该在走散的地方等待
-[2023-01-29 12:27:18] Debug: 。不过火车即将入站，也只好相信彼此的默契，先上车再
-[2023-01-29 12:27:18] Debug: 说了。黛尔芙特姐姐的话，应该会在火车里找到自己的吧
-[2023-01-29 12:27:18] Debug: ？
-[2023-01-29 12:27:19] Debug: 汽笛声越来越近，火车逐渐减速，穿过站台，冒着滚滚蒸汽。帕斯卡露注视着这具钢铁打造的庞然大物静静地驻足在自己的面前...
-[2023-01-29 12:27:19] Debug: 汽笛声越来越近，火车逐渐减速，穿过站台，冒着滚滚蒸
-[2023-01-29 12:27:19] Debug: 汽。帕斯卡露注视着这具钢铁打造的庞然大物静静地驻足
-[2023-01-29 12:27:19] Debug: 在自己的面前...
-[2023-01-29 12:27:20] Debug: Actor 1: Removing item 44 (of type 2) from equipment slot 2 (needs type 1)
-[2023-01-29 12:27:20] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
-[2023-01-29 12:28:04] Debug: EasyRPG Player 0.7 git+460@9ee72af7-dirty (2023-01-26) started
-[2023-01-29 12:28:04] Debug: ==============================================================
-[2023-01-29 12:28:04] Debug: CLI: 
-[2023-01-29 12:28:04] Debug: Clock: StdSteady steady=true period=ns (1 / 1000000000)
-[2023-01-29 12:28:04] Debug: Seeded the RNG with 1674966482.
-[2023-01-29 12:28:04] Debug: SDL2: RendererInfo hw=true sw=false vsync=true
-[2023-01-29 12:28:04] Debug: SDL2: Detected format (0) SDL_PIXELFORMAT_ARGB8888 : rank=(2)
-[2023-01-29 12:28:04] Debug: SDL2: Selected Pixel Format SDL_PIXELFORMAT_ARGB8888
-[2023-01-29 12:28:04] Debug: Game and Save Directory:
-[2023-01-29 12:28:04] Debug: 1: [Native] 
-[2023-01-29 12:28:04] Debug: Loading game Song of the Sea
-[2023-01-29 12:28:04] Debug: Using RPG2k3 (English release, v1.11) Interpreter
-[2023-01-29 12:28:04] Debug: Engine configured as: 2k=false 2k3=true MajorUpdated=true Eng=true
-[2023-01-29 12:28:04] Debug: Adding D:\Program Files (x86)\Steam\steamapps\common\RPG Maker 2003\RTP to RTP path
-[2023-01-29 12:28:05] Debug: RTP is "Official English" (675/675)
-[2023-01-29 12:28:05] Debug: RTP path C:\RPG2003\RTP is invalid, not adding
-[2023-01-29 12:28:05] Debug: Patch configuration: dynrpg=false maniac=false
-[2023-01-29 12:28:05] Debug: Cannot find: Font/ExFont
-[2023-01-29 12:28:05] Debug: Cannot find: ./ExFont
-[2023-01-29 12:28:05] Debug: Loading ExFont from RPG_RT.exe
-[2023-01-29 12:28:05] Debug: EXEReader: EXFONT resource found (DE 0xe9f20; 0xeff60; len 0x2168)
-[2023-01-29 12:28:05] Debug: Actor 1: Removing item 44 (of type 2) from equipment slot 2 (needs type 1)
-[2023-01-29 12:28:05] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
-[2023-01-29 12:28:05] Debug: Cannot find: Font/Font
-[2023-01-29 12:28:05] Debug: Cannot find: Font/Font2
-[2023-01-29 12:28:06] Debug: libpng: iCCP: known incorrect sRGB profile
-[2023-01-29 12:28:06] Debug: libpng: cHRM: inconsistent chromaticities
-[2023-01-29 12:28:06] Debug: Game uses RTP "Official English"
-[2023-01-29 12:28:07] Debug: Fluidsynth: Could not load soundfont.
-[2023-01-29 12:28:08] Debug: Starting new game
-[2023-01-29 12:28:08] Debug: Loaded Map Map0001.lmu
-[2023-01-29 12:28:08] Debug: Tree: MAP0001
-[2023-01-29 12:28:10] Debug: 帕斯卡露原本只想走到离站台更近一点的位置，结果却迷失在了人群里。今天的库尔多车站比以往更加忙碌和拥挤。人类、矮人、侏儒、还有蜥蜴 ，帕斯卡露几乎在这里看到了所有自己能在书上见过的种族。
-[2023-01-29 12:28:10] Debug: 帕斯卡露原本只想走到离站台更近一点的位置，结果却迷
-[2023-01-29 12:28:10] Debug: 失在了人群里。今天的库尔多车站比以往更加忙碌和拥挤
-[2023-01-29 12:28:10] Debug: 。人类、矮人、侏儒、还有蜥蜴 ，帕斯卡露几乎在这里
-[2023-01-29 12:28:10] Debug: 看到了所有自己能在书上见过的种族。
-[2023-01-29 12:28:12] Debug: 大家都是爱托尼亚学院的学生吗？想不到这么早车站就聚集起了那么多人呢。一些人看起来和帕斯卡露差不多个头，看起来和自己一样也是学院的新生。不过和帕斯卡露不同，从它们的眼神和表情中，看得出大家都对即将到来的这个学期充满着各种憧憬。
-[2023-01-29 12:28:12] Debug: 大家都是爱托尼亚学院的学生吗？想不到这么早车站就聚
-[2023-01-29 12:28:12] Debug: 集起了那么多人呢。一些人看起来和帕斯卡露差不多个头
-[2023-01-29 12:28:12] Debug: ，看起来和自己一样也是学院的新生。不过和帕斯卡露不
-[2023-01-29 12:28:12] Debug: 同，从它们的眼神和表情中，看得出大家都对即将到来的
-[2023-01-29 12:28:12] Debug: 这个学期充满着各种憧憬。
-[2023-01-29 12:28:14] Debug: 周围的一些王子和千金模样打扮的家伙（这也并不奇怪，毕竟这是一所会培养未来各个国家继承人的学校吧？），开始客套地互相打起招呼，或彼此议论起关于时事，科技和学院相关的无聊话题。
-[2023-01-29 12:28:14] Debug: 周围的一些王子和千金模样打扮的家伙（这也并不奇怪，
-[2023-01-29 12:28:14] Debug: 毕竟这是一所会培养未来各个国家继承人的学校吧？），
-[2023-01-29 12:28:14] Debug: 开始客套地互相打起招呼，或彼此议论起关于时事，科技
-[2023-01-29 12:28:14] Debug: 和学院相关的无聊话题。
-[2023-01-29 12:28:15] Debug: 当然也有哭着和家人告别的孩子，原来印象里古板的蜥蜴人，也是如此富有感情的生物吗？虽然语言不同，但是帕斯卡露轻易的从人群的白噪音中辨别出了哭声。
-[2023-01-29 12:28:15] Debug: 当然也有哭着和家人告别的孩子，原来印象里古板的蜥蜴
-[2023-01-29 12:28:15] Debug: 人，也是如此富有感情的生物吗？虽然语言不同，但是帕
-[2023-01-29 12:28:15] Debug: 斯卡露轻易的从人群的白噪音中辨别出了哭声。
-[2023-01-29 12:28:15] Debug: 不知为何，帕斯卡露也突然也回想起了安琪拉的家人们。哥哥回家了吗？妹妹在研究些什么？母上还在生自己的气吗？可回头看时，自己却怎么找不到黛尔芙特姐姐的身影。糟糕，这里可不是什么好的走散场所。
-[2023-01-29 12:28:15] Debug: 不知为何，帕斯卡露也突然也回想起了安琪拉的家人们。
-[2023-01-29 12:28:15] Debug: 哥哥回家了吗？妹妹在研究些什么？母上还在生自己的气
-[2023-01-29 12:28:15] Debug: 吗？可回头看时，自己却怎么找不到黛尔芙特姐姐的身影
-[2023-01-29 12:28:15] Debug: 。糟糕，这里可不是什么好的走散场所。
-[2023-01-29 12:28:15] Debug: 远处的汽笛声若影若现，人们也开始和送行的家人们告别，开始排起了长长的队伍，原本纷乱嘈杂的车站顿时变得井然有序。
-[2023-01-29 12:28:15] Debug: 远处的汽笛声若影若现，人们也开始和送行的家人们告别
-[2023-01-29 12:28:15] Debug: ，开始排起了长长的队伍，原本纷乱嘈杂的车站顿时变得
-[2023-01-29 12:28:15] Debug: 井然有序。
-[2023-01-29 12:28:17] Debug: 虽然，按照之前的约定，帕斯卡露应该在走散的地方等待。不过火车即将入站，也只好相信彼此的默契，先上车再说了。黛尔芙特姐姐的话，应该会在火车里找到自己的吧？
-[2023-01-29 12:28:17] Debug: 虽然，按照之前的约定，帕斯卡露应该在走散的地方等待
-[2023-01-29 12:28:17] Debug: 。不过火车即将入站，也只好相信彼此的默契，先上车再
-[2023-01-29 12:28:17] Debug: 说了。黛尔芙特姐姐的话，应该会在火车里找到自己的吧
-[2023-01-29 12:28:17] Debug: ？
-[2023-01-29 12:28:20] Debug: 汽笛声越来越近，火车逐渐减速，穿过站台，冒着滚滚蒸汽。帕斯卡露注视着这具钢铁打造的庞然大物静静地驻足在自己的面前...
-[2023-01-29 12:28:20] Debug: 汽笛声越来越近，火车逐渐减速，穿过站台，冒着滚滚蒸
-[2023-01-29 12:28:20] Debug: 汽。帕斯卡露注视着这具钢铁打造的庞然大物静静地驻足
-[2023-01-29 12:28:20] Debug: 在自己的面前...
-[2023-01-29 12:28:27] Debug: Loaded Map Map0002.lmu
-[2023-01-29 12:28:27] Debug: Tree: MAP0002 < MAP0001
-[2023-01-29 12:28:28] Debug: Loaded Map Map0001.lmu
-[2023-01-29 12:28:28] Debug: Tree: MAP0001
-[2023-01-29 12:28:31] Debug: Loaded Map Map0002.lmu
-[2023-01-29 12:28:31] Debug: Tree: MAP0002 < MAP0001
-[2023-01-29 12:28:32] Debug: Loaded Map Map0001.lmu
-[2023-01-29 12:28:32] Debug: Tree: MAP0001
-[2023-01-29 12:28:35] Debug: Actor 1: Removing item 44 (of type 2) from equipment slot 2 (needs type 1)
-[2023-01-29 12:28:35] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
-[2023-01-29 12:29:23] Debug: EasyRPG Player 0.7 git+460@9ee72af7-dirty (2023-01-26) started
-[2023-01-29 12:29:23] Debug: ==============================================================
-[2023-01-29 12:29:23] Debug: CLI: 
-[2023-01-29 12:29:23] Debug: Clock: StdSteady steady=true period=ns (1 / 1000000000)
-[2023-01-29 12:29:23] Debug: Seeded the RNG with 1674966560.
-[2023-01-29 12:29:23] Debug: SDL2: RendererInfo hw=true sw=false vsync=true
-[2023-01-29 12:29:23] Debug: SDL2: Detected format (0) SDL_PIXELFORMAT_ARGB8888 : rank=(2)
-[2023-01-29 12:29:23] Debug: SDL2: Selected Pixel Format SDL_PIXELFORMAT_ARGB8888
-[2023-01-29 12:29:23] Debug: Game and Save Directory:
-[2023-01-29 12:29:23] Debug: 1: [Native] 
-[2023-01-29 12:29:24] Debug: Loading game Song of the Sea
-[2023-01-29 12:29:24] Debug: Using RPG2k3 (English release, v1.11) Interpreter
-[2023-01-29 12:29:24] Debug: Engine configured as: 2k=false 2k3=true MajorUpdated=true Eng=true
-[2023-01-29 12:29:24] Debug: Adding D:\Program Files (x86)\Steam\steamapps\common\RPG Maker 2003\RTP to RTP path
-[2023-01-29 12:29:24] Debug: RTP is "Official English" (675/675)
-[2023-01-29 12:29:24] Debug: RTP path C:\RPG2003\RTP is invalid, not adding
-[2023-01-29 12:29:24] Debug: Patch configuration: dynrpg=false maniac=false
-[2023-01-29 12:29:24] Debug: Cannot find: Font/ExFont
-[2023-01-29 12:29:24] Debug: Cannot find: ./ExFont
-[2023-01-29 12:29:24] Debug: Loading ExFont from RPG_RT.exe
-[2023-01-29 12:29:24] Debug: EXEReader: EXFONT resource found (DE 0xe9f20; 0xeff60; len 0x2168)
-[2023-01-29 12:29:24] Debug: Actor 1: Removing item 44 (of type 2) from equipment slot 2 (needs type 1)
-[2023-01-29 12:29:24] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
-[2023-01-29 12:29:24] Debug: Cannot find: Font/Font
-[2023-01-29 12:29:24] Debug: Cannot find: Font/Font2
-[2023-01-29 12:29:25] Debug: Loaded Map Map0001.lmu
-[2023-01-29 12:29:25] Debug: Tree: MAP0001
-[2023-01-29 12:29:27] Debug: Game uses RTP "Official English"
-[2023-01-29 12:29:27] Debug: 帕斯卡露原本只想走到离站台更近一点的位置，结果却迷失在了人群里。今天的库尔多车站比以往更加忙碌和拥挤。人类、矮人、侏儒、还有蜥蜴 ，帕斯卡露几乎在这里看到了所有自己能在书上见过的种族。
-[2023-01-29 12:29:27] Debug: 帕斯卡露原本只想走到离站台更近一点的位置，结果却迷
-[2023-01-29 12:29:27] Debug: 失在了人群里。今天的库尔多车站比以往更加忙碌和拥挤
-[2023-01-29 12:29:27] Debug: 。人类、矮人、侏儒、还有蜥蜴 ，帕斯卡露几乎在这里
-[2023-01-29 12:29:27] Debug: 看到了所有自己能在书上见过的种族。
-[2023-01-29 12:29:29] Debug: 大家都是爱托尼亚学院的学生吗？想不到这么早车站就聚集起了那么多人呢。一些人看起来和帕斯卡露差不多个头，看起来和自己一样也是学院的新生。不过和帕斯卡露不同，从它们的眼神和表情中，看得出大家都对即将到来的这个学期充满着各种憧憬。
-[2023-01-29 12:29:29] Debug: 大家都是爱托尼亚学院的学生吗？想不到这么早车站就聚
-[2023-01-29 12:29:29] Debug: 集起了那么多人呢。一些人看起来和帕斯卡露差不多个头
-[2023-01-29 12:29:29] Debug: ，看起来和自己一样也是学院的新生。不过和帕斯卡露不
-[2023-01-29 12:29:29] Debug: 同，从它们的眼神和表情中，看得出大家都对即将到来的
-[2023-01-29 12:29:29] Debug: 这个学期充满着各种憧憬。
-[2023-01-29 12:29:30] Debug: 周围的一些王子和千金模样打扮的家伙（这也并不奇怪，毕竟这是一所会培养未来各个国家继承人的学校吧？），开始客套地互相打起招呼，或彼此议论起关于时事，科技和学院相关的无聊话题。
-[2023-01-29 12:29:30] Debug: 周围的一些王子和千金模样打扮的家伙（这也并不奇怪，
-[2023-01-29 12:29:30] Debug: 毕竟这是一所会培养未来各个国家继承人的学校吧？），
-[2023-01-29 12:29:30] Debug: 开始客套地互相打起招呼，或彼此议论起关于时事，科技
-[2023-01-29 12:29:30] Debug: 和学院相关的无聊话题。
-[2023-01-29 12:29:30] Debug: 当然也有哭着和家人告别的孩子，原来印象里古板的蜥蜴人，也是如此富有感情的生物吗？虽然语言不同，但是帕斯卡露轻易的从人群的白噪音中辨别出了哭声。
-[2023-01-29 12:29:30] Debug: 当然也有哭着和家人告别的孩子，原来印象里古板的蜥蜴
-[2023-01-29 12:29:30] Debug: 人，也是如此富有感情的生物吗？虽然语言不同，但是帕
-[2023-01-29 12:29:30] Debug: 斯卡露轻易的从人群的白噪音中辨别出了哭声。
-[2023-01-29 12:29:31] Debug: 不知为何，帕斯卡露也突然也回想起了安琪拉的家人们。哥哥回家了吗？妹妹在研究些什么？母上还在生自己的气吗？可回头看时，自己却怎么找不到黛尔芙特姐姐的身影。糟糕，这里可不是什么好的走散场所。
-[2023-01-29 12:29:31] Debug: 不知为何，帕斯卡露也突然也回想起了安琪拉的家人们。
-[2023-01-29 12:29:31] Debug: 哥哥回家了吗？妹妹在研究些什么？母上还在生自己的气
-[2023-01-29 12:29:31] Debug: 吗？可回头看时，自己却怎么找不到黛尔芙特姐姐的身影
-[2023-01-29 12:29:31] Debug: 。糟糕，这里可不是什么好的走散场所。
-[2023-01-29 12:29:31] Debug: 远处的汽笛声若影若现，人们也开始和送行的家人们告别，开始排起了长长的队伍，原本纷乱嘈杂的车站顿时变得井然有序。
-[2023-01-29 12:29:31] Debug: 远处的汽笛声若影若现，人们也开始和送行的家人们告别
-[2023-01-29 12:29:31] Debug: ，开始排起了长长的队伍，原本纷乱嘈杂的车站顿时变得
-[2023-01-29 12:29:31] Debug: 井然有序。
-[2023-01-29 12:29:31] Debug: 虽然，按照之前的约定，帕斯卡露应该在走散的地方等待。不过火车即将入站，也只好相信彼此的默契，先上车再说了。黛尔芙特姐姐的话，应该会在火车里找到自己的吧？
-[2023-01-29 12:29:31] Debug: 虽然，按照之前的约定，帕斯卡露应该在走散的地方等待
-[2023-01-29 12:29:31] Debug: 。不过火车即将入站，也只好相信彼此的默契，先上车再
-[2023-01-29 12:29:31] Debug: 说了。黛尔芙特姐姐的话，应该会在火车里找到自己的吧
-[2023-01-29 12:29:31] Debug: ？
-[2023-01-29 12:29:31] Debug: 汽笛声越来越近，火车逐渐减速，穿过站台，冒着滚滚蒸汽。帕斯卡露注视着这具钢铁打造的庞然大物静静地驻足在自己的面前...
-[2023-01-29 12:29:31] Debug: 汽笛声越来越近，火车逐渐减速，穿过站台，冒着滚滚蒸
-[2023-01-29 12:29:31] Debug: 汽。帕斯卡露注视着这具钢铁打造的庞然大物静静地驻足
-[2023-01-29 12:29:31] Debug: 在自己的面前...
-[2023-01-29 12:29:45] Debug: Loaded Map Map0002.lmu
-[2023-01-29 12:29:45] Debug: Tree: MAP0002 < MAP0001
-[2023-01-29 12:29:46] Debug: Loaded Map Map0001.lmu
-[2023-01-29 12:29:46] Debug: Tree: MAP0001
-[2023-01-29 12:29:49] Debug: Actor 1: Removing item 44 (of type 2) from equipment slot 2 (needs type 1)
-[2023-01-29 12:29:49] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
-[2023-01-29 12:30:52] Debug: EasyRPG Player 0.7 git+460@9ee72af7-dirty (2023-01-26) started
-[2023-01-29 12:30:52] Debug: ==============================================================
-[2023-01-29 12:30:52] Debug: CLI: 
-[2023-01-29 12:30:52] Debug: Clock: StdSteady steady=true period=ns (1 / 1000000000)
-[2023-01-29 12:30:52] Debug: Seeded the RNG with 1674966650.
-[2023-01-29 12:30:52] Debug: SDL2: RendererInfo hw=true sw=false vsync=true
-[2023-01-29 12:30:52] Debug: SDL2: Detected format (0) SDL_PIXELFORMAT_ARGB8888 : rank=(2)
-[2023-01-29 12:30:52] Debug: SDL2: Selected Pixel Format SDL_PIXELFORMAT_ARGB8888
-[2023-01-29 12:30:52] Debug: Game and Save Directory:
-[2023-01-29 12:30:52] Debug: 1: [Native] 
-[2023-01-29 12:30:53] Debug: Loading game Song of the Sea
-[2023-01-29 12:30:53] Debug: Using RPG2k3 (English release, v1.11) Interpreter
-[2023-01-29 12:30:53] Debug: Engine configured as: 2k=false 2k3=true MajorUpdated=true Eng=true
-[2023-01-29 12:30:53] Debug: Adding D:\Program Files (x86)\Steam\steamapps\common\RPG Maker 2003\RTP to RTP path
-[2023-01-29 12:30:53] Debug: RTP is "Official English" (675/675)
-[2023-01-29 12:30:53] Debug: RTP path C:\RPG2003\RTP is invalid, not adding
-[2023-01-29 12:30:53] Debug: Patch configuration: dynrpg=false maniac=false
-[2023-01-29 12:30:53] Debug: Cannot find: Font/ExFont
-[2023-01-29 12:30:53] Debug: Cannot find: ./ExFont
-[2023-01-29 12:30:53] Debug: Loading ExFont from RPG_RT.exe
-[2023-01-29 12:30:53] Debug: EXEReader: EXFONT resource found (DE 0xe9f20; 0xeff60; len 0x2168)
-[2023-01-29 12:30:53] Debug: Actor 1: Removing item 44 (of type 2) from equipment slot 2 (needs type 1)
-[2023-01-29 12:30:53] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
-[2023-01-29 12:30:53] Debug: Cannot find: Font/Font
-[2023-01-29 12:30:53] Debug: Cannot find: Font/Font2
-[2023-01-29 12:30:55] Debug: Loaded Map Map0001.lmu
-[2023-01-29 12:30:55] Debug: Tree: MAP0001
-[2023-01-29 12:30:56] Debug: Game uses RTP "Official English"
-[2023-01-29 12:30:57] Debug: 帕斯卡露原本只想走到离站台更近一点的位置，结果却迷失在了人群里。今天的库尔多车站比以往更加忙碌和拥挤。人类、矮人、侏儒、还有蜥蜴 ，帕斯卡露几乎在这里看到了所有自己能在书上见过的种族。
 [2023-01-29 12:30:57] Debug: 帕斯卡露原本只想走到离站台更近一点的位置，结果却迷
 [2023-01-29 12:30:57] Debug: 失在了人群里。今天的库尔多车站比以往更加忙碌和拥挤
 [2023-01-29 12:30:57] Debug: 。人类、矮人、侏儒、还有蜥蜴 ，帕斯卡露几乎在这里
@@ -1015,3 +696,344 @@
 [2023-01-31 01:40:45] Debug: 诶？ [2x]
 [2023-01-31 01:40:45] Debug: Actor 1: Removing item 44 (of type 2) from equipment slot 2 (needs type 1)
 [2023-01-31 01:40:45] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
+[2024-08-10 21:18:32] Debug: EasyRPG Player 0.7 git+460@9ee72af7-dirty (2023-01-26) started
+[2024-08-10 21:18:32] Debug: ==============================================================
+[2024-08-10 21:18:32] Debug: CLI: 
+[2024-08-10 21:18:32] Debug: Clock: StdSteady steady=true period=ns (1 / 1000000000)
+[2024-08-10 21:18:32] Debug: Seeded the RNG with 1723295911.
+[2024-08-10 21:18:32] Debug: SDL2: RendererInfo hw=true sw=false vsync=true
+[2024-08-10 21:18:32] Debug: SDL2: Detected format (0) SDL_PIXELFORMAT_ARGB8888 : rank=(2)
+[2024-08-10 21:18:32] Debug: SDL2: Selected Pixel Format SDL_PIXELFORMAT_ARGB8888
+[2024-08-10 21:18:32] Debug: Game and Save Directory:
+[2024-08-10 21:18:32] Debug: 1: [Native] 
+[2024-08-10 21:18:32] Debug: Loading game Song of the Sea
+[2024-08-10 21:18:32] Debug: Using RPG2k3 (English release, v1.11) Interpreter
+[2024-08-10 21:18:32] Debug: Engine configured as: 2k=false 2k3=true MajorUpdated=true Eng=true
+[2024-08-10 21:18:32] Debug: Adding D:\Program Files (x86)\Steam\steamapps\common\RPG Maker 2003\RTP to RTP path
+[2024-08-10 21:18:33] Debug: RTP is "Official English" (675/675)
+[2024-08-10 21:18:33] Debug: RTP path C:\RPG2003\RTP is invalid, not adding
+[2024-08-10 21:18:33] Debug: Patch configuration: dynrpg=false maniac=false
+[2024-08-10 21:18:33] Debug: Cannot find: Font/ExFont
+[2024-08-10 21:18:33] Debug: Cannot find: ./ExFont
+[2024-08-10 21:18:33] Debug: Loading ExFont from RPG_RT.exe
+[2024-08-10 21:18:33] Debug: EXEReader: EXFONT resource found (DE 0xe9f20; 0xeff60; len 0x2168)
+[2024-08-10 21:18:33] Debug: Actor 1: Removing item 44 (of type 2) from equipment slot 2 (needs type 1)
+[2024-08-10 21:18:33] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
+[2024-08-10 21:18:33] Debug: Cannot find: Font/Font
+[2024-08-10 21:18:33] Debug: Cannot find: Font/Font2
+[2024-08-10 21:18:33] Debug: libpng: iCCP: known incorrect sRGB profile
+[2024-08-10 21:18:33] Debug: libpng: cHRM: inconsistent chromaticities
+[2024-08-10 21:18:33] Debug: Game uses RTP "Official English"
+[2024-08-10 21:18:33] Debug: Fluidsynth: Could not load soundfont.
+[2024-08-10 21:18:34] Debug: Starting new game
+[2024-08-10 21:18:34] Debug: Loaded Map Map0001.lmu
+[2024-08-10 21:18:34] Debug: Tree: MAP0001
+[2024-08-10 21:18:34] Debug: 帕斯卡露原本只想走到离站台更近一点的位置，结果却迷失在了人群里。今天的库尔多车站比以往更加忙碌和拥挤。人类、矮人、侏儒、还有蜥蜴 ，帕斯卡露几乎在这里看到了所有自己能在书上见过的种族。
+[2024-08-10 21:18:34] Debug: 帕斯卡露原本只想走到离站台更近一点的位置，结果却迷
+[2024-08-10 21:18:34] Debug: 失在了人群里。今天的库尔多车站比以往更加忙碌和拥挤
+[2024-08-10 21:18:34] Debug: 。人类、矮人、侏儒、还有蜥蜴 ，帕斯卡露几乎在这里
+[2024-08-10 21:18:34] Debug: 看到了所有自己能在书上见过的种族。
+[2024-08-10 21:18:34] Debug: 大家都是爱托尼亚学院的学生吗？想不到这么早车站就聚集起了那么多人呢。一些人看起来和帕斯卡露差不多个头，看起来和自己一样也是学院的新生。不过和帕斯卡露不同，从它们的眼神和表情中，看得出大家都对即将到来的这个学期充满着各种憧憬。
+[2024-08-10 21:18:34] Debug: 大家都是爱托尼亚学院的学生吗？想不到这么早车站就聚
+[2024-08-10 21:18:34] Debug: 集起了那么多人呢。一些人看起来和帕斯卡露差不多个头
+[2024-08-10 21:18:34] Debug: ，看起来和自己一样也是学院的新生。不过和帕斯卡露不
+[2024-08-10 21:18:34] Debug: 同，从它们的眼神和表情中，看得出大家都对即将到来的
+[2024-08-10 21:18:34] Debug: 这个学期充满着各种憧憬。
+[2024-08-10 21:18:35] Debug: 周围的一些王子和千金模样打扮的家伙（这也并不奇怪，毕竟这是一所会培养未来各个国家继承人的学校吧？），开始客套地互相打起招呼，或彼此议论起关于时事，科技和学院相关的无聊话题。
+[2024-08-10 21:18:35] Debug: 周围的一些王子和千金模样打扮的家伙（这也并不奇怪，
+[2024-08-10 21:18:35] Debug: 毕竟这是一所会培养未来各个国家继承人的学校吧？），
+[2024-08-10 21:18:35] Debug: 开始客套地互相打起招呼，或彼此议论起关于时事，科技
+[2024-08-10 21:18:35] Debug: 和学院相关的无聊话题。
+[2024-08-10 21:18:35] Debug: 当然也有哭着和家人告别的孩子，原来印象里古板的蜥蜴人，也是如此富有感情的生物吗？虽然语言不同，但是帕斯卡露轻易的从人群的白噪音中辨别出了哭声。
+[2024-08-10 21:18:35] Debug: 当然也有哭着和家人告别的孩子，原来印象里古板的蜥蜴
+[2024-08-10 21:18:35] Debug: 人，也是如此富有感情的生物吗？虽然语言不同，但是帕
+[2024-08-10 21:18:35] Debug: 斯卡露轻易的从人群的白噪音中辨别出了哭声。
+[2024-08-10 21:18:35] Debug: 不知为何，帕斯卡露也突然也回想起了安琪拉的家人们。哥哥回家了吗？妹妹在研究些什么？母上还在生自己的气吗？可回头看时，自己却怎么找不到黛尔芙特姐姐的身影。糟糕，这里可不是什么好的走散场所。
+[2024-08-10 21:18:35] Debug: 不知为何，帕斯卡露也突然也回想起了安琪拉的家人们。
+[2024-08-10 21:18:35] Debug: 哥哥回家了吗？妹妹在研究些什么？母上还在生自己的气
+[2024-08-10 21:18:35] Debug: 吗？可回头看时，自己却怎么找不到黛尔芙特姐姐的身影
+[2024-08-10 21:18:35] Debug: 。糟糕，这里可不是什么好的走散场所。
+[2024-08-10 21:18:35] Debug: 远处的汽笛声若影若现，人们也开始和送行的家人们告别，开始排起了长长的队伍，原本纷乱嘈杂的车站顿时变得井然有序。
+[2024-08-10 21:18:35] Debug: 远处的汽笛声若影若现，人们也开始和送行的家人们告别
+[2024-08-10 21:18:35] Debug: ，开始排起了长长的队伍，原本纷乱嘈杂的车站顿时变得
+[2024-08-10 21:18:35] Debug: 井然有序。
+[2024-08-10 21:18:35] Debug: 虽然，按照之前的约定，帕斯卡露应该在走散的地方等待。不过火车即将入站，也只好相信彼此的默契，先上车再说了。黛尔芙特姐姐的话，应该会在火车里找到自己的吧？
+[2024-08-10 21:18:35] Debug: 虽然，按照之前的约定，帕斯卡露应该在走散的地方等待
+[2024-08-10 21:18:35] Debug: 。不过火车即将入站，也只好相信彼此的默契，先上车再
+[2024-08-10 21:18:35] Debug: 说了。黛尔芙特姐姐的话，应该会在火车里找到自己的吧
+[2024-08-10 21:18:35] Debug: ？
+[2024-08-10 21:18:37] Debug: Actor 1: Removing item 44 (of type 2) from equipment slot 2 (needs type 1)
+[2024-08-10 21:18:37] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
+[2024-08-10 21:18:42] Debug: EasyRPG Player 0.7.0 started
+[2024-08-10 21:18:42] Debug: ============================
+[2024-08-10 21:18:42] Debug: Clock: StdSteady steady=true period=ns (1 / 1000000000)
+[2024-08-10 21:18:42] Debug: Seeded the RNG with 1723295921.
+[2024-08-10 21:18:42] Debug: CLI: 
+[2024-08-10 21:18:42] Debug: SDL2: RendererInfo hw=true sw=false vsync=true
+[2024-08-10 21:18:42] Debug: SDL2: Detected format (0) SDL_PIXELFORMAT_ARGB8888 : rank=(2)
+[2024-08-10 21:18:42] Debug: SDL2: Selected Pixel Format SDL_PIXELFORMAT_ARGB8888
+[2024-08-10 21:18:42] Debug: Game and Save Directory:
+[2024-08-10 21:18:42] Debug: 1: [Native] 
+[2024-08-10 21:18:42] Debug: Loading game Song of the Sea
+[2024-08-10 21:18:42] Debug: Using RPG2k3 (English release, v1.11) Interpreter
+[2024-08-10 21:18:42] Debug: Engine configured as: 2k=false 2k3=true MajorUpdated=true Eng=true
+[2024-08-10 21:18:42] Debug: Adding D:\Program Files (x86)\Steam\steamapps\common\RPG Maker 2003\RTP to RTP path
+[2024-08-10 21:18:42] Debug: RTP is "Official English" (675/675)
+[2024-08-10 21:18:42] Debug: RTP path C:\RPG2003\RTP is invalid, not adding
+[2024-08-10 21:18:42] Debug: Patch configuration: dynrpg=false maniac=false
+[2024-08-10 21:18:42] Debug: Cannot find: ./ExFont
+[2024-08-10 21:18:42] Debug: Loading ExFont from RPG_RT.exe
+[2024-08-10 21:18:42] Debug: EXEReader: EXFONT resource found (DE 0xe9f20; 0xeff60; len 0x2168)
+[2024-08-10 21:18:42] Debug: Actor 1: Removing item 44 (of type 2) from equipment slot 2 (needs type 1)
+[2024-08-10 21:18:42] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
+[2024-08-10 21:18:42] Debug: FileRequestAsync::Start
+[2024-08-10 21:18:43] Debug: FileRequestAsync::Start [3x]
+[2024-08-10 21:18:43] Debug: libpng: iCCP: known incorrect sRGB profile
+[2024-08-10 21:18:43] Debug: libpng: cHRM: inconsistent chromaticities
+[2024-08-10 21:18:43] Debug: FileRequestAsync::Start
+[2024-08-10 21:18:43] Debug: Game uses RTP "Official English"
+[2024-08-10 21:18:43] Debug: Could not load soundfont.
+[2024-08-10 21:18:43] Debug: Starting new game
+[2024-08-10 21:18:43] Debug: sound name: Decision1
+[2024-08-10 21:18:43] Debug: FileRequestAsync::Start
+[2024-08-10 21:18:43] Debug: FileRequestAsync::Start [2x]
+[2024-08-10 21:18:43] Debug: Loaded Map Map0001.lmu
+[2024-08-10 21:18:43] Debug: Tree: MAP0001
+[2024-08-10 21:18:44] Debug: FileRequestAsync::Start
+[2024-08-10 21:18:44] Debug: FileRequestAsync::Start [14x]
+[2024-08-10 21:20:18] Debug: EasyRPG Player 0.7 git+460@9ee72af7-dirty (2023-01-26) started
+[2024-08-10 21:20:18] Debug: ==============================================================
+[2024-08-10 21:20:18] Debug: CLI: 
+[2024-08-10 21:20:18] Debug: Clock: StdSteady steady=true period=ns (1 / 1000000000)
+[2024-08-10 21:20:18] Debug: Seeded the RNG with 1723296017.
+[2024-08-10 21:20:18] Debug: SDL2: RendererInfo hw=true sw=false vsync=true
+[2024-08-10 21:20:18] Debug: SDL2: Detected format (0) SDL_PIXELFORMAT_ARGB8888 : rank=(2)
+[2024-08-10 21:20:18] Debug: SDL2: Selected Pixel Format SDL_PIXELFORMAT_ARGB8888
+[2024-08-10 21:20:18] Debug: Game and Save Directory:
+[2024-08-10 21:20:18] Debug: 1: [Native] 
+[2024-08-10 21:20:18] Debug: Loading game Song of the Sea
+[2024-08-10 21:20:18] Debug: Using RPG2k3 (English release, v1.11) Interpreter
+[2024-08-10 21:20:18] Debug: Engine configured as: 2k=false 2k3=true MajorUpdated=true Eng=true
+[2024-08-10 21:20:18] Debug: Adding D:\Program Files (x86)\Steam\steamapps\common\RPG Maker 2003\RTP to RTP path
+[2024-08-10 21:20:18] Debug: RTP is "Official English" (675/675)
+[2024-08-10 21:20:18] Debug: RTP path C:\RPG2003\RTP is invalid, not adding
+[2024-08-10 21:20:18] Debug: Patch configuration: dynrpg=false maniac=false
+[2024-08-10 21:20:18] Debug: Cannot find: Font/ExFont
+[2024-08-10 21:20:18] Debug: Cannot find: ./ExFont
+[2024-08-10 21:20:18] Debug: Loading ExFont from RPG_RT.exe
+[2024-08-10 21:20:18] Debug: EXEReader: EXFONT resource found (DE 0xe9f20; 0xeff60; len 0x2168)
+[2024-08-10 21:20:18] Debug: Actor 1: Removing item 44 (of type 2) from equipment slot 2 (needs type 1)
+[2024-08-10 21:20:18] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
+[2024-08-10 21:20:18] Debug: Cannot find: Font/Font
+[2024-08-10 21:20:18] Debug: Cannot find: Font/Font2
+[2024-08-10 21:20:18] Debug: libpng: iCCP: known incorrect sRGB profile
+[2024-08-10 21:20:18] Debug: libpng: cHRM: inconsistent chromaticities
+[2024-08-10 21:20:18] Debug: Game uses RTP "Official English"
+[2024-08-10 21:20:18] Debug: Fluidsynth: Could not load soundfont.
+[2024-08-10 21:20:19] Debug: Starting new game
+[2024-08-10 21:20:19] Debug: Loaded Map Map0001.lmu
+[2024-08-10 21:20:19] Debug: Tree: MAP0001
+[2024-08-10 21:20:19] Debug: 帕斯卡露原本只想走到离站台更近一点的位置，结果却迷失在了人群里。今天的库尔多车站比以往更加忙碌和拥挤。人类、矮人、侏儒、还有蜥蜴 ，帕斯卡露几乎在这里看到了所有自己能在书上见过的种族。
+[2024-08-10 21:20:19] Debug: 帕斯卡露原本只想走到离站台更近一点的位置，结果却迷
+[2024-08-10 21:20:19] Debug: 失在了人群里。今天的库尔多车站比以往更加忙碌和拥挤
+[2024-08-10 21:20:19] Debug: 。人类、矮人、侏儒、还有蜥蜴 ，帕斯卡露几乎在这里
+[2024-08-10 21:20:19] Debug: 看到了所有自己能在书上见过的种族。
+[2024-08-10 21:20:19] Debug: 大家都是爱托尼亚学院的学生吗？想不到这么早车站就聚集起了那么多人呢。一些人看起来和帕斯卡露差不多个头，看起来和自己一样也是学院的新生。不过和帕斯卡露不同，从它们的眼神和表情中，看得出大家都对即将到来的这个学期充满着各种憧憬。
+[2024-08-10 21:20:19] Debug: 大家都是爱托尼亚学院的学生吗？想不到这么早车站就聚
+[2024-08-10 21:20:19] Debug: 集起了那么多人呢。一些人看起来和帕斯卡露差不多个头
+[2024-08-10 21:20:19] Debug: ，看起来和自己一样也是学院的新生。不过和帕斯卡露不
+[2024-08-10 21:20:19] Debug: 同，从它们的眼神和表情中，看得出大家都对即将到来的
+[2024-08-10 21:20:19] Debug: 这个学期充满着各种憧憬。
+[2024-08-10 21:20:19] Debug: 周围的一些王子和千金模样打扮的家伙（这也并不奇怪，毕竟这是一所会培养未来各个国家继承人的学校吧？），开始客套地互相打起招呼，或彼此议论起关于时事，科技和学院相关的无聊话题。
+[2024-08-10 21:20:19] Debug: 周围的一些王子和千金模样打扮的家伙（这也并不奇怪，
+[2024-08-10 21:20:19] Debug: 毕竟这是一所会培养未来各个国家继承人的学校吧？），
+[2024-08-10 21:20:19] Debug: 开始客套地互相打起招呼，或彼此议论起关于时事，科技
+[2024-08-10 21:20:19] Debug: 和学院相关的无聊话题。
+[2024-08-10 21:20:19] Debug: 当然也有哭着和家人告别的孩子，原来印象里古板的蜥蜴人，也是如此富有感情的生物吗？虽然语言不同，但是帕斯卡露轻易的从人群的白噪音中辨别出了哭声。
+[2024-08-10 21:20:19] Debug: 当然也有哭着和家人告别的孩子，原来印象里古板的蜥蜴
+[2024-08-10 21:20:19] Debug: 人，也是如此富有感情的生物吗？虽然语言不同，但是帕
+[2024-08-10 21:20:19] Debug: 斯卡露轻易的从人群的白噪音中辨别出了哭声。
+[2024-08-10 21:20:20] Debug: 不知为何，帕斯卡露也突然也回想起了安琪拉的家人们。哥哥回家了吗？妹妹在研究些什么？母上还在生自己的气吗？可回头看时，自己却怎么找不到黛尔芙特姐姐的身影。糟糕，这里可不是什么好的走散场所。
+[2024-08-10 21:20:20] Debug: 不知为何，帕斯卡露也突然也回想起了安琪拉的家人们。
+[2024-08-10 21:20:20] Debug: 哥哥回家了吗？妹妹在研究些什么？母上还在生自己的气
+[2024-08-10 21:20:20] Debug: 吗？可回头看时，自己却怎么找不到黛尔芙特姐姐的身影
+[2024-08-10 21:20:20] Debug: 。糟糕，这里可不是什么好的走散场所。
+[2024-08-10 21:20:20] Debug: 远处的汽笛声若影若现，人们也开始和送行的家人们告别，开始排起了长长的队伍，原本纷乱嘈杂的车站顿时变得井然有序。
+[2024-08-10 21:20:20] Debug: 远处的汽笛声若影若现，人们也开始和送行的家人们告别
+[2024-08-10 21:20:20] Debug: ，开始排起了长长的队伍，原本纷乱嘈杂的车站顿时变得
+[2024-08-10 21:20:20] Debug: 井然有序。
+[2024-08-10 21:20:20] Debug: 虽然，按照之前的约定，帕斯卡露应该在走散的地方等待。不过火车即将入站，也只好相信彼此的默契，先上车再说了。黛尔芙特姐姐的话，应该会在火车里找到自己的吧？
+[2024-08-10 21:20:20] Debug: 虽然，按照之前的约定，帕斯卡露应该在走散的地方等待
+[2024-08-10 21:20:20] Debug: 。不过火车即将入站，也只好相信彼此的默契，先上车再
+[2024-08-10 21:20:20] Debug: 说了。黛尔芙特姐姐的话，应该会在火车里找到自己的吧
+[2024-08-10 21:20:20] Debug: ？
+[2024-08-10 21:20:20] Debug: 汽笛声越来越近，火车逐渐减速，穿过站台，冒着滚滚蒸汽。帕斯卡露注视着这具钢铁打造的庞然大物静静地驻足在自己的面前...
+[2024-08-10 21:20:20] Debug: 汽笛声越来越近，火车逐渐减速，穿过站台，冒着滚滚蒸
+[2024-08-10 21:20:20] Debug: 汽。帕斯卡露注视着这具钢铁打造的庞然大物静静地驻足
+[2024-08-10 21:20:20] Debug: 在自己的面前...
+[2024-08-10 21:20:24] Debug: Loaded Map Map0002.lmu
+[2024-08-10 21:20:24] Debug: Tree: MAP0002 < MAP0001
+[2024-08-10 21:20:27] Debug: Loaded Map Map0003.lmu
+[2024-08-10 21:20:27] Debug: Tree: MAP0003 < MAP0002 < MAP0001
+[2024-08-10 21:20:31] Debug: 诶？
+[2024-08-10 21:20:44] Debug: 诶？ [2x]
+[2024-08-10 21:20:44] Debug: Actor 1: Removing item 44 (of type 2) from equipment slot 2 (needs type 1)
+[2024-08-10 21:20:44] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
+[2024-08-11 06:42:17] Debug: EasyRPG Player 0.7 git+460@9ee72af7-dirty (2023-01-26) started
+[2024-08-11 06:42:17] Debug: ==============================================================
+[2024-08-11 06:42:17] Debug: CLI: 
+[2024-08-11 06:42:17] Debug: Clock: StdSteady steady=true period=ns (1 / 1000000000)
+[2024-08-11 06:42:17] Debug: Seeded the RNG with 1723329736.
+[2024-08-11 06:42:17] Debug: SDL2: RendererInfo hw=true sw=false vsync=true
+[2024-08-11 06:42:17] Debug: SDL2: Detected format (0) SDL_PIXELFORMAT_ARGB8888 : rank=(2)
+[2024-08-11 06:42:17] Debug: SDL2: Selected Pixel Format SDL_PIXELFORMAT_ARGB8888
+[2024-08-11 06:42:17] Debug: Game and Save Directory:
+[2024-08-11 06:42:17] Debug: 1: [Native] 
+[2024-08-11 06:42:17] Debug: Loading game Song of the Sea
+[2024-08-11 06:42:17] Debug: Using RPG2k3 (English release, v1.11) Interpreter
+[2024-08-11 06:42:17] Debug: Engine configured as: 2k=false 2k3=true MajorUpdated=true Eng=true
+[2024-08-11 06:42:17] Debug: Adding D:\Program Files (x86)\Steam\steamapps\common\RPG Maker 2003\RTP to RTP path
+[2024-08-11 06:42:17] Debug: RTP is "Official English" (675/675)
+[2024-08-11 06:42:17] Debug: RTP path C:\RPG2003\RTP is invalid, not adding
+[2024-08-11 06:42:17] Debug: Patch configuration: dynrpg=false maniac=false
+[2024-08-11 06:42:17] Debug: Cannot find: Font/ExFont
+[2024-08-11 06:42:17] Debug: Cannot find: ./ExFont
+[2024-08-11 06:42:17] Debug: Loading ExFont from RPG_RT.exe
+[2024-08-11 06:42:17] Debug: EXEReader: EXFONT resource found (DE 0xe9f20; 0xeff60; len 0x2168)
+[2024-08-11 06:42:17] Debug: Actor 1: Removing item 44 (of type 2) from equipment slot 2 (needs type 1)
+[2024-08-11 06:42:17] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
+[2024-08-11 06:42:17] Debug: Cannot find: Font/Font
+[2024-08-11 06:42:17] Debug: Cannot find: Font/Font2
+[2024-08-11 06:42:18] Debug: libpng: iCCP: known incorrect sRGB profile
+[2024-08-11 06:42:18] Debug: libpng: cHRM: inconsistent chromaticities
+[2024-08-11 06:42:18] Debug: Game uses RTP "Official English"
+[2024-08-11 06:42:19] Debug: Fluidsynth: Could not load soundfont.
+[2024-08-11 06:42:20] Debug: Starting new game
+[2024-08-11 06:42:20] Debug: Loaded Map Map0001.lmu
+[2024-08-11 06:42:20] Debug: Tree: MAP0001
+[2024-08-11 06:42:21] Debug: 帕斯卡露原本只想走到离站台更近一点的位置，结果却迷失在了人群里。今天的库尔多车站比以往更加忙碌和拥挤。人类、矮人、侏儒、还有蜥蜴 ，帕斯卡露几乎在这里看到了所有自己能在书上见过的种族。
+[2024-08-11 06:42:21] Debug: 帕斯卡露原本只想走到离站台更近一点的位置，结果却迷
+[2024-08-11 06:42:21] Debug: 失在了人群里。今天的库尔多车站比以往更加忙碌和拥挤
+[2024-08-11 06:42:21] Debug: 。人类、矮人、侏儒、还有蜥蜴 ，帕斯卡露几乎在这里
+[2024-08-11 06:42:21] Debug: 看到了所有自己能在书上见过的种族。
+[2024-08-11 06:42:22] Debug: 大家都是爱托尼亚学院的学生吗？想不到这么早车站就聚集起了那么多人呢。一些人看起来和帕斯卡露差不多个头，看起来和自己一样也是学院的新生。不过和帕斯卡露不同，从它们的眼神和表情中，看得出大家都对即将到来的这个学期充满着各种憧憬。
+[2024-08-11 06:42:22] Debug: 大家都是爱托尼亚学院的学生吗？想不到这么早车站就聚
+[2024-08-11 06:42:22] Debug: 集起了那么多人呢。一些人看起来和帕斯卡露差不多个头
+[2024-08-11 06:42:22] Debug: ，看起来和自己一样也是学院的新生。不过和帕斯卡露不
+[2024-08-11 06:42:22] Debug: 同，从它们的眼神和表情中，看得出大家都对即将到来的
+[2024-08-11 06:42:22] Debug: 这个学期充满着各种憧憬。
+[2024-08-11 06:42:22] Debug: 周围的一些王子和千金模样打扮的家伙（这也并不奇怪，毕竟这是一所会培养未来各个国家继承人的学校吧？），开始客套地互相打起招呼，或彼此议论起关于时事，科技和学院相关的无聊话题。
+[2024-08-11 06:42:22] Debug: 周围的一些王子和千金模样打扮的家伙（这也并不奇怪，
+[2024-08-11 06:42:22] Debug: 毕竟这是一所会培养未来各个国家继承人的学校吧？），
+[2024-08-11 06:42:22] Debug: 开始客套地互相打起招呼，或彼此议论起关于时事，科技
+[2024-08-11 06:42:22] Debug: 和学院相关的无聊话题。
+[2024-08-11 06:42:22] Debug: 当然也有哭着和家人告别的孩子，原来印象里古板的蜥蜴人，也是如此富有感情的生物吗？虽然语言不同，但是帕斯卡露轻易的从人群的白噪音中辨别出了哭声。
+[2024-08-11 06:42:22] Debug: 当然也有哭着和家人告别的孩子，原来印象里古板的蜥蜴
+[2024-08-11 06:42:22] Debug: 人，也是如此富有感情的生物吗？虽然语言不同，但是帕
+[2024-08-11 06:42:22] Debug: 斯卡露轻易的从人群的白噪音中辨别出了哭声。
+[2024-08-11 06:42:23] Debug: 不知为何，帕斯卡露也突然也回想起了安琪拉的家人们。哥哥回家了吗？妹妹在研究些什么？母上还在生自己的气吗？可回头看时，自己却怎么找不到黛尔芙特姐姐的身影。糟糕，这里可不是什么好的走散场所。
+[2024-08-11 06:42:23] Debug: 不知为何，帕斯卡露也突然也回想起了安琪拉的家人们。
+[2024-08-11 06:42:23] Debug: 哥哥回家了吗？妹妹在研究些什么？母上还在生自己的气
+[2024-08-11 06:42:23] Debug: 吗？可回头看时，自己却怎么找不到黛尔芙特姐姐的身影
+[2024-08-11 06:42:23] Debug: 。糟糕，这里可不是什么好的走散场所。
+[2024-08-11 06:42:23] Debug: 远处的汽笛声若影若现，人们也开始和送行的家人们告别，开始排起了长长的队伍，原本纷乱嘈杂的车站顿时变得井然有序。
+[2024-08-11 06:42:23] Debug: 远处的汽笛声若影若现，人们也开始和送行的家人们告别
+[2024-08-11 06:42:23] Debug: ，开始排起了长长的队伍，原本纷乱嘈杂的车站顿时变得
+[2024-08-11 06:42:23] Debug: 井然有序。
+[2024-08-11 06:42:23] Debug: 虽然，按照之前的约定，帕斯卡露应该在走散的地方等待。不过火车即将入站，也只好相信彼此的默契，先上车再说了。黛尔芙特姐姐的话，应该会在火车里找到自己的吧？
+[2024-08-11 06:42:23] Debug: 虽然，按照之前的约定，帕斯卡露应该在走散的地方等待
+[2024-08-11 06:42:23] Debug: 。不过火车即将入站，也只好相信彼此的默契，先上车再
+[2024-08-11 06:42:23] Debug: 说了。黛尔芙特姐姐的话，应该会在火车里找到自己的吧
+[2024-08-11 06:42:23] Debug: ？
+[2024-08-11 06:42:23] Debug: 汽笛声越来越近，火车逐渐减速，穿过站台，冒着滚滚蒸汽。帕斯卡露注视着这具钢铁打造的庞然大物静静地驻足在自己的面前...
+[2024-08-11 06:42:23] Debug: 汽笛声越来越近，火车逐渐减速，穿过站台，冒着滚滚蒸
+[2024-08-11 06:42:23] Debug: 汽。帕斯卡露注视着这具钢铁打造的庞然大物静静地驻足
+[2024-08-11 06:42:23] Debug: 在自己的面前...
+[2024-08-11 06:42:29] Debug: ？
+[2024-08-11 06:42:37] Debug: ？ [4x]
+[2024-08-11 06:42:37] Debug: Loaded Map Map0002.lmu
+[2024-08-11 06:42:37] Debug: Tree: MAP0002 < MAP0001
+[2024-08-11 06:42:45] Debug: Loaded Map Map0003.lmu
+[2024-08-11 06:42:45] Debug: Tree: MAP0003 < MAP0002 < MAP0001
+[2024-08-11 06:42:51] Debug: 诶？
+[2024-08-11 06:43:01] Debug: 诶？ [2x]
+[2024-08-11 06:43:01] Debug: Actor 1: Removing item 44 (of type 2) from equipment slot 2 (needs type 1)
+[2024-08-11 06:43:01] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
+[2024-08-11 06:45:38] Debug: EasyRPG Player 0.7 git+460@9ee72af7-dirty (2023-01-26) started
+[2024-08-11 06:45:38] Debug: ==============================================================
+[2024-08-11 06:45:38] Debug: CLI: 
+[2024-08-11 06:45:38] Debug: Clock: StdSteady steady=true period=ns (1 / 1000000000)
+[2024-08-11 06:45:38] Debug: Seeded the RNG with 1723329937.
+[2024-08-11 06:45:38] Debug: SDL2: RendererInfo hw=true sw=false vsync=true
+[2024-08-11 06:45:38] Debug: SDL2: Detected format (0) SDL_PIXELFORMAT_ARGB8888 : rank=(2)
+[2024-08-11 06:45:38] Debug: SDL2: Selected Pixel Format SDL_PIXELFORMAT_ARGB8888
+[2024-08-11 06:45:38] Debug: Game and Save Directory:
+[2024-08-11 06:45:38] Debug: 1: [Native] 
+[2024-08-11 06:45:38] Debug: Loading game Song of the Sea
+[2024-08-11 06:45:38] Debug: Using RPG2k3 (English release, v1.11) Interpreter
+[2024-08-11 06:45:38] Debug: Engine configured as: 2k=false 2k3=true MajorUpdated=true Eng=true
+[2024-08-11 06:45:38] Debug: Adding D:\Program Files (x86)\Steam\steamapps\common\RPG Maker 2003\RTP to RTP path
+[2024-08-11 06:45:38] Debug: RTP is "Official English" (675/675)
+[2024-08-11 06:45:38] Debug: RTP path C:\RPG2003\RTP is invalid, not adding
+[2024-08-11 06:45:38] Debug: Patch configuration: dynrpg=false maniac=false
+[2024-08-11 06:45:38] Debug: Cannot find: Font/ExFont
+[2024-08-11 06:45:38] Debug: Cannot find: ./ExFont
+[2024-08-11 06:45:38] Debug: Loading ExFont from RPG_RT.exe
+[2024-08-11 06:45:38] Debug: EXEReader: EXFONT resource found (DE 0xe9f20; 0xeff60; len 0x2168)
+[2024-08-11 06:45:38] Debug: Actor 1: Removing item 44 (of type 2) from equipment slot 2 (needs type 1)
+[2024-08-11 06:45:38] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
+[2024-08-11 06:45:38] Debug: Cannot find: Font/Font
+[2024-08-11 06:45:38] Debug: Cannot find: Font/Font2
+[2024-08-11 06:45:39] Debug: libpng: iCCP: known incorrect sRGB profile
+[2024-08-11 06:45:39] Debug: libpng: cHRM: inconsistent chromaticities
+[2024-08-11 06:45:39] Debug: Game uses RTP "Official English"
+[2024-08-11 06:45:39] Debug: Fluidsynth: Could not load soundfont.
+[2024-08-11 06:45:41] Debug: Starting new game
+[2024-08-11 06:45:41] Debug: Loaded Map Map0001.lmu
+[2024-08-11 06:45:41] Debug: Tree: MAP0001
+[2024-08-11 06:45:42] Debug: 帕斯卡露原本只想走到离站台更近一点的位置，结果却迷失在了人群里。今天的库尔多车站比以往更加忙碌和拥挤。人类、矮人、侏儒、还有蜥蜴 ，帕斯卡露几乎在这里看到了所有自己能在书上见过的种族。
+[2024-08-11 06:45:42] Debug: 帕斯卡露原本只想走到离站台更近一点的位置，结果却迷
+[2024-08-11 06:45:42] Debug: 失在了人群里。今天的库尔多车站比以往更加忙碌和拥挤
+[2024-08-11 06:45:42] Debug: 。人类、矮人、侏儒、还有蜥蜴 ，帕斯卡露几乎在这里
+[2024-08-11 06:45:42] Debug: 看到了所有自己能在书上见过的种族。
+[2024-08-11 06:45:44] Debug: 大家都是爱托尼亚学院的学生吗？想不到这么早车站就聚集起了那么多人呢。一些人看起来和帕斯卡露差不多个头，看起来和自己一样也是学院的新生。不过和帕斯卡露不同，从它们的眼神和表情中，看得出大家都对即将到来的这个学期充满着各种憧憬。
+[2024-08-11 06:45:44] Debug: 大家都是爱托尼亚学院的学生吗？想不到这么早车站就聚
+[2024-08-11 06:45:44] Debug: 集起了那么多人呢。一些人看起来和帕斯卡露差不多个头
+[2024-08-11 06:45:44] Debug: ，看起来和自己一样也是学院的新生。不过和帕斯卡露不
+[2024-08-11 06:45:44] Debug: 同，从它们的眼神和表情中，看得出大家都对即将到来的
+[2024-08-11 06:45:44] Debug: 这个学期充满着各种憧憬。
+[2024-08-11 06:45:44] Debug: 周围的一些王子和千金模样打扮的家伙（这也并不奇怪，毕竟这是一所会培养未来各个国家继承人的学校吧？），开始客套地互相打起招呼，或彼此议论起关于时事，科技和学院相关的无聊话题。
+[2024-08-11 06:45:44] Debug: 周围的一些王子和千金模样打扮的家伙（这也并不奇怪，
+[2024-08-11 06:45:44] Debug: 毕竟这是一所会培养未来各个国家继承人的学校吧？），
+[2024-08-11 06:45:44] Debug: 开始客套地互相打起招呼，或彼此议论起关于时事，科技
+[2024-08-11 06:45:44] Debug: 和学院相关的无聊话题。
+[2024-08-11 06:45:44] Debug: 当然也有哭着和家人告别的孩子，原来印象里古板的蜥蜴人，也是如此富有感情的生物吗？虽然语言不同，但是帕斯卡露轻易的从人群的白噪音中辨别出了哭声。
+[2024-08-11 06:45:44] Debug: 当然也有哭着和家人告别的孩子，原来印象里古板的蜥蜴
+[2024-08-11 06:45:44] Debug: 人，也是如此富有感情的生物吗？虽然语言不同，但是帕
+[2024-08-11 06:45:44] Debug: 斯卡露轻易的从人群的白噪音中辨别出了哭声。
+[2024-08-11 06:45:44] Debug: 不知为何，帕斯卡露也突然也回想起了安琪拉的家人们。哥哥回家了吗？妹妹在研究些什么？母上还在生自己的气吗？可回头看时，自己却怎么找不到黛尔芙特姐姐的身影。糟糕，这里可不是什么好的走散场所。
+[2024-08-11 06:45:44] Debug: 不知为何，帕斯卡露也突然也回想起了安琪拉的家人们。
+[2024-08-11 06:45:44] Debug: 哥哥回家了吗？妹妹在研究些什么？母上还在生自己的气
+[2024-08-11 06:45:44] Debug: 吗？可回头看时，自己却怎么找不到黛尔芙特姐姐的身影
+[2024-08-11 06:45:44] Debug: 。糟糕，这里可不是什么好的走散场所。
+[2024-08-11 06:45:44] Debug: 远处的汽笛声若影若现，人们也开始和送行的家人们告别，开始排起了长长的队伍，原本纷乱嘈杂的车站顿时变得井然有序。
+[2024-08-11 06:45:44] Debug: 远处的汽笛声若影若现，人们也开始和送行的家人们告别
+[2024-08-11 06:45:44] Debug: ，开始排起了长长的队伍，原本纷乱嘈杂的车站顿时变得
+[2024-08-11 06:45:44] Debug: 井然有序。
+[2024-08-11 06:45:44] Debug: 虽然，按照之前的约定，帕斯卡露应该在走散的地方等待。不过火车即将入站，也只好相信彼此的默契，先上车再说了。黛尔芙特姐姐的话，应该会在火车里找到自己的吧？
+[2024-08-11 06:45:44] Debug: 虽然，按照之前的约定，帕斯卡露应该在走散的地方等待
+[2024-08-11 06:45:44] Debug: 。不过火车即将入站，也只好相信彼此的默契，先上车再
+[2024-08-11 06:45:44] Debug: 说了。黛尔芙特姐姐的话，应该会在火车里找到自己的吧
+[2024-08-11 06:45:44] Debug: ？
+[2024-08-11 06:45:45] Debug: 汽笛声越来越近，火车逐渐减速，穿过站台，冒着滚滚蒸汽。帕斯卡露注视着这具钢铁打造的庞然大物静静地驻足在自己的面前...
+[2024-08-11 06:45:45] Debug: 汽笛声越来越近，火车逐渐减速，穿过站台，冒着滚滚蒸
+[2024-08-11 06:45:45] Debug: 汽。帕斯卡露注视着这具钢铁打造的庞然大物静静地驻足
+[2024-08-11 06:45:45] Debug: 在自己的面前...
+[2024-08-11 06:45:48] Debug: Loaded Map Map0002.lmu
+[2024-08-11 06:45:48] Debug: Tree: MAP0002 < MAP0001
+[2024-08-11 06:45:51] Debug: Loaded Map Map0003.lmu
+[2024-08-11 06:45:51] Debug: Tree: MAP0003 < MAP0002 < MAP0001
+[2024-08-11 06:45:53] Debug: 诶？
+[2024-08-11 06:46:13] Debug: 诶？ [2x]
+[2024-08-11 06:46:13] Debug: Actor 1: Removing item 44 (of type 2) from equipment slot 2 (needs type 1)
+[2024-08-11 06:46:13] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
