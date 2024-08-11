@@ -1033,3 +1033,246 @@
 [2024-08-11 06:47:12] Debug: libpng: cHRM: inconsistent chromaticities
 [2024-08-11 06:47:14] Debug: Actor 1: Removing item 44 from equipment slot 2 (Not equippable by this actor)
 [2024-08-11 06:47:14] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
+[2024-08-11 07:05:05] Debug: EasyRPG Player 0.8 git+410@e79033bb (2024-08-10) started
+[2024-08-11 07:05:05] Debug: ========================================================
+[2024-08-11 07:05:05] Debug: CLI: 
+[2024-08-11 07:05:05] Debug: Clock: StdSteady steady=true period=ns (1 / 1000000000)
+[2024-08-11 07:05:05] Debug: Seeded the RNG with 1723331105.
+[2024-08-11 07:05:05] Debug: SDL2: RendererInfo hw=true sw=false vsync=true
+[2024-08-11 07:05:05] Debug: SDL2: Detected format (0) SDL_PIXELFORMAT_ARGB8888 : rank=(2)
+[2024-08-11 07:05:05] Debug: SDL2: Selected Pixel Format SDL_PIXELFORMAT_ARGB8888
+[2024-08-11 07:05:05] Debug: Detected encoding: windows-936-2000
+[2024-08-11 07:05:05] Debug: Game and Save Directory:
+[2024-08-11 07:05:05] Debug: 1: [Native] 
+[2024-08-11 07:05:05] Debug: Loading game Untitled
+[2024-08-11 07:05:05] Debug: EXEReader: EXFONT resource found (DE 0xe9f20; 0xeff60; len 0x2168)
+[2024-08-11 07:05:05] Debug: EXEReader: VERSIONINFO resource found (DE 0xea210; 0xfbea4; len 0x2ec)
+[2024-08-11 07:05:05] Debug: RPG_RT information: version=1.1.2.1 logos=1 code=0xc9000 cherry=0xb800 geep=0x0 i386=true easyrpg=false
+[2024-08-11 07:05:05] Debug: Engine configured as: 2k=false 2k3=true MajorUpdated=true Eng=true
+[2024-08-11 07:05:05] Debug: Adding D:\Program Files (x86)\Steam\steamapps\common\RPG Maker 2003\RTP to RTP path
+[2024-08-11 07:05:06] Debug: RTP is "Official English" (675/675)
+[2024-08-11 07:05:06] Debug: RTP path C:\RPG2003\RTP is invalid, not adding
+[2024-08-11 07:05:06] Debug: Patch configuration: None
+[2024-08-11 07:05:06] Debug: Actor 1: Removing item 44 from equipment slot 2 (Not equippable by this actor)
+[2024-08-11 07:05:06] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
+[2024-08-11 07:05:06] Debug: Cannot find: Font/Font
+[2024-08-11 07:05:06] Debug: Cannot find: Font/Font2
+[2024-08-11 07:05:06] Debug: Cannot find: Logo/LOGO1
+[2024-08-11 07:05:06] Debug: EXEReader: LOGO1 resource found (DE 0xe9dc0; 0xea428; len 0x3d38)
+[2024-08-11 07:05:07] Debug: Resolution changed to 320x240
+[2024-08-11 07:05:07] Debug: libpng: iCCP: known incorrect sRGB profile
+[2024-08-11 07:05:07] Debug: libpng: cHRM: inconsistent chromaticities
+[2024-08-11 07:05:07] Debug: Fluidsynth: Could not load soundfont.
+[2024-08-11 07:05:07] Debug: WildMidi: Could not find configuration file.
+[2024-08-11 07:05:07] Debug: Starting new game
+[2024-08-11 07:05:07] Debug: Loaded Map Map0052.lmu
+[2024-08-11 07:05:07] Debug: Tree: Hidden_House
+[2024-08-11 07:06:07] Debug: Actor 1: Removing item 44 from equipment slot 2 (Not equippable by this actor)
+[2024-08-11 07:06:07] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
+[2024-08-11 08:08:07] Debug: EasyRPG Player 0.8 git+410@e79033bb (2024-08-10) started
+[2024-08-11 08:08:07] Debug: ========================================================
+[2024-08-11 08:08:07] Debug: CLI: 
+[2024-08-11 08:08:07] Debug: Clock: StdSteady steady=true period=ns (1 / 1000000000)
+[2024-08-11 08:08:07] Debug: Seeded the RNG with 1723334886.
+[2024-08-11 08:08:07] Debug: SDL2: RendererInfo hw=true sw=false vsync=true
+[2024-08-11 08:08:07] Debug: SDL2: Detected format (0) SDL_PIXELFORMAT_ARGB8888 : rank=(2)
+[2024-08-11 08:08:07] Debug: SDL2: Selected Pixel Format SDL_PIXELFORMAT_ARGB8888
+[2024-08-11 08:08:07] Debug: Detected encoding: windows-936-2000
+[2024-08-11 08:08:07] Debug: Game and Save Directory:
+[2024-08-11 08:08:07] Debug: 1: [Native] 
+[2024-08-11 08:08:07] Debug: Loading game Untitled
+[2024-08-11 08:08:07] Debug: EXEReader: EXFONT resource found (DE 0xe9f20; 0xeff60; len 0x2168)
+[2024-08-11 08:08:07] Debug: EXEReader: VERSIONINFO resource found (DE 0xea210; 0xfbea4; len 0x2ec)
+[2024-08-11 08:08:07] Debug: RPG_RT information: version=1.1.2.1 logos=1 code=0xc9000 cherry=0xb800 geep=0x0 i386=true easyrpg=false
+[2024-08-11 08:08:07] Debug: Engine configured as: 2k=false 2k3=true MajorUpdated=true Eng=true
+[2024-08-11 08:08:07] Debug: Adding D:\Program Files (x86)\Steam\steamapps\common\RPG Maker 2003\RTP to RTP path
+[2024-08-11 08:08:07] Debug: RTP is "Official English" (675/675)
+[2024-08-11 08:08:07] Debug: RTP path C:\RPG2003\RTP is invalid, not adding
+[2024-08-11 08:08:07] Debug: Patch configuration: None
+[2024-08-11 08:08:07] Debug: Actor 1: Removing item 44 from equipment slot 2 (Not equippable by this actor)
+[2024-08-11 08:08:07] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
+[2024-08-11 08:08:07] Debug: Cannot find: Font/Font
+[2024-08-11 08:08:07] Debug: Cannot find: Font/Font2
+[2024-08-11 08:08:07] Debug: Cannot find: Logo/LOGO1
+[2024-08-11 08:08:07] Debug: EXEReader: LOGO1 resource found (DE 0xe9dc0; 0xea428; len 0x3d38)
+[2024-08-11 08:08:07] Debug: Resolution changed to 320x240
+[2024-08-11 08:08:07] Debug: libpng: iCCP: known incorrect sRGB profile
+[2024-08-11 08:08:07] Debug: libpng: cHRM: inconsistent chromaticities
+[2024-08-11 08:08:07] Debug: Fluidsynth: Could not load soundfont.
+[2024-08-11 08:08:07] Debug: WildMidi: Could not find configuration file.
+[2024-08-11 08:08:08] Debug: Starting new game
+[2024-08-11 08:08:08] Debug: Loaded Map Map0052.lmu
+[2024-08-11 08:08:08] Debug: Tree: Hidden_House
+[2024-08-11 08:08:08] Warning: Image CharSet/vipsz3_char1603_2 has a bit depth of 32 that is not supported by RPG_RT. Enable EasyRPG Extensions or Maniac Patch to load such images.
+[2024-08-11 08:08:19] Debug: Actor 1: Removing item 44 from equipment slot 2 (Not equippable by this actor)
+[2024-08-11 08:08:19] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
+[2024-08-11 08:08:19] Debug: Resolution changed to 320x240
+[2024-08-11 08:08:19] Debug: libpng: iCCP: known incorrect sRGB profile
+[2024-08-11 08:08:19] Debug: libpng: cHRM: inconsistent chromaticities
+[2024-08-11 08:08:22] Debug: Actor 1: Removing item 44 from equipment slot 2 (Not equippable by this actor)
+[2024-08-11 08:08:22] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
+[2024-08-11 08:23:23] Debug: EasyRPG Player 0.8 git+410@e79033bb (2024-08-10) started
+[2024-08-11 08:23:23] Debug: ========================================================
+[2024-08-11 08:23:23] Debug: CLI: 
+[2024-08-11 08:23:23] Debug: Clock: StdSteady steady=true period=ns (1 / 1000000000)
+[2024-08-11 08:23:23] Debug: Seeded the RNG with 1723335802.
+[2024-08-11 08:23:23] Debug: SDL2: RendererInfo hw=true sw=false vsync=true
+[2024-08-11 08:23:23] Debug: SDL2: Detected format (0) SDL_PIXELFORMAT_ARGB8888 : rank=(2)
+[2024-08-11 08:23:23] Debug: SDL2: Selected Pixel Format SDL_PIXELFORMAT_ARGB8888
+[2024-08-11 08:23:23] Debug: Detected encoding: windows-936-2000
+[2024-08-11 08:23:23] Debug: Game and Save Directory:
+[2024-08-11 08:23:23] Debug: 1: [Native] 
+[2024-08-11 08:23:23] Debug: Loading game Untitled
+[2024-08-11 08:23:23] Debug: EXEReader: EXFONT resource found (DE 0xe9f20; 0xeff60; len 0x2168)
+[2024-08-11 08:23:23] Debug: EXEReader: VERSIONINFO resource found (DE 0xea210; 0xfbea4; len 0x2ec)
+[2024-08-11 08:23:23] Debug: RPG_RT information: version=1.1.2.1 logos=1 code=0xc9000 cherry=0xb800 geep=0x0 i386=true easyrpg=false
+[2024-08-11 08:23:23] Debug: Engine configured as: 2k=false 2k3=true MajorUpdated=true Eng=true
+[2024-08-11 08:23:23] Debug: Adding D:\Program Files (x86)\Steam\steamapps\common\RPG Maker 2003\RTP to RTP path
+[2024-08-11 08:23:23] Debug: RTP is "Official English" (675/675)
+[2024-08-11 08:23:23] Debug: RTP path C:\RPG2003\RTP is invalid, not adding
+[2024-08-11 08:23:23] Debug: Patch configuration: None
+[2024-08-11 08:23:23] Debug: Actor 1: Removing item 44 from equipment slot 2 (Not equippable by this actor)
+[2024-08-11 08:23:23] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
+[2024-08-11 08:23:23] Debug: Cannot find: Font/Font
+[2024-08-11 08:23:23] Debug: Cannot find: Font/Font2
+[2024-08-11 08:23:23] Debug: Cannot find: Logo/LOGO1
+[2024-08-11 08:23:23] Debug: EXEReader: LOGO1 resource found (DE 0xe9dc0; 0xea428; len 0x3d38)
+[2024-08-11 08:23:23] Debug: Resolution changed to 320x240
+[2024-08-11 08:23:23] Debug: libpng: iCCP: known incorrect sRGB profile
+[2024-08-11 08:23:23] Debug: libpng: cHRM: inconsistent chromaticities
+[2024-08-11 08:23:23] Debug: Fluidsynth: Could not load soundfont.
+[2024-08-11 08:23:23] Debug: WildMidi: Could not find configuration file.
+[2024-08-11 08:23:24] Debug: Starting new game
+[2024-08-11 08:23:24] Debug: Loaded Map Map0052.lmu
+[2024-08-11 08:23:24] Debug: Tree: Hidden_House
+[2024-08-11 08:23:24] Warning: Image CharSet/vipsz3_char1603_2 has a bit depth of 24 that is not supported by RPG_RT. Enable EasyRPG Extensions or Maniac Patch to load such images.
+[2024-08-11 08:23:30] Debug: Actor 1: Removing item 44 from equipment slot 2 (Not equippable by this actor)
+[2024-08-11 08:23:30] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
+[2024-08-11 08:23:30] Debug: Resolution changed to 320x240
+[2024-08-11 08:23:30] Debug: libpng: iCCP: known incorrect sRGB profile
+[2024-08-11 08:23:30] Debug: libpng: cHRM: inconsistent chromaticities
+[2024-08-11 08:23:31] Debug: Starting new game
+[2024-08-11 08:23:31] Debug: Loaded Map Map0052.lmu
+[2024-08-11 08:23:31] Debug: Tree: Hidden_House
+[2024-08-11 08:23:32] Warning: Image CharSet/vipsz3_char1603_2 has a bit depth of 24 that is not supported by RPG_RT. Enable EasyRPG Extensions or Maniac Patch to load such images.
+[2024-08-11 08:23:41] Debug: Actor 1: Removing item 44 from equipment slot 2 (Not equippable by this actor)
+[2024-08-11 08:23:41] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
+[2024-08-11 08:23:41] Debug: Resolution changed to 320x240
+[2024-08-11 08:23:41] Debug: libpng: iCCP: known incorrect sRGB profile
+[2024-08-11 08:23:41] Debug: libpng: cHRM: inconsistent chromaticities
+[2024-08-11 08:23:42] Debug: Actor 1: Removing item 44 from equipment slot 2 (Not equippable by this actor)
+[2024-08-11 08:23:42] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
+[2024-08-11 08:29:26] Debug: EasyRPG Player 0.8 git+410@e79033bb (2024-08-10) started
+[2024-08-11 08:29:26] Debug: ========================================================
+[2024-08-11 08:29:26] Debug: CLI: 
+[2024-08-11 08:29:26] Debug: Clock: StdSteady steady=true period=ns (1 / 1000000000)
+[2024-08-11 08:29:26] Debug: Seeded the RNG with 1723336165.
+[2024-08-11 08:29:26] Debug: SDL2: RendererInfo hw=true sw=false vsync=true
+[2024-08-11 08:29:26] Debug: SDL2: Detected format (0) SDL_PIXELFORMAT_ARGB8888 : rank=(2)
+[2024-08-11 08:29:26] Debug: SDL2: Selected Pixel Format SDL_PIXELFORMAT_ARGB8888
+[2024-08-11 08:29:26] Debug: Detected encoding: windows-936-2000
+[2024-08-11 08:29:26] Debug: Game and Save Directory:
+[2024-08-11 08:29:26] Debug: 1: [Native] 
+[2024-08-11 08:29:26] Debug: Loading game Untitled
+[2024-08-11 08:29:26] Debug: EXEReader: EXFONT resource found (DE 0xe9f20; 0xeff60; len 0x2168)
+[2024-08-11 08:29:26] Debug: EXEReader: VERSIONINFO resource found (DE 0xea210; 0xfbea4; len 0x2ec)
+[2024-08-11 08:29:26] Debug: RPG_RT information: version=1.1.2.1 logos=1 code=0xc9000 cherry=0xb800 geep=0x0 i386=true easyrpg=false
+[2024-08-11 08:29:26] Debug: Engine configured as: 2k=false 2k3=true MajorUpdated=true Eng=true
+[2024-08-11 08:29:26] Debug: Adding D:\Program Files (x86)\Steam\steamapps\common\RPG Maker 2003\RTP to RTP path
+[2024-08-11 08:29:26] Debug: RTP is "Official English" (675/675)
+[2024-08-11 08:29:26] Debug: RTP path C:\RPG2003\RTP is invalid, not adding
+[2024-08-11 08:29:26] Debug: Patch configuration: None
+[2024-08-11 08:29:26] Debug: Actor 1: Removing item 44 from equipment slot 2 (Not equippable by this actor)
+[2024-08-11 08:29:26] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
+[2024-08-11 08:29:26] Debug: Cannot find: Font/Font
+[2024-08-11 08:29:26] Debug: Cannot find: Font/Font2
+[2024-08-11 08:29:26] Debug: Cannot find: Logo/LOGO1
+[2024-08-11 08:29:26] Debug: EXEReader: LOGO1 resource found (DE 0xe9dc0; 0xea428; len 0x3d38)
+[2024-08-11 08:29:27] Debug: Resolution changed to 320x240
+[2024-08-11 08:29:27] Debug: libpng: iCCP: known incorrect sRGB profile
+[2024-08-11 08:29:27] Debug: libpng: cHRM: inconsistent chromaticities
+[2024-08-11 08:29:27] Debug: Fluidsynth: Could not load soundfont.
+[2024-08-11 08:29:27] Debug: WildMidi: Could not find configuration file.
+[2024-08-11 08:29:27] Debug: Starting new game
+[2024-08-11 08:29:27] Debug: Loaded Map Map0052.lmu
+[2024-08-11 08:29:27] Debug: Tree: Hidden_House
+[2024-08-11 08:29:27] Debug: Cannot find: CharSet/vipsz3_char1603_2
+[2024-08-11 08:29:27] Warning: Image not found: CharSet/vipsz3_char1603_2
+[2024-08-11 08:29:31] Debug: Actor 1: Removing item 44 from equipment slot 2 (Not equippable by this actor)
+[2024-08-11 08:29:31] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
+[2024-08-11 08:29:48] Debug: EasyRPG Player 0.8 git+410@e79033bb (2024-08-10) started
+[2024-08-11 08:29:48] Debug: ========================================================
+[2024-08-11 08:29:48] Debug: CLI: 
+[2024-08-11 08:29:48] Debug: Clock: StdSteady steady=true period=ns (1 / 1000000000)
+[2024-08-11 08:29:48] Debug: Seeded the RNG with 1723336187.
+[2024-08-11 08:29:48] Debug: SDL2: RendererInfo hw=true sw=false vsync=true
+[2024-08-11 08:29:48] Debug: SDL2: Detected format (0) SDL_PIXELFORMAT_ARGB8888 : rank=(2)
+[2024-08-11 08:29:48] Debug: SDL2: Selected Pixel Format SDL_PIXELFORMAT_ARGB8888
+[2024-08-11 08:29:48] Debug: Detected encoding: windows-936-2000
+[2024-08-11 08:29:48] Debug: Game and Save Directory:
+[2024-08-11 08:29:48] Debug: 1: [Native] 
+[2024-08-11 08:29:48] Debug: Loading game Untitled
+[2024-08-11 08:29:48] Debug: EXEReader: EXFONT resource found (DE 0xe9f20; 0xeff60; len 0x2168)
+[2024-08-11 08:29:48] Debug: EXEReader: VERSIONINFO resource found (DE 0xea210; 0xfbea4; len 0x2ec)
+[2024-08-11 08:29:48] Debug: RPG_RT information: version=1.1.2.1 logos=1 code=0xc9000 cherry=0xb800 geep=0x0 i386=true easyrpg=false
+[2024-08-11 08:29:48] Debug: Engine configured as: 2k=false 2k3=true MajorUpdated=true Eng=true
+[2024-08-11 08:29:48] Debug: Adding D:\Program Files (x86)\Steam\steamapps\common\RPG Maker 2003\RTP to RTP path
+[2024-08-11 08:29:48] Debug: RTP is "Official English" (675/675)
+[2024-08-11 08:29:48] Debug: RTP path C:\RPG2003\RTP is invalid, not adding
+[2024-08-11 08:29:48] Debug: Patch configuration: None
+[2024-08-11 08:29:48] Debug: Actor 1: Removing item 44 from equipment slot 2 (Not equippable by this actor)
+[2024-08-11 08:29:48] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
+[2024-08-11 08:29:48] Debug: Cannot find: Font/Font
+[2024-08-11 08:29:48] Debug: Cannot find: Font/Font2
+[2024-08-11 08:29:48] Debug: Cannot find: Logo/LOGO1
+[2024-08-11 08:29:48] Debug: EXEReader: LOGO1 resource found (DE 0xe9dc0; 0xea428; len 0x3d38)
+[2024-08-11 08:29:49] Debug: Resolution changed to 320x240
+[2024-08-11 08:29:49] Debug: libpng: iCCP: known incorrect sRGB profile
+[2024-08-11 08:29:49] Debug: libpng: cHRM: inconsistent chromaticities
+[2024-08-11 08:29:49] Debug: Fluidsynth: Could not load soundfont.
+[2024-08-11 08:29:49] Debug: WildMidi: Could not find configuration file.
+[2024-08-11 08:29:50] Debug: Starting new game
+[2024-08-11 08:29:50] Debug: Loaded Map Map0052.lmu
+[2024-08-11 08:29:50] Debug: Tree: Hidden_House
+[2024-08-11 08:29:50] Debug: Cannot find: CharSet/vipsz3_char1603_2
+[2024-08-11 08:29:50] Warning: Image not found: CharSet/vipsz3_char1603_2
+[2024-08-11 08:30:01] Debug: Actor 1: Removing item 44 from equipment slot 2 (Not equippable by this actor)
+[2024-08-11 08:30:01] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
+[2024-08-11 08:30:32] Debug: EasyRPG Player 0.8 git+410@e79033bb (2024-08-10) started
+[2024-08-11 08:30:32] Debug: ========================================================
+[2024-08-11 08:30:32] Debug: CLI: 
+[2024-08-11 08:30:32] Debug: Clock: StdSteady steady=true period=ns (1 / 1000000000)
+[2024-08-11 08:30:32] Debug: Seeded the RNG with 1723336231.
+[2024-08-11 08:30:32] Debug: SDL2: RendererInfo hw=true sw=false vsync=true
+[2024-08-11 08:30:32] Debug: SDL2: Detected format (0) SDL_PIXELFORMAT_ARGB8888 : rank=(2)
+[2024-08-11 08:30:32] Debug: SDL2: Selected Pixel Format SDL_PIXELFORMAT_ARGB8888
+[2024-08-11 08:30:32] Debug: Detected encoding: windows-936-2000
+[2024-08-11 08:30:32] Debug: Game and Save Directory:
+[2024-08-11 08:30:32] Debug: 1: [Native] 
+[2024-08-11 08:30:32] Debug: Loading game Untitled
+[2024-08-11 08:30:32] Debug: EXEReader: EXFONT resource found (DE 0xe9f20; 0xeff60; len 0x2168)
+[2024-08-11 08:30:32] Debug: EXEReader: VERSIONINFO resource found (DE 0xea210; 0xfbea4; len 0x2ec)
+[2024-08-11 08:30:32] Debug: RPG_RT information: version=1.1.2.1 logos=1 code=0xc9000 cherry=0xb800 geep=0x0 i386=true easyrpg=false
+[2024-08-11 08:30:32] Debug: Engine configured as: 2k=false 2k3=true MajorUpdated=true Eng=true
+[2024-08-11 08:30:32] Debug: Adding D:\Program Files (x86)\Steam\steamapps\common\RPG Maker 2003\RTP to RTP path
+[2024-08-11 08:30:32] Debug: RTP is "Official English" (675/675)
+[2024-08-11 08:30:32] Debug: RTP path C:\RPG2003\RTP is invalid, not adding
+[2024-08-11 08:30:32] Debug: Patch configuration: None
+[2024-08-11 08:30:32] Debug: Actor 1: Removing item 44 from equipment slot 2 (Not equippable by this actor)
+[2024-08-11 08:30:32] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
+[2024-08-11 08:30:32] Debug: Cannot find: Font/Font
+[2024-08-11 08:30:32] Debug: Cannot find: Font/Font2
+[2024-08-11 08:30:32] Debug: Cannot find: Logo/LOGO1
+[2024-08-11 08:30:32] Debug: EXEReader: LOGO1 resource found (DE 0xe9dc0; 0xea428; len 0x3d38)
+[2024-08-11 08:30:33] Debug: Resolution changed to 320x240
+[2024-08-11 08:30:33] Debug: libpng: iCCP: known incorrect sRGB profile
+[2024-08-11 08:30:33] Debug: libpng: cHRM: inconsistent chromaticities
+[2024-08-11 08:30:33] Debug: Fluidsynth: Could not load soundfont.
+[2024-08-11 08:30:33] Debug: WildMidi: Could not find configuration file.
+[2024-08-11 08:30:33] Debug: Starting new game
+[2024-08-11 08:30:33] Debug: Loaded Map Map0052.lmu
+[2024-08-11 08:30:33] Debug: Tree: Hidden_House
+[2024-08-11 08:30:33] Debug: Cannot find: CharSet/vipsz3_char1603_2
+[2024-08-11 08:30:33] Warning: Image not found: CharSet/vipsz3_char1603_2
+[2024-08-11 08:30:43] Debug: Actor 1: Removing item 44 from equipment slot 2 (Not equippable by this actor)
+[2024-08-11 08:30:43] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
